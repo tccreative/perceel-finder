@@ -14,7 +14,7 @@ import sys
 import time
 from pathlib import Path
 
-from perceel import dates, dedup, geocode, store
+from perceel import dates, dedup, geocode, store, verified
 from perceel.core import CONFIG, DATA, Http, clean
 from perceel.sources import facebook, run_all
 
@@ -72,7 +72,10 @@ def main() -> int:
                 geocode.save()
         geocode.save()
     located = sum(1 for i in unique if i.get("lat"))
-    print(f"     {located}/{len(unique)} placed on the map")
+    areas = sum(1 for i in unique if i.get("lat") is None and i.get("area_lat") is not None)
+    checked = sum(1 for i in unique if i.get("geocode_checked"))
+    print(f"     {located}/{len(unique)} on a street, {areas} only a buurt, "
+          f"{len(unique) - located - areas} unplaced ({checked} hand-checked)")
 
     # second dedup pass now that coordinates exist
     unique, extra = dedup.deduplicate(unique)
@@ -88,7 +91,6 @@ def main() -> int:
             it["price_suspect"] = it["price"]
             it["price"] = None
             it["currency"] = None
-        geocode.jitter_if_approx(it)
         geocode.annotate_distance(it)
         it["in_target_area"] = in_target_area(it)
 
@@ -100,6 +102,10 @@ def main() -> int:
         print(f"     {n} new thumbnails")
     else:
         print("4/5  thumbnails skipped (use --images)")
+
+    todo = verified.write_queue(unique)
+    print(f"     {todo} addresses waiting to be checked by hand "
+          f"(data/needs_check.json)")
 
     print("5/5  writing data")
     unique.sort(key=lambda i: (not i.get("in_target_area"),

@@ -31,12 +31,17 @@ body{
 }
 button,input,select{font:inherit;color:inherit}
 #app{display:grid;grid-template-columns:min(420px,38vw) 1fr;height:100dvh}
-#side{display:flex;flex-direction:column;background:var(--panel);border-right:1px solid var(--line);min-width:0}
+#side{
+  display:flex;flex-direction:column;background:var(--panel);
+  border-right:1px solid var(--line);min-width:0;min-height:0;overflow:hidden;
+}
+header,#filters,#filterToggle{flex:none}
 
 header{padding:16px 18px 12px;border-bottom:1px solid var(--line)}
 h1{font-size:19px;margin:0;letter-spacing:-.02em}
 .count{font-size:13px;color:var(--muted);margin-top:3px}
 .count b{color:var(--ink)}
+.count .sub2{font-size:11.5px;opacity:.85}
 
 /* ---------- filters ---------- */
 #filters{padding:12px 18px 14px;border-bottom:1px solid var(--line);display:grid;gap:14px;overflow:visible}
@@ -87,7 +92,10 @@ input:focus-visible,select:focus-visible,button:focus-visible{outline:2px solid 
 .linkbtn:hover{color:var(--ink)}
 
 /* ---------- list ---------- */
-#list{overflow-y:auto;flex:1;padding:10px 12px 60px;overscroll-behavior:contain}
+#list{
+  flex:1 1 auto;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;
+  overscroll-behavior:contain;padding:10px 12px 60px;
+}
 .card{
   display:grid;grid-template-columns:104px 1fr;gap:12px;padding:10px;margin-bottom:10px;
   background:var(--panel2);border:1px solid var(--line);border-radius:var(--r);cursor:pointer;
@@ -149,6 +157,17 @@ input:focus-visible,select:focus-visible,button:focus-visible{outline:2px solid 
   border-radius:7px;padding:3px 7px;box-shadow:0 1px 5px rgba(0,0,0,.3);
 }
 .dotlabel .sub{display:block;font-weight:500;font-size:10px;color:var(--muted)}
+.dotlabel{cursor:pointer}
+.dotlabel:hover{border-color:var(--accent)}
+.arows{display:grid;gap:4px;margin-top:6px}
+.arow{
+  display:flex;align-items:baseline;gap:7px;width:100%;text-align:left;cursor:pointer;
+  background:var(--chip);border:1px solid var(--line);border-radius:8px;
+  padding:5px 8px;color:var(--ink);font:inherit;font-size:12px;font-weight:650;
+}
+.arow:hover{border-color:var(--accent)}
+.arow span{font-weight:500;color:var(--ink2)}
+.arow em{font-style:normal;font-weight:500;color:var(--muted);font-size:11px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .home-dot{background:var(--gold);border:2px solid #fff;border-radius:50%;width:14px;height:14px;box-shadow:0 0 0 3px rgba(251,191,36,.35)}
 .legend{
   background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:9px 11px;
@@ -169,7 +188,9 @@ input:focus-visible,select:focus-visible,button:focus-visible{outline:2px solid 
 @media (max-width:860px){
   #app{grid-template-columns:1fr}
   #map{position:absolute;inset:0;height:100dvh}
-  #side{position:absolute;inset:0;z-index:1200;background:var(--panel)}
+  #side{position:absolute;inset:0;z-index:1200;background:var(--panel);
+        display:flex;flex-direction:column;min-height:0;overflow:hidden}
+  #filters{max-height:46dvh;overflow-y:auto;overscroll-behavior:contain}
   body.mapview #side{display:none}
   body:not(.mapview) .leaflet-control-container{display:none}
   #viewToggle{display:block}
@@ -256,7 +277,7 @@ const m2  = n => n == null ? null : Math.round(n).toLocaleString("nl-NL") + " m�
 
 /* ---------------- data + state ---------------- */
 let DATA = [], VIEW = [], SHOWN = 0, PAGE = 60;
-let map, dotLayer, labelLayer, selLayer, canvasRenderer, glisRenderer, glisLayer, byId = new Map(), activeId = null;
+let map, dotLayer, areaLayer, labelLayer, selLayer, canvasRenderer, glisRenderer, glisLayer, byId = new Map(), activeId = null;
 let BASELINE = false;
 let PRICES = [], SIZES = [];
 const picked = new Set();
@@ -352,8 +373,9 @@ function popupHtml(d){
     <div class="line">${[d.resort, d.district].filter(Boolean).join(", ") || ""}${d.title_type ? " · " + d.title_type : ""}</div>
     ${d.km_from_centre != null ? `<div class="line">${d.km_from_centre.toFixed(1)} km van het centrum van Paramaribo</div>` : ""}
     ${age ? `<div class="line" title="${age.title}">${age.text}</div>` : ""}
-    ${d.geocode_quality && d.geocode_quality !== "street"
-      ? `<div class="line">⚠️ De advertentie noemt geen exact adres &mdash; deze stip staat ergens in deze buurt.</div>` : ""}
+    <div class="glis-note">${d.geocode_match
+      ? `Adres gevonden via ${d.geocode_source || "de kaart"}: ${d.geocode_match}`
+      : "Locatie volgens de advertentie."}</div>
     ${phones}
     <div style="margin-top:7px">${links}</div>
   </div>`;
@@ -368,24 +390,37 @@ function render(){
   list.scrollTop = 0;
 
   dotLayer.clearLayers();
+  areaLayer.clearLayers();
   byId.clear();
   const pts = [];
+  // A dot means we matched a real street. Everything vaguer becomes one
+  // shaded circle per buurt, so nothing pretends to know an address it does
+  // not have.
+  const areas = new Map();
   for (const d of VIEW){
-    if (d.lat == null) continue;
-    const approx = d.geocode_quality && d.geocode_quality !== "street";
+    if (d.lat == null){
+      if (d.area_lat == null) continue;          // nothing at all: list only
+      const key = d.area_name || (d.area_lat + "," + d.area_lon);
+      if (!areas.has(key)) areas.set(key, {
+        lat: d.area_lat, lon: d.area_lon, r: d.area_radius_m || 1200,
+        name: d.area_name || "Deze buurt", items: [],
+      });
+      areas.get(key).items.push(d);
+      continue;
+    }
     const r = d.is_new ? 8.5 : 7;
     // A black casing under the white ring: two outlines keep the dot readable
     // on pale streets and on dark green alike.
     dotLayer.addLayer(L.circleMarker([d.lat, d.lon], {
       renderer: canvasRenderer, radius: r + 1.5, weight: 1.4,
-      color: "#000", opacity: approx ? .45 : .8, fill: false, interactive: false,
+      color: "#000", opacity: .8, fill: false, interactive: false,
     }));
     const mk = L.circleMarker([d.lat, d.lon], {
       renderer: canvasRenderer,
       radius: r,
       weight: d.is_new ? 3 : 2.2,
       color: d.is_new ? "#fbbf24" : "#ffffff",
-      opacity: 1, fillColor: colorOf(d), fillOpacity: approx ? .5 : .95,
+      opacity: 1, fillColor: colorOf(d), fillOpacity: .95,
     });
     mk.bindPopup(() => popupHtml(d), {maxWidth: 300, autoPanPadding: [20, 20]});
     mk.on("click", () => { activeId = d.id; highlight(d.id); });
@@ -393,8 +428,43 @@ function render(){
     dotLayer.addLayer(mk);
     pts.push([d.lat, d.lon]);
   }
+  for (const a of areas.values()) drawArea(a, pts);
   fitTo(pts);
   drawLabels();
+}
+
+function drawArea(a, pts){
+  const c = L.circle([a.lat, a.lon], {
+    renderer: canvasRenderer, radius: a.r, weight: 1.6, color: "#94a3b8",
+    dashArray: "5 5", opacity: .9, fillColor: "#94a3b8", fillOpacity: .10,
+  });
+  c.bindPopup(() => areaPopup(a), {maxWidth: 300, autoPanPadding: [20, 20]});
+  areaLayer.addLayer(c);
+  for (const d of a.items) byId.set(d.id, c);
+  pts.push([a.lat, a.lon]);
+}
+
+function areaPopup(a){
+  const rows = a.items.slice(0, 8).map(d =>
+    `<button class="arow" data-focus="${d.id}">${eur(d.price_eur) || "op aanvraag"}` +
+    `<span>${d.size_m2 ? m2(d.size_m2) : ""}</span>` +
+    `<em>${(d.street || d.title || "").slice(0, 44)}</em></button>`).join("");
+  return `<div class="pop"><h3>${a.name}</h3>
+    <div class="line">${a.items.length} ${a.items.length === 1 ? "perceel" : "percelen"} zonder straatnaam</div>
+    <div class="glis-note">Deze advertenties noemen alleen de buurt. Het perceel ligt
+      ergens binnen deze cirkel &mdash; we zetten geen stip neer die dat niet waarmaakt.</div>
+    <div class="arows">${rows}</div>
+    ${a.items.length > 8 ? `<div class="glis-note">en nog ${a.items.length - 8} andere in de lijst</div>` : ""}
+  </div>`;
+}
+
+/* Open a listing's card in the list, paging forward if it is not shown yet. */
+function focusCard(id){
+  const idx = VIEW.findIndex(v => v.id === id);
+  if (idx < 0) return;
+  while (SHOWN <= idx) showMore();
+  activeId = id;
+  highlight(id);
 }
 function tailHtml(){
   return VIEW.length > SHOWN
@@ -471,8 +541,15 @@ function applyFilters(){
     : s === "posted"    ? (b.posted || b.first_seen || "").localeCompare(a.posted || a.first_seen || "")
     : 0);
 
+  const exactN = VIEW.filter(d => d.lat != null).length;
+  const areaN  = VIEW.filter(d => d.lat == null && d.area_lat != null).length;
+  const noneN  = VIEW.length - exactN - areaN;
   $("#count").innerHTML = `<b>${VIEW.length}</b> ${VIEW.length === 1 ? "perceel" : "percelen"}`
-    + (VIEW.length !== DATA.length ? ` van ${DATA.length}` : "") + ` &middot; bijgewerkt ${window.__generated || ""}`;
+    + (VIEW.length !== DATA.length ? ` van ${DATA.length}` : "")
+    + ` &middot; bijgewerkt ${window.__generated || ""}<br>`
+    + `<span class="sub2">${exactN} met straatnaam op de kaart`
+    + (areaN ? `, ${areaN} alleen een buurt` : "")
+    + (noneN ? `, ${noneN} zonder locatie` : "") + `</span>`;
   render();
 }
 
@@ -503,7 +580,7 @@ async function loadGlis(){
   try {
     const b = map.getBounds();
     const env = [b.getWest(), b.getSouth(), b.getEast(), b.getNorth()].join(",");
-    // Only ask the district layers that actually cover what is on screen -
+    // Only ask the district layers that actually cover what is on screen —
     // querying all ten takes seconds and returns nothing for nine of them.
     const here = new Set();
     for (const d of VIEW) if (d.lat != null && b.contains([d.lat, d.lon])) here.add(GLIS_LAYERS[d.district]);
@@ -596,11 +673,16 @@ function drawLabels(){
     if (++n > LABEL_MAX) break;
     const head = eur(d.price_eur) || "op aanvraag";
     const sub  = [d.size_m2 ? m2(d.size_m2) : null, d.title_type].filter(Boolean).join(" \u00b7 ");
-    labelLayer.addLayer(L.marker([d.lat, d.lon], {
-      interactive: false, keyboard: false,
+    // The label is a second, larger click target for the same plot - handy on
+    // a phone, where a 7px dot is a hard thing to hit.
+    const lb = L.marker([d.lat, d.lon], {
+      keyboard: false, riseOnHover: true,
       icon: L.divIcon({className: "dotlabel", iconSize: null, iconAnchor: [-11, 10],
         html: `${head}${sub ? `<span class="sub">${sub}</span>` : ""}`}),
-    }));
+    });
+    lb.bindPopup(() => popupHtml(d), {maxWidth: 300, autoPanPadding: [20, 20]});
+    lb.on("click", () => { activeId = d.id; highlight(d.id); });
+    labelLayer.addLayer(lb);
   }
 }
 
@@ -632,6 +714,7 @@ async function boot(){
   canvasRenderer = L.canvas({padding:.5});
   glisRenderer = L.canvas({padding:.5, pane:"glisPane"});
   glisLayer  = L.layerGroup().addTo(map);
+  areaLayer  = L.layerGroup().addTo(map);
   dotLayer   = L.layerGroup().addTo(map);
   labelLayer = L.layerGroup().addTo(map);
   selLayer   = L.layerGroup().addTo(map);
@@ -648,7 +731,8 @@ async function boot(){
     el.innerHTML = "<b>Vraagprijs</b>"
       + BANDS.map(b => `<span><i style="background:${b.color}"></i>${b.label}</span>`).join("")
       + `<span><i style="background:${NOPRICE}"></i>prijs op aanvraag</span>`
-      + `<span><i style="background:#94a3b8;opacity:.5"></i>locatie bij benadering</span>`;
+      + `<span><i style="background:${NOPRICE};opacity:0;border-style:dashed;`
+      + `border-color:#94a3b8;box-shadow:none"></i>buurt, geen straat bekend</span>`;
     L.DomEvent.disableClickPropagation(el);
     return el;
   };
@@ -686,8 +770,10 @@ async function boot(){
     const card = e.target.closest(".card"); if (!card) return;
     const d = DATA[+card.dataset.id];
     activeId = d.id; highlight(d.id);
-    if (d.lat != null){
-      map.setView([d.lat, d.lon], Math.max(map.getZoom(), 16));
+    const to = d.lat != null ? [d.lat, d.lon, 16]
+             : d.area_lat != null ? [d.area_lat, d.area_lon, 13] : null;
+    if (to){
+      map.setView([to[0], to[1]], Math.max(map.getZoom(), to[2]));
       byId.get(d.id)?.openPopup();
       if (matchMedia("(max-width:860px)").matches) document.body.classList.add("mapview");
       $("#viewToggle").textContent = "Lijst";
@@ -702,6 +788,10 @@ async function boot(){
     document.body.classList.toggle("filters-closed");
     $("#filterToggle").textContent = document.body.classList.contains("filters-closed")
       ? "Filters tonen" : "Filters verbergen";
+  });
+  document.addEventListener("click", e => {
+    const row = e.target.closest(".arow");
+    if (row) focusCard(+row.dataset.focus);
   });
   map.on("moveend zoomend", () => { loadGlis(); drawLabels(); });
   map.on("click", e => parcelAt(e.latlng));
