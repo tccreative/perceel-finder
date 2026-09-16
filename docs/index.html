@@ -131,6 +131,17 @@ input:focus-visible,select:focus-visible,button:focus-visible{outline:2px solid 
   background:var(--panel3);color:var(--ink);text-decoration:none;font-weight:600;font-size:12.5px;
 }
 .call.wa{background:#25d366;color:#04120d}
+.spin{
+  display:inline-block;width:13px;height:13px;margin-right:7px;vertical-align:-2px;
+  border:2px solid var(--line);border-top-color:var(--accent);border-radius:50%;
+  animation:spin .7s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+.pulse{
+  width:16px;height:16px;border-radius:50%;background:rgba(245,158,11,.55);
+  border:2px solid #f59e0b;animation:pulse 1s ease-out infinite;
+}
+@keyframes pulse{0%{transform:scale(.5);opacity:1}100%{transform:scale(1.9);opacity:0}}
 .dotlabel{
   width:auto!important;height:auto!important;
   font-size:11px;font-weight:650;line-height:1.3;white-space:nowrap;
@@ -245,7 +256,7 @@ const m2  = n => n == null ? null : Math.round(n).toLocaleString("nl-NL") + " mÂ
 
 /* ---------------- data + state ---------------- */
 let DATA = [], VIEW = [], SHOWN = 0, PAGE = 60;
-let map, dotLayer, labelLayer, canvasRenderer, glisRenderer, glisLayer, byId = new Map(), activeId = null;
+let map, dotLayer, labelLayer, selLayer, canvasRenderer, glisRenderer, glisLayer, byId = new Map(), activeId = null;
 let BASELINE = false;
 let PRICES = [], SIZES = [];
 const picked = new Set();
@@ -529,24 +540,46 @@ function parcelPopup(p){
 }
 
 /* With the cadastre on, a click on the map asks GLIS what is registered there.
-   The parcels are not click targets themselves, so the plot dots stay clickable. */
+   The lookup takes a moment, so the click gets an answer straight away: a pulse
+   where you tapped and a popup that spins until the registry replies. */
 async function parcelAt(latlng){
   if ($("#cGlis").ariaPressed !== "true" || map.getZoom() < 15) return;
   const {lat, lng} = latlng;
+
+  selLayer.clearLayers();
+  const pulse = L.marker(latlng, {interactive:false, keyboard:false,
+    icon: L.divIcon({className:"pulse", iconSize:[16,16], iconAnchor:[8,8]})}).addTo(selLayer);
+  const popup = L.popup({maxWidth:300})
+    .setLatLng(latlng)
+    .setContent(`<div class="pop"><h3><span class="spin"></span>Kadaster opzoeken\u2026</h3></div>`)
+    .openOn(map);
+
   const near = new Set();
   for (const d of VIEW) if (d.lat != null && Math.abs(d.lat-lat) < .2 && Math.abs(d.lon-lng) < .2)
     near.add(GLIS_LAYERS[d.district]);
   const layers = [...near].filter(v => v != null);
   const hits = await Promise.all((layers.length ? layers : [6, 9]).map(layer =>
     fetch(`${GLIS}/${layer}/query?geometry=${lng},${lat}&geometryType=esriGeometryPoint`
-      + `&inSR=4326&spatialRel=esriSpatialRelIntersects&returnGeometry=false`
+      + `&inSR=4326&outSR=4326&spatialRel=esriSpatialRelIntersects&returnGeometry=true`
       + `&outFields=PerceelID,PerceelNR,PerceelOpp,EenheidOpp,Ressort,Distrikt,Uitmetings`
-      + `&resultRecordCount=1&f=json`)
+      + `&resultRecordCount=1&f=geojson`)
       .then(r => r.ok ? r.json() : null).catch(() => null)));
+
+  selLayer.removeLayer(pulse);
+  if (!map.hasLayer(popup)) return;          // they clicked somewhere else meanwhile
+
   for (const h of hits){
     const f = ((h && h.features) || [])[0];
-    if (f){ L.popup({maxWidth:300}).setLatLng(latlng).setContent(parcelPopup(f.attributes)).openOn(map); return; }
+    if (!f) continue;
+    L.geoJSON(f, {pane:"glisPane", interactive:false,
+      style:{color:"#f59e0b", weight:2.5, opacity:1, fillColor:"#f59e0b", fillOpacity:.35}})
+      .addTo(selLayer);
+    popup.setContent(parcelPopup(f.properties || {}));
+    return;
   }
+  popup.setContent(`<div class="pop"><h3>Kadaster (GLIS)</h3>
+    <div class="line">Op deze plek staat geen geregistreerd perceel in het bestand van MI-GLIS.</div>
+    <div class="glis-note">Niet elk perceel is al opgenomen. Probeer iets verderop.</div></div>`);
 }
 
 /* Close in, put the headline numbers straight on the map so you can compare
@@ -601,6 +634,7 @@ async function boot(){
   glisLayer  = L.layerGroup().addTo(map);
   dotLayer   = L.layerGroup().addTo(map);
   labelLayer = L.layerGroup().addTo(map);
+  selLayer   = L.layerGroup().addTo(map);
 
   if (raw.home){
     L.marker([raw.home.lat, raw.home.lon],
@@ -671,6 +705,7 @@ async function boot(){
   });
   map.on("moveend zoomend", () => { loadGlis(); drawLabels(); });
   map.on("click", e => parcelAt(e.latlng));
+  map.on("popupclose", () => selLayer.clearLayers());
   addEventListener("resize", () => map.invalidateSize({animate:false}));
 
   applyFilters();
