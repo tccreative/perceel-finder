@@ -1,0 +1,18 @@
+{
+  "home": {
+    "label": "Project Schuilplaats (Shantaweg, Kwatta, Wanica)",
+    "lat": 5.8611709,
+    "lon": -55.2971196
+  },
+  "city_centre": {
+    "label": "Paramaribo centrum (Onafhankelijkheidsplein)",
+    "lat": 5.8232,
+    "lon": -55.1679
+  },
+  "wanted_districts": ["Paramaribo", "Wanica"],
+  "excluded_places": ["Lelydorp"],
+  "max_extra_km_from_centre": 5.0,
+  "user_agent": "perceel-finder/1.0 (personal property search)",
+  "request_delay_seconds": 1.2,
+  "nominatim_delay_seconds": 1.1
+}

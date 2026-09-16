@@ -1,0 +1,4475 @@
+{
+ "/ in Suriname, Paramaribo, Suriname": {
+  "lat": 5.8319539,
+  "lon": -55.1549408,
+  "display_name": "Stichting der Islamitische Gemeenten in Suriname, 46, Tourtonnelaan, Rainville, Paramaribo, Suriname",
+  "type": "tourism"
+ },
+ "Rental Home Bijlhoutweg 63 Para, Para, Suriname": null,
+ "Rental Home Bijlhoutweg 63 Para, Suriname": null,
+ "Para, Suriname": {
+  "lat": 5.3430413,
+  "lon": -55.581341,
+  "display_name": "Para, Suriname",
+  "type": "state"
+ },
+ "Paramaribo Menckendam, Paramaribo, Suriname": null,
+ "Paramaribo Menckendam, Suriname": null,
+ "Paramaribo, Suriname": {
+  "lat": 5.8241764,
+  "lon": -55.1662813,
+  "display_name": "Centrum, Paramaribo, Suriname",
+  "type": "county"
+ },
+ "Investerings object, Paramaribo Noord, Paramaribo, Suriname": null,
+ "Investerings object, Paramaribo Noord, Suriname": null,
+ "Paramaribo- Aquarius Straat, Paramaribo, Suriname": null,
+ "Paramaribo- Aquarius Straat, Suriname": null,
+ "Eigendom Commewijne, Nieuw Amsterdam, Commewijne, Suriname": null,
+ "Eigendom Commewijne, Nieuw Amsterdam, Suriname": null,
+ "Commewijne, Suriname": {
+  "lat": 5.8401198,
+  "lon": -54.9244431,
+  "display_name": "Commewijne, Suriname",
+  "type": "state"
+ },
+ "Balgobindweg Paramaribo, Paramaribo, Suriname": null,
+ "Balgobindweg Paramaribo, Suriname": null,
+ "in Tourtonne, Paramaribo, Paramaribo / Tourtonne, Paramaribo, Suriname": {
+  "lat": 5.8319539,
+  "lon": -55.1549408,
+  "display_name": "Stichting der Islamitische Gemeenten in Suriname, 46, Tourtonnelaan, Rainville, Paramaribo, Suriname",
+  "type": "tourism"
+ },
+ "Commissaris Weytinghweg, Wanica / Leiding, Wanica, Suriname": null,
+ "Commissaris Weytinghweg, Wanica, Suriname": {
+  "lat": 5.8110676,
+  "lon": -55.2498356,
+  "display_name": "Commissaris Weythingweg, Weytinghweg, Saramaccapolder, Wanica, Suriname",
+  "type": "road"
+ },
+ "in Peperpot, Commewijne / Peperpot, Commewijne, Suriname": null,
+ "in Peperpot, Commewijne, Suriname": null,
+ "in Peperpot, Suriname": null,
+ "Commewijne / Peperpot, Commewijne, Suriname": {
+  "lat": 5.7976147,
+  "lon": -55.1333746,
+  "display_name": "Commewijne Autoparts, Weg Naar Peperpot, Meerzorg, Commewijne, Suriname",
+  "type": "shop"
+ },
+ "Houttuin, Wanica / Houttuin, Wanica, Suriname": {
+  "lat": 5.7401922,
+  "lon": -55.1425775,
+  "display_name": "Houttuin, Wanica, Suriname",
+  "type": "village"
+ },
+ "Sadhoestraat, Paramaribo / Centrum, Paramaribo, Suriname": null,
+ "Sadhoestraat, Paramaribo, Suriname": {
+  "lat": 5.8393919,
+  "lon": -55.1679965,
+  "display_name": "Sadhoestraat, Munder, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Titriestraat, Paramaribo / Centrum, Paramaribo, Suriname": null,
+ "Titriestraat, Paramaribo, Suriname": null,
+ "Titriestraat, Suriname": null,
+ "Paramaribo / Centrum, Paramaribo, Suriname": {
+  "lat": 5.8253796,
+  "lon": -55.1530992,
+  "display_name": "Centrale Bank van Suriname, Waterkant, Paramaribo, Centrum, Paramaribo, Suriname",
+  "type": "building"
+ },
+ "Baas Adriaanstraat, Sophia's Lust / Paramaribo, Paramaribo, Suriname": null,
+ "Baas Adriaanstraat, Paramaribo, Suriname": null,
+ "Baas Adriaanstraat, Suriname": null,
+ "Sophia's Lust / Paramaribo, Paramaribo, Suriname": null,
+ "Prem Ramawad Doebeweg, Garnizoenspad / Wanica, Wanica, Suriname": null,
+ "Prem Ramawad Doebeweg, Wanica, Suriname": null,
+ "Prem Ramawad Doebeweg, Suriname": null,
+ "Garnizoenspad / Wanica, Wanica, Suriname": {
+  "lat": 5.8495165,
+  "lon": -55.284731,
+  "display_name": "Garnizoenspad, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Eureka, Eureka / Wanica, Wanica, Suriname": null,
+ "Eureka, Wanica, Suriname": {
+  "lat": 5.8555761,
+  "lon": -55.2766624,
+  "display_name": "Eurekaweg, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Burside weg, Marowijne / Moengo, Marowijne, Suriname": {
+  "lat": 5.6043356,
+  "lon": -54.3882546,
+  "display_name": "Walter Bursideweg, Moengo, Marowijne, Suriname",
+  "type": "road"
+ },
+ "Reeberg, Wanica / Reeberg, Wanica, Suriname": {
+  "lat": 5.710014,
+  "lon": -55.289801,
+  "display_name": "Weg naar Reeberg, 311, Reeberg Zuidweg, Lelydorp, Wanica, Suriname",
+  "type": "tourism"
+ },
+ "Wanicaweg, Paramaribo / Kasabaholo, Paramaribo, Suriname": null,
+ "Wanicaweg, Paramaribo, Suriname": {
+  "lat": 5.8187872,
+  "lon": -55.2241185,
+  "display_name": "Wanicaweg, Weytinghweg, Saramaccapolder, Wanica, Suriname",
+  "type": "road"
+ },
+ "James Hellingstraat, Paramaribo / Tourtonne, Paramaribo, Suriname": null,
+ "James Hellingstraat, Paramaribo, Suriname": {
+  "lat": 5.8695638,
+  "lon": -55.1397507,
+  "display_name": "James Hellingstraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Charlesburg, Paramaribo / Charlesburg, Paramaribo, Suriname": {
+  "lat": 5.8395542,
+  "lon": -55.1658085,
+  "display_name": "O.S. Oude Charlesburg, Oude Charlesburgweg, Rainville, Paramaribo, Suriname",
+  "type": "amenity"
+ },
+ "Tabbetjestraat, Paramaribo / Uitvlugt, Paramaribo, Suriname": null,
+ "Tabbetjestraat, Paramaribo, Suriname": {
+  "lat": 5.8129194,
+  "lon": -55.1928507,
+  "display_name": "Tabbetjestraat, Beekhuizen, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Monplaisir, Paramaribo / Mon Plaisir, Paramaribo, Suriname": null,
+ "Monplaisir, Paramaribo, Suriname": null,
+ "Monplaisir, Suriname": null,
+ "Paramaribo / Mon Plaisir, Paramaribo, Suriname": null,
+ "Henkie Spalburgstraat, Sophia's Lust / Wanica, Wanica, Suriname": null,
+ "Henkie Spalburgstraat, Wanica, Suriname": null,
+ "Henkie Spalburgstraat, Suriname": null,
+ "Sophia's Lust / Wanica, Wanica, Suriname": null,
+ "Wanica, Suriname": {
+  "lat": 5.9068334,
+  "lon": -55.2718431,
+  "display_name": "Wanica, Suriname",
+  "type": "state"
+ },
+ "Koerlanstraat, Paramaribo / Centrum, Paramaribo, Suriname": null,
+ "Koerlanstraat, Paramaribo, Suriname": null,
+ "Koerlanstraat, Suriname": null,
+ "Gogomangostraat, Paramaribo / Centrum, Paramaribo, Suriname": null,
+ "Gogomangostraat, Paramaribo, Suriname": {
+  "lat": 5.8419533,
+  "lon": -55.1742466,
+  "display_name": "Gogomangostraat, Munder, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Leiding 7B, Wanica / Leiding, Wanica, Suriname": null,
+ "Leiding 7B, Wanica, Suriname": {
+  "lat": 5.8284784,
+  "lon": -55.2923719,
+  "display_name": "Leiding 7B, Kwatta, Saramaccapolder, Wanica, Suriname",
+  "type": "road"
+ },
+ "Sir Winston Churchill Weg, Wanica / Dijkveld, Wanica, Suriname": null,
+ "Sir Winston Churchill Weg, Wanica, Suriname": {
+  "lat": 5.7091533,
+  "lon": -55.094756,
+  "display_name": "Sir Winston Churchillweg, Domburg, Wanica, Suriname",
+  "type": "road"
+ },
+ "Leiding 11A, Leding 11 A / Wanica, Wanica, Suriname": null,
+ "Leiding 11A, Wanica, Suriname": {
+  "lat": 5.8230004,
+  "lon": -55.2420931,
+  "display_name": "Leiding 11A, Weytinghweg, Saramaccapolder, Wanica, Suriname",
+  "type": "road"
+ },
+ "Commissaris Whythingweg, Wanica / Commissaris Whytingweg, Wanica, Suriname": null,
+ "Commissaris Whythingweg, Wanica, Suriname": null,
+ "Commissaris Whythingweg, Suriname": null,
+ "Wanica / Commissaris Whytingweg, Wanica, Suriname": null,
+ "Domburg, Wanica / Domburg, Wanica, Suriname": {
+  "lat": 5.7009627,
+  "lon": -55.0809133,
+  "display_name": "Domburg, Wanica, Suriname",
+  "type": "village"
+ },
+ "Meerzorg, Commewijne / Meerzorg, Commewijne, Suriname": {
+  "lat": 5.8080003,
+  "lon": -55.1430103,
+  "display_name": "Meerzorg, Commewijne, Suriname",
+  "type": "village"
+ },
+ "Frans Halsstraat, Paramaribo / Tourtonne, Paramaribo, Suriname": null,
+ "Frans Halsstraat, Paramaribo, Suriname": {
+  "lat": 5.8556467,
+  "lon": -55.1472111,
+  "display_name": "Frans Halsstraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Izaak Burnetstraat, Paramaribo / Kwatta, Paramaribo, Suriname": null,
+ "Izaak Burnetstraat, Paramaribo, Suriname": {
+  "lat": 5.8390635,
+  "lon": -55.2085141,
+  "display_name": "Izaak Burnetstraat, Welgelegen, Weg naar Zee, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Eureka, Wanica / Garnizoenspad, Wanica, Suriname": null,
+ "Damboentong-I Saramacca, Saramacca, Saramacca, Suriname": {
+  "lat": 5.8173353,
+  "lon": -55.5889757,
+  "display_name": "Damboentong, Tijgerkreek, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Taut Lui Faut weg, Wanica / Tout Lui Faut, Wanica, Suriname": null,
+ "Taut Lui Faut weg, Wanica, Suriname": null,
+ "Taut Lui Faut weg, Suriname": null,
+ "Wanica / Tout Lui Faut, Wanica, Suriname": null,
+ "Rode Ibis & Fransmankanariestraat, Paramaribo / Morgenstond, Paramaribo, Suriname": null,
+ "Rode Ibis & Fransmankanariestraat, Paramaribo, Suriname": null,
+ "Rode Ibis & Fransmankanariestraat, Suriname": null,
+ "Paramaribo / Morgenstond, Paramaribo, Suriname": {
+  "lat": 5.8476786,
+  "lon": -55.1159251,
+  "display_name": "SBT Suriname N.V., Bonistraat, Morgenstond, Suriname, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "office"
+ },
+ "Groot Blijdenshoopweg, Wanica, Wanica, Suriname": {
+  "lat": 5.7595992,
+  "lon": -55.1949782,
+  "display_name": "Groot Blijdenshoopweg, De Nieuwe Grond, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Rahemelbuiten, Wanica / De Nieuwe Grond, Wanica, Suriname": null,
+ "Rahemelbuiten, Wanica, Suriname": null,
+ "Rahemelbuiten, Suriname": null,
+ "Wanica / De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7703798,
+  "lon": -55.2001512,
+  "display_name": "Varossieau Decorating Center WANICA (PPG), 357-B, Indira Gandhiweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "shop"
+ },
+ "Leliëndaal, Commewijne, Commewijne, Suriname": null,
+ "Leliëndaal, Commewijne, Suriname": null,
+ "Leliëndaal, Suriname": {
+  "lat": 5.7955771,
+  "lon": -55.1934915,
+  "display_name": "Leliendaalweg, Latour, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Highway, Wanica / Domburg, Wanica, Suriname": {
+  "lat": 5.7322869,
+  "lon": -55.1327756,
+  "display_name": "Martin Luther Kingweg, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Prakikistraat, Paramaribo / Morgenstond, Paramaribo, Suriname": null,
+ "Prakikistraat, Paramaribo, Suriname": {
+  "lat": 5.8620381,
+  "lon": -55.1097854,
+  "display_name": "Prakikistraat, Leonsberg, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "L’ Hermitageweg, Paramaribo / Uitvlugt, Paramaribo, Suriname": null,
+ "L’ Hermitageweg, Paramaribo, Suriname": {
+  "lat": 5.8224571,
+  "lon": -55.1899142,
+  "display_name": "L' Hermitageweg, Flora, Centrum, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Krishna Liliaweg, Garnizoenspad / Wanica, Wanica, Suriname": null,
+ "Krishna Liliaweg, Wanica, Suriname": null,
+ "Krishna Liliaweg, Suriname": null,
+ "Robbylaan, Paramaribo / Uitvlugt, Paramaribo, Suriname": null,
+ "Robbylaan, Paramaribo, Suriname": {
+  "lat": 5.8249981,
+  "lon": -55.1968051,
+  "display_name": "Robbylaan, Flora, Distrikt Paramaribo, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Garniezoenspad, Wanica / Garnizoenspad, Wanica, Suriname": null,
+ "Garniezoenspad, Wanica, Suriname": null,
+ "Garniezoenspad, Suriname": null,
+ "Wanica / Garnizoenspad, Wanica, Suriname": null,
+ "Hk.Bert Storm van Leeuwen & A.de Vriesstraat, Paramaribo / Tourtonne, Paramaribo, Suriname": null,
+ "Hk.Bert Storm van Leeuwen & A.de Vriesstraat, Paramaribo, Suriname": null,
+ "Hk.Bert Storm van Leeuwen & A.de Vriesstraat, Suriname": null,
+ "Paramaribo / Tourtonne, Paramaribo, Suriname": {
+  "lat": 5.8319539,
+  "lon": -55.1549408,
+  "display_name": "Stichting der Islamitische Gemeenten in Suriname, 46, Tourtonnelaan, Rainville, Paramaribo, Suriname",
+  "type": "tourism"
+ },
+ "Tout Lui Faut, Wanica / Tout Lui Faut, Wanica, Suriname": null,
+ "Tout Lui Faut, Wanica, Suriname": {
+  "lat": 5.7146631,
+  "lon": -55.2153894,
+  "display_name": "Tout Lui Faut Kanaal, Lelydorp, Wanica, Suriname",
+  "type": "canal"
+ },
+ "Van Idsingastraat, Paramaribo / Centrum, Paramaribo, Suriname": {
+  "lat": 5.8318344,
+  "lon": -55.1733116,
+  "display_name": "Van Idsingastraat, Paramaribo, Centrum, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Saramacca, Wanica / Saramacca, Wanica, Suriname": {
+  "lat": 5.8209811,
+  "lon": -55.2355164,
+  "display_name": "Straight away Suriname, 54, Zachariaweg, Weytinghweg, Saramaccapolder, Wanica, Suriname",
+  "type": "shop"
+ },
+ "Grapefruistraat, Paramaribo / Morgenstond, Paramaribo, Suriname": null,
+ "Grapefruistraat, Paramaribo, Suriname": null,
+ "Grapefruistraat, Suriname": null,
+ "Albert B. Prinsstraat, Paramaribo / Suri Village, Paramaribo, Suriname": {
+  "lat": 5.8691495,
+  "lon": -55.1314019,
+  "display_name": "Albert B. Prinsstraat, Suri Village I, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Nieuw Amsterdam, Commewijne / Voorburg, Commewijne, Suriname": null,
+ "Nieuw Amsterdam, Commewijne, Suriname": {
+  "lat": 5.8804189,
+  "lon": -55.0849545,
+  "display_name": "Nieuw-Amsterdam, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "village"
+ },
+ "Overbrugweg, Wanica / Pad van Wanica, Wanica, Suriname": null,
+ "Overbrugweg, Wanica, Suriname": {
+  "lat": 5.7172263,
+  "lon": -55.2166561,
+  "display_name": "Overbrugweg, Lelydorp, Wanica, Suriname",
+  "type": "road"
+ },
+ "Dr. Paul Polakstraat, Paramaribo / Tourtonne, Paramaribo, Suriname": null,
+ "Dr. Paul Polakstraat, Paramaribo, Suriname": {
+  "lat": 5.8700821,
+  "lon": -55.1434246,
+  "display_name": "Dr. Paul Polakstraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Tarikweg, Paramaribo / Ephramzegen, Paramaribo, Suriname": null,
+ "Tarikweg, Paramaribo, Suriname": {
+  "lat": 5.7979241,
+  "lon": -55.1942874,
+  "display_name": "Tarikweg, Latour, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Kalloestraat, Wanica / Garnizoenspad, Wanica, Suriname": null,
+ "Kalloestraat, Wanica, Suriname": {
+  "lat": 5.8491671,
+  "lon": -55.2781459,
+  "display_name": "Kalloestraat, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Palisadeweg, Wanica / Lelydorp, Wanica, Suriname": null,
+ "Palisadeweg, Wanica, Suriname": null,
+ "Palisadeweg, Suriname": {
+  "lat": 5.6602186,
+  "lon": -55.2306855,
+  "display_name": "Palisadeweg 1, Noord, Para, Suriname",
+  "type": "road"
+ },
+ "Beliswar, Commewijne / Beliswar, Commewijne, Suriname": null,
+ "Beliswar, Commewijne, Suriname": null,
+ "Beliswar, Suriname": null,
+ "Commewijne / Beliswar, Commewijne, Suriname": null,
+ "Leliëndaal, Commewijne / Leliéndaal, Commewijne, Suriname": null,
+ "Wolframstraat, Paramaribo / Tourtonne, Paramaribo, Suriname": null,
+ "Wolframstraat, Paramaribo, Suriname": {
+  "lat": 5.8631833,
+  "lon": -55.1460965,
+  "display_name": "Wolframstraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Middenpad Kwatta, Paramaribo / Kwatta, Paramaribo, Suriname": null,
+ "Middenpad Kwatta, Paramaribo, Suriname": null,
+ "Middenpad Kwatta, Suriname": null,
+ "Paramaribo / Kwatta, Paramaribo, Suriname": {
+  "lat": 5.8323048,
+  "lon": -55.2032117,
+  "display_name": "Suriname Trading, Hendrikstraat, Welgelegen, Distrikt Paramaribo, Paramaribo, Suriname",
+  "type": "shop"
+ },
+ "Upkarweg, Paramaribo / Kwatta, Paramaribo, Suriname": null,
+ "Upkarweg, Paramaribo, Suriname": null,
+ "Upkarweg, Suriname": null,
+ "Ecoresort, Wanica / Houttuin, Wanica, Suriname": null,
+ "Ecoresort, Wanica, Suriname": null,
+ "Ecoresort, Suriname": null,
+ "Wanica / Houttuin, Wanica, Suriname": {
+  "lat": 5.7438628,
+  "lon": -55.1595519,
+  "display_name": "J K House Suriname, Peltophorumlaan, Houttuin, Wanica, Suriname",
+  "type": "tourism"
+ },
+ "Palm Village, Commewijne / Jagtlust, Commewijne, Suriname": null,
+ "Palm Village, Commewijne, Suriname": {
+  "lat": 5.8480998,
+  "lon": -55.0880167,
+  "display_name": "Palm Village, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "neighbourhood"
+ },
+ "Tout Lui Faut kanaalweg, Wanica / Tout Lui Faut, Wanica, Suriname": null,
+ "Tout Lui Faut kanaalweg, Wanica, Suriname": {
+  "lat": 5.719962,
+  "lon": -55.2116939,
+  "display_name": "Tout Lui Faut Kanaalweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Sabanweg, Wanica / Lelydorp, Wanica, Suriname": {
+  "lat": 5.7000224,
+  "lon": -55.1873967,
+  "display_name": "Sabanweg, Lelydorp, Wanica, Suriname",
+  "type": "road"
+ },
+ "Houttuinweg, Wanica / Houttuin, Wanica, Suriname": null,
+ "Houttuinweg, Wanica, Suriname": {
+  "lat": 5.7068279,
+  "lon": -55.2063616,
+  "display_name": "Houttuinweg, Lelydorp, Wanica, Suriname",
+  "type": "road"
+ },
+ "Mangaanstraat, Paramaribo / Ma Retraite, Paramaribo, Suriname": null,
+ "Mangaanstraat, Paramaribo, Suriname": {
+  "lat": 5.8537457,
+  "lon": -55.1393189,
+  "display_name": "Mangaanstraat, Maretraite 4, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Tamansari, Commewijne / Tamansari, Commewijne, Suriname": null,
+ "Tamansari, Commewijne, Suriname": null,
+ "Tamansari, Suriname": null,
+ "Commewijne / Tamansari, Commewijne, Suriname": null,
+ "Ringweg, Paramaribo / Ringweg, Paramaribo, Suriname": {
+  "lat": 5.8558261,
+  "lon": -55.1730138,
+  "display_name": "International Mall of Suriname, 245, Ringweg Zuid, Munder, Paramaribo, Suriname",
+  "type": "shop"
+ },
+ "Hofstraat, Paramaribo / Centrum, Paramaribo, Suriname": {
+  "lat": 5.8231535,
+  "lon": -55.1669962,
+  "display_name": "Hofstraat, Paramaribo, Centrum, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Alkmaar, Commewijne, Commewijne, Suriname": {
+  "lat": 5.8448599,
+  "lon": -55.0219294,
+  "display_name": "Alkmaar, Commewijne, Suriname",
+  "type": "village"
+ },
+ "Welgedacht C, Wanica / De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7602457,
+  "lon": -55.232795,
+  "display_name": "184C, Welgedacht C weg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "building"
+ },
+ "Calcuttastraat, Paramaribo / Beekhuizen, Paramaribo, Suriname": {
+  "lat": 5.8090161,
+  "lon": -55.1752948,
+  "display_name": "Calcuttastraat, Beekhuizen, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Sir Winston Churchillweg, Wanica / Domburg, Wanica, Suriname": {
+  "lat": 5.7025915,
+  "lon": -55.0851758,
+  "display_name": "Sir Winston Churchillweg, Domburg, Wanica, Suriname",
+  "type": "road"
+ },
+ "Sophia’s Lustweg, Paramaribo / Kwatta, Paramaribo, Suriname": null,
+ "Sophia’s Lustweg, Paramaribo, Suriname": null,
+ "Sophia’s Lustweg, Suriname": null,
+ "Copernicusstraat, Paramaribo / Elisabethshof, Paramaribo, Suriname": null,
+ "Copernicusstraat, Paramaribo, Suriname": {
+  "lat": 5.8452171,
+  "lon": -55.1376939,
+  "display_name": "Copernicusstraat, Maretraite 3, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Welgedacht A, Wanica / Bomapolder, Wanica, Suriname": null,
+ "Welgedacht A, Wanica, Suriname": {
+  "lat": 5.7560035,
+  "lon": -55.2106175,
+  "display_name": "19 A, Welgedacht C weg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "building"
+ },
+ "Smalkalden, Para, Para, Suriname": null,
+ "Smalkalden, Para, Suriname": null,
+ "Smalkalden, Suriname": null,
+ "Para, Para, Suriname": {
+  "lat": 4.8824813,
+  "lon": -55.0725748,
+  "display_name": "Suriname, Brokopondo, Suriname",
+  "type": "river"
+ },
+ "Kasabaholo, Paramaribo / Kasabaholo, Paramaribo, Suriname": {
+  "lat": 5.8226569,
+  "lon": -55.2210358,
+  "display_name": "Gezondheidscentrum Kasabaholo, 201, Kasabaholoweg, Tammenga, Distrikt Paramaribo, Paramaribo, Suriname",
+  "type": "building"
+ },
+ "Leonsberg, Paramaribo / Leonsberg, Paramaribo, Suriname": {
+  "lat": 5.8698992,
+  "lon": -55.0981939,
+  "display_name": "Leonsberg, Patrijsstraat, Leonsberg, Blauwgrond, Paramaribo, Suriname",
+  "type": "amenity"
+ },
+ "Drambrandesgracht, Paramaribo / Centrum, Paramaribo, Suriname": null,
+ "Drambrandesgracht, Paramaribo, Suriname": null,
+ "Drambrandesgracht, Suriname": null,
+ "Vredenburg Serie A, Wanica / Houttuin, Wanica, Suriname": {
+  "lat": 5.719044,
+  "lon": -55.1627681,
+  "display_name": "Vredenburg Serie A, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Parasramweg, Wanica / De Nieuwe Grond, Wanica, Suriname": null,
+ "Parasramweg, Wanica, Suriname": null,
+ "Parasramweg, Suriname": null,
+ "Bomapolder, Koewarasan / Wanica, Wanica, Suriname": {
+  "lat": 5.7654986,
+  "lon": -55.2792626,
+  "display_name": "Bomapolder Serie 2 en 3, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "Henkie spalburglaan, Paramaribo, Paramaribo, Suriname": null,
+ "Henkie spalburglaan, Paramaribo, Suriname": null,
+ "Henkie spalburglaan, Suriname": null,
+ "Paramaribo, Paramaribo, Suriname": {
+  "lat": 5.8241764,
+  "lon": -55.1662813,
+  "display_name": "Centrum, Paramaribo, Suriname",
+  "type": "county"
+ },
+ "Weg naar Reeberg, Wanica / Lelydorp, Wanica, Suriname": {
+  "lat": 5.710014,
+  "lon": -55.289801,
+  "display_name": "Weg naar Reeberg, 311, Reeberg Zuidweg, Lelydorp, Wanica, Suriname",
+  "type": "tourism"
+ },
+ "Commissaris Thurkowweg, Commewijne / Jagtlust, Commewijne, Suriname": null,
+ "Commissaris Thurkowweg, Commewijne, Suriname": {
+  "lat": 5.8445475,
+  "lon": -55.0891142,
+  "display_name": "Commissaris Thurkowweg, Palm Village, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Tout Lui Faut, Wanica / Houttuin, Wanica, Suriname": {
+  "lat": 5.76478,
+  "lon": -55.1532821,
+  "display_name": "Tout Lui Faut Kanaal, Houttuin, Wanica, Suriname",
+  "type": "canal"
+ },
+ "Sir Winston Churchillweg, Wanica / Boxel, Wanica, Suriname": null,
+ "Sir Winston Churchillweg, Wanica, Suriname": {
+  "lat": 5.7443604,
+  "lon": -55.1351669,
+  "display_name": "Sir Winston Churchillweg, Domburg, Wanica, Suriname",
+  "type": "road"
+ },
+ "Commissaris Thurkowweg, Commewijne / Meerzorg, Commewijne, Suriname": {
+  "lat": 5.8012792,
+  "lon": -55.1225457,
+  "display_name": "Commissaris Thurkowweg, Meerzorg, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Menckenbergstraat, Wanica / Leiding, Wanica, Suriname": null,
+ "Menckenbergstraat, Wanica, Suriname": null,
+ "Menckenbergstraat, Suriname": null,
+ "Wanica / Leiding, Wanica, Suriname": null,
+ "Helena Christinaweg, Wanica, Wanica, Suriname": {
+  "lat": 5.7346673,
+  "lon": -55.2311589,
+  "display_name": "Helena Christinaweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Reeberg, Wanica / Lelydorp, Wanica, Suriname": {
+  "lat": 5.710014,
+  "lon": -55.289801,
+  "display_name": "Weg naar Reeberg, 311, Reeberg Zuidweg, Lelydorp, Wanica, Suriname",
+  "type": "tourism"
+ },
+ "Creolaproject, Saramacca-Uitkijk, Saramacca, Suriname": null,
+ "Creolaproject, Saramacca, Suriname": null,
+ "Creolaproject, Suriname": null,
+ "Saramacca-Uitkijk, Saramacca, Suriname": {
+  "lat": 5.7756458,
+  "lon": -55.3494692,
+  "display_name": "Saramaccaweg, Uitkijk, Jarikaba, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Mopentiboweg, Wanica / Bomapolder, Wanica, Suriname": null,
+ "Mopentiboweg, Wanica, Suriname": {
+  "lat": 5.7526259,
+  "lon": -55.2571962,
+  "display_name": "Mopentiboweg, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "Kasabaholo, Paramaribo / Hermitage, Paramaribo, Suriname": null,
+ "Kasabaholo, Paramaribo, Suriname": {
+  "lat": 5.8135615,
+  "lon": -55.2194045,
+  "display_name": "Kasabaholo Kreek, Tammenga, Distrikt Paramaribo, Paramaribo, Suriname",
+  "type": "canal"
+ },
+ "Richard van Geeneweg, Wanica / Garnizoenspad, Wanica, Suriname": null,
+ "Richard van Geeneweg, Wanica, Suriname": {
+  "lat": 5.8335296,
+  "lon": -55.2965777,
+  "display_name": "Richard van Geeneweg, Kwatta, Saramaccapolder, Wanica, Suriname",
+  "type": "road"
+ },
+ "Boxel Paraweg, Wanica / Boxel, Wanica, Suriname": null,
+ "Boxel Paraweg, Wanica, Suriname": {
+  "lat": 5.7006335,
+  "lon": -55.1025623,
+  "display_name": "Boxel Paraweg, Domburg, Wanica, Suriname",
+  "type": "road"
+ },
+ "Frederikshoopweg, Wanica / Pontbuiten, Wanica, Suriname": {
+  "lat": 5.7823692,
+  "lon": -55.2135415,
+  "display_name": "Frederikshoopweg, Pontbuiten, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Hoek Devisie en Adjudantweg, Commewijne / Militair Project, Commewijne, Suriname": null,
+ "Hoek Devisie en Adjudantweg, Commewijne, Suriname": null,
+ "Hoek Devisie en Adjudantweg, Suriname": null,
+ "Commewijne / Militair Project, Commewijne, Suriname": null,
+ "Andre Meyerstraat, Paramaribo / Tourtonne, Paramaribo, Suriname": null,
+ "Andre Meyerstraat, Paramaribo, Suriname": {
+  "lat": 5.8687935,
+  "lon": -55.1409561,
+  "display_name": "André Meyerstraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "George Hindoristraat, Paramaribo / Tourtonne, Paramaribo, Suriname": null,
+ "George Hindoristraat, Paramaribo, Suriname": {
+  "lat": 5.8670607,
+  "lon": -55.1396923,
+  "display_name": "George Hindoristraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Natashastraat-oost, Wanica / Garnizoenspad, Wanica, Suriname": null,
+ "Natashastraat-oost, Wanica, Suriname": {
+  "lat": 5.8570033,
+  "lon": -55.2951472,
+  "display_name": "Natashastraat-Oost, Jibodh Project, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Sir Winston Churchillweg, Wanica / Dijkveld, Wanica, Suriname": null,
+ "Esperanceweg, Wanica / Pontbuiten, Wanica, Suriname": null,
+ "Esperanceweg, Wanica, Suriname": {
+  "lat": 5.7852548,
+  "lon": -55.2679811,
+  "display_name": "Esperanceweg, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "Oost-West Verbinding, Saramacca, Saramacca, Suriname": {
+  "lat": 5.8290169,
+  "lon": -55.7935756,
+  "display_name": "Oost West Verbinding Saramacca Catharina Sophiaweg, Boskamp, Calcutta, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Oost-West Verbinding, Commewijne / Tamanredjo, Commewijne, Suriname": {
+  "lat": 5.7577898,
+  "lon": -54.7586397,
+  "display_name": "Oost West Verbinding Commewijne, Stolkertsijver, Tamanredjo ꦠꦩꦤ꧀ꦉꦗ, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Schimmelpennickstraat, Paramaribo / Charlesburg, Paramaribo, Suriname": null,
+ "Schimmelpennickstraat, Paramaribo, Suriname": null,
+ "Schimmelpennickstraat, Suriname": null,
+ "Paramaribo / Charlesburg, Paramaribo, Suriname": {
+  "lat": 5.8574711,
+  "lon": -55.1666313,
+  "display_name": "PARASPRINGS SURINAME, Nieuwe Charlesburgweg, Rainville, Paramaribo, Suriname",
+  "type": "shop"
+ },
+ "Nieuw Weergevondenweg, Wanica / Leiding, Wanica, Suriname": null,
+ "Nieuw Weergevondenweg, Wanica, Suriname": {
+  "lat": 5.7948562,
+  "lon": -55.2298846,
+  "display_name": "Nieuw Weergevondenweg, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "Garnizoenspad, Wanica / Garnizoenspad, Wanica, Suriname": null,
+ "Garnizoenspad, Wanica, Suriname": {
+  "lat": 5.8495165,
+  "lon": -55.284731,
+  "display_name": "Garnizoenspad, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Rododendronstraat, Wanica / Garnizoenspad, Wanica, Suriname": null,
+ "Rododendronstraat, Wanica, Suriname": null,
+ "Rododendronstraat, Suriname": null,
+ "Drambrandersgracht, Paramaribo / Centrum, Paramaribo, Suriname": {
+  "lat": 5.8250339,
+  "lon": -55.1696279,
+  "display_name": "Drambrandersgracht, Paramaribo, Centrum, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Invejaweg, Wanica / Magentapolder, Wanica, Suriname": null,
+ "Invejaweg, Wanica, Suriname": {
+  "lat": 5.7751852,
+  "lon": -55.2555504,
+  "display_name": "Invejaweg, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "Wayamboweg, Wanica / Garnizoenspad, Wanica, Suriname": null,
+ "Wayamboweg, Wanica, Suriname": null,
+ "Wayamboweg, Suriname": {
+  "lat": 5.904331,
+  "lon": -55.6216722,
+  "display_name": "Wayamboweg, Saramacca, Suriname",
+  "type": "county"
+ },
+ "Rijsdijk, Para-Rijsdijk, Para, Suriname": null,
+ "Rijsdijk, Para, Suriname": {
+  "lat": 5.6299719,
+  "lon": -55.2329691,
+  "display_name": "Rijsdijkweg, Bernharddorp (West), Noord, Para, Suriname",
+  "type": "road"
+ },
+ "welgedacht C, Wanica / De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7602457,
+  "lon": -55.232795,
+  "display_name": "184C, Welgedacht C weg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "building"
+ },
+ "Kwatakamastraat, Wanica / Houttuin, Wanica, Suriname": null,
+ "Kwatakamastraat, Wanica, Suriname": null,
+ "Kwatakamastraat, Suriname": null,
+ "Gravenstein te Kampongbaroe, Saramacca, Saramacca, Suriname": null,
+ "Gravenstein te Kampongbaroe, Saramacca, Suriname": null,
+ "Gravenstein te Kampongbaroe, Suriname": null,
+ "Saramacca, Saramacca, Suriname": {
+  "lat": 5.666667,
+  "lon": -55.583333,
+  "display_name": "Distrikt Saramacca, Saramacca, Suriname",
+  "type": "county"
+ },
+ "Stolkensijver, Marowijne-Stolkensijver, Marowijne, Suriname": null,
+ "Stolkensijver, Marowijne, Suriname": null,
+ "Stolkensijver, Suriname": null,
+ "Marowijne-Stolkensijver, Marowijne, Suriname": null,
+ "Marowijne, Suriname": {
+  "lat": 5.7083272,
+  "lon": -54.35369,
+  "display_name": "Marowijne, Suriname",
+  "type": "state"
+ },
+ "George Hindoristraat, Paramaribo / Ma Retraite, Paramaribo, Suriname": null,
+ "Saramacca Bombay, Saramacca, Saramacca, Suriname": null,
+ "Saramacca Bombay, Saramacca, Suriname": null,
+ "Saramacca Bombay, Suriname": null,
+ "Omgeving Noordpoolweg, Rahemal, Suriname": null,
+ "Ruby-Sarahweg Welgedacht C, Suriname": null,
+ "Kavels Braamshoopweg Fase, Suriname": null,
+ "Kavels Vredenburg, Suriname": null,
+ "Vredenburgweg, Tout Lui Fautkanaal, Suriname": null,
+ "Eigendoms Kavels Welgedacht A, Suriname": null,
+ "Investeringobject Merveilleweg (zijstraat van de Magentakanaalweg), Suriname": null,
+ "Bouwrijpe te Vredenburg, Suriname": null,
+ "Ruim te Nieuwe Grond, Suriname": null,
+ "Hoek aan de Mangolaan, Suriname": null,
+ "Eigendomskavels Kwatta, Suriname": null,
+ "Eigendoms Kavels Par’bo Noord, Suriname": null,
+ "Eigendomspercelen Wanicaweg (Omgeving Kasabaholo), Suriname": null,
+ "Tout Lui Faut kanaalweg rechts, Suriname": {
+  "lat": 5.7453142,
+  "lon": -55.1761272,
+  "display_name": "Tout Lui Faut Kanaalweg Rechts, De Nieuwe Grond, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Condorstraat, Suriname": {
+  "lat": 5.8759347,
+  "lon": -55.1086123,
+  "display_name": "Condorstraat, Leonsberg, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Morgenstond, Suriname": {
+  "lat": 5.8579108,
+  "lon": -55.116519,
+  "display_name": "Morgenstond, Suriname, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "residential"
+ },
+ "Rahemelbuiten, Paramaribo, Suriname": null,
+ "Welgedacht C, Wanica, Suriname": {
+  "lat": 5.7602457,
+  "lon": -55.232795,
+  "display_name": "184C, Welgedacht C weg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "building"
+ },
+ "Braamshoopweg, Wanica, Suriname": {
+  "lat": 5.7175964,
+  "lon": -55.2249094,
+  "display_name": "Braamshoopweg, Lelydorp, Wanica, Suriname",
+  "type": "road"
+ },
+ "welgedacht C, Wanica, Suriname": {
+  "lat": 5.7602457,
+  "lon": -55.232795,
+  "display_name": "184C, Welgedacht C weg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "building"
+ },
+ "Dwergspannerweg, Beekhuizen, Wanica, Suriname": null,
+ "Dwergspannerweg, Wanica, Suriname": {
+  "lat": 5.7717513,
+  "lon": -55.1885503,
+  "display_name": "Dwergspannerweg, Rahemal project, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Gadjerieweg, Beekhuizen, Wanica, Suriname": null,
+ "Gadjerieweg, Wanica, Suriname": {
+  "lat": 5.7731869,
+  "lon": -55.1937157,
+  "display_name": "Gadjerieweg, Rahemal project, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Merveilleweg, Bomapolder, Wanica, Suriname": null,
+ "Merveilleweg, Wanica, Suriname": {
+  "lat": 5.744481,
+  "lon": -55.2722426,
+  "display_name": "Merveilleweg, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "Hira Briedjlalweg, Tout-Lui-Faut, Wanica, Suriname": null,
+ "Hira Briedjlalweg, Wanica, Suriname": null,
+ "Hira Briedjlalweg, Suriname": null,
+ "Tout-Lui-Faut, Wanica, Suriname": {
+  "lat": 5.7187407,
+  "lon": -55.2031597,
+  "display_name": "Tout Lui Faut Kanaal, Lelydorp, Wanica, Suriname",
+  "type": "canal"
+ },
+ "Welgedacht C, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7602457,
+  "lon": -55.232795,
+  "display_name": "184C, Welgedacht C weg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "building"
+ },
+ "Oost-westverbinding, Tamanredjo, Commewijne, Suriname": null,
+ "Oost-westverbinding, Commewijne, Suriname": null,
+ "Oost-westverbinding, Suriname": null,
+ "Tamanredjo, Commewijne, Suriname": {
+  "lat": 5.7847748,
+  "lon": -55.0245073,
+  "display_name": "Tamanredjo ꦠꦩꦤ꧀ꦉꦗ, Commewijne, Suriname",
+  "type": "village"
+ },
+ "Dunlopstraat, Mon Plaisir, Paramaribo, Suriname": null,
+ "Dunlopstraat, Paramaribo, Suriname": {
+  "lat": 5.8442047,
+  "lon": -55.1278117,
+  "display_name": "J. B. Dunlopstraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Zarialaan, Oost, Para, Suriname": null,
+ "Zarialaan, Para, Suriname": null,
+ "Zarialaan, Suriname": null,
+ "Oost, Para, Suriname": {
+  "lat": 5.5258729,
+  "lon": -55.0790843,
+  "display_name": "Oost, Para, Suriname",
+  "type": "county"
+ },
+ "Waterland, Oost, Para, Suriname": {
+  "lat": 5.6734918,
+  "lon": -55.0417101,
+  "display_name": "Waterland, Oost, Para, Suriname",
+  "type": "locality"
+ },
+ "Abigaelslustweg, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.772514,
+  "lon": -55.2221755,
+  "display_name": "Abigaelslustweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Misgunstweg, Groningen, Saramacca, Suriname": {
+  "lat": 5.7906235,
+  "lon": -55.4766195,
+  "display_name": "Misgunstweg, Columbia, Groningen, Distrikt Saramacca, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Sierawanweg, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7483682,
+  "lon": -55.2167631,
+  "display_name": "Sierawanweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Gadofowroestraat, Morgenstond, Paramaribo, Suriname": {
+  "lat": 5.8589119,
+  "lon": -55.1121224,
+  "display_name": "Gadofowroestraat, Morgenstond, Suriname, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Balitoestraat, Houttuin, Wanica, Suriname": null,
+ "Balitoestraat, Wanica, Suriname": null,
+ "Balitoestraat, Suriname": null,
+ "Houttuin, Wanica, Suriname": {
+  "lat": 5.7308067,
+  "lon": -55.1544638,
+  "display_name": "Houttuin, Wanica, Suriname",
+  "type": "county"
+ },
+ "Leiding, Leiding, Wanica, Suriname": null,
+ "Leiding, Wanica, Suriname": {
+  "lat": 5.7811406,
+  "lon": -55.2981639,
+  "display_name": "Leiding 16, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "I. Tjanderwatiestraat, Tout-Lui-Faut, Wanica, Suriname": null,
+ "I. Tjanderwatiestraat, Wanica, Suriname": null,
+ "I. Tjanderwatiestraat, Suriname": null,
+ "Gravesstraat, Tourtonne, Paramaribo, Suriname": null,
+ "Gravesstraat, Paramaribo, Suriname": {
+  "lat": 5.8558956,
+  "lon": -55.1502547,
+  "display_name": "Gravesstraat, Rainville, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Florentino Perezlaan, De Nieuwe Grond, Wanica, Suriname": null,
+ "Florentino Perezlaan, Wanica, Suriname": null,
+ "Florentino Perezlaan, Suriname": null,
+ "De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7526996,
+  "lon": -55.2066915,
+  "display_name": "De Nieuwe Grond, Wanica, Suriname",
+  "type": "village"
+ },
+ "Luninlaan, De Nieuwe Grond, Wanica, Suriname": null,
+ "Luninlaan, Wanica, Suriname": null,
+ "Luninlaan, Suriname": null,
+ "Peprepinweg, Bomapolder, Wanica, Suriname": null,
+ "Peprepinweg, Wanica, Suriname": {
+  "lat": 5.7481992,
+  "lon": -55.2834304,
+  "display_name": "Peprepinweg, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "Porcupinestraat, De Nieuwe Grond, Wanica, Suriname": null,
+ "Porcupinestraat, Wanica, Suriname": null,
+ "Porcupinestraat, Suriname": null,
+ "Borneoweg, Tijgerkreek, Saramacca, Suriname": {
+  "lat": 5.8319703,
+  "lon": -55.5587544,
+  "display_name": "Borneoweg, Catharina Sophia, Sidoredjo, Tijgerkreek, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Bismarckiapalmstraat, Kasabaholo, Paramaribo, Suriname": null,
+ "Bismarckiapalmstraat, Paramaribo, Suriname": {
+  "lat": 5.8308167,
+  "lon": -55.2265687,
+  "display_name": "Bismarckiapalmstraat, Tammenga, Distrikt Paramaribo, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Eco Village, Houttuin, Wanica, Suriname": null,
+ "Eco Village, Wanica, Suriname": null,
+ "Eco Village, Suriname": null,
+ "Tout-Lui-Faut, Tout-Lui-Faut, Wanica, Suriname": null,
+ "F. Karamat Aliweg, Jagtlust, Commewijne, Suriname": null,
+ "F. Karamat Aliweg, Commewijne, Suriname": {
+  "lat": 5.807616,
+  "lon": -55.1018153,
+  "display_name": "Jozef Karamat-Aliweg, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Overbridge, Oost, Para, Suriname": {
+  "lat": 5.5265856,
+  "lon": -55.0514596,
+  "display_name": "Overbridge, Oost, Para, Suriname",
+  "type": "hamlet"
+ },
+ "Anijsbladweg, Tout-Lui-Faut, Wanica, Suriname": null,
+ "Anijsbladweg, Wanica, Suriname": {
+  "lat": 5.733971,
+  "lon": -55.1806171,
+  "display_name": "Anijsbladweg, Maretraiteproject, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Pierkoetoestraat, Morgenstond, Paramaribo, Suriname": {
+  "lat": 5.8622679,
+  "lon": -55.1226136,
+  "display_name": "Pierkoetoestraat, Morgenstond, Suriname, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Sabaku Village, Morgenstond, Paramaribo, Suriname": null,
+ "Sabaku Village, Paramaribo, Suriname": null,
+ "Sabaku Village, Suriname": null,
+ "Morgenstond, Paramaribo, Suriname": {
+  "lat": 5.8579108,
+  "lon": -55.116519,
+  "display_name": "Morgenstond, Suriname, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "residential"
+ },
+ "Slengdanstraat, Tamanredjo, Commewijne, Suriname": null,
+ "Slengdanstraat, Commewijne, Suriname": null,
+ "Slengdanstraat, Suriname": null,
+ "Phedra, Brokopondo, Suriname": {
+  "lat": 5.3301859,
+  "lon": -55.0477191,
+  "display_name": "Phedra, Marchallkreek, Brokopondo, Suriname",
+  "type": "hamlet"
+ },
+ "Brielleweg, Magentapolder, Wanica, Suriname": null,
+ "Brielleweg, Wanica, Suriname": {
+  "lat": 5.7931778,
+  "lon": -55.2550027,
+  "display_name": "Brielleweg, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "S.W. Churchillweg, Boxel, Wanica, Suriname": null,
+ "S.W. Churchillweg, Wanica, Suriname": null,
+ "S.W. Churchillweg, Suriname": null,
+ "Boxel, Wanica, Suriname": {
+  "lat": 5.7006335,
+  "lon": -55.1025623,
+  "display_name": "Boxel Paraweg, Domburg, Wanica, Suriname",
+  "type": "road"
+ },
+ "Kweeklustweg, Latour, Paramaribo, Suriname": null,
+ "Kweeklustweg, Paramaribo, Suriname": {
+  "lat": 5.7876325,
+  "lon": -55.1988545,
+  "display_name": "Kweeklustweg, Pontbuiten, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Kropaarstraat, Belwaarde, Commewijne, Suriname": null,
+ "Kropaarstraat, Commewijne, Suriname": null,
+ "Kropaarstraat, Suriname": null,
+ "Belwaarde, Commewijne, Suriname": null,
+ "Moeloetweg, Voorburg, Commewijne, Suriname": {
+  "lat": 5.8754649,
+  "lon": -55.0699524,
+  "display_name": "Moeloetweg, Voorburg, Nieuw-Amsterdam, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Bandastraat, Jagtlust, Commewijne, Suriname": null,
+ "Bandastraat, Commewijne, Suriname": null,
+ "Bandastraat, Suriname": null,
+ "Jagtlust, Commewijne, Suriname": {
+  "lat": 5.8205332,
+  "lon": -55.1061299,
+  "display_name": "Jagtlust River Breeze Resort, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Eureka, Garnizoenspad, Wanica, Suriname": null,
+ "Vredenburg Serie A, Houttuin, Wanica, Suriname": {
+  "lat": 5.719044,
+  "lon": -55.1627681,
+  "display_name": "Vredenburg Serie A, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Ramawadhdoebeweg, Garnizoenspad, Wanica, Suriname": null,
+ "Ramawadhdoebeweg, Wanica, Suriname": {
+  "lat": 5.8427969,
+  "lon": -55.2972142,
+  "display_name": "Prim Ramawadhdoebeweg, Doebe Project, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Dr. Paul Polakstraat, Tourtonne, Paramaribo, Suriname": null,
+ "Keathenstraat, Garnizoenspad, Wanica, Suriname": null,
+ "Keathenstraat, Wanica, Suriname": null,
+ "Keathenstraat, Suriname": null,
+ "P. Balgobindweg, Leiding, Wanica, Suriname": null,
+ "P. Balgobindweg, Wanica, Suriname": {
+  "lat": 5.8157731,
+  "lon": -55.2308816,
+  "display_name": "P. Balgobindweg, Weytinghweg, Saramaccapolder, Wanica, Suriname",
+  "type": "road"
+ },
+ "Zilverreigerstraat, Noord, Para, Suriname": {
+  "lat": 5.6426876,
+  "lon": -55.2204199,
+  "display_name": "Zilverreigerstraat, Noord, Para, Suriname",
+  "type": "road"
+ },
+ "Sahadewstraat, Charlesburg, Paramaribo, Suriname": null,
+ "Sahadewstraat, Paramaribo, Suriname": {
+  "lat": 5.8401295,
+  "lon": -55.1750959,
+  "display_name": "Sahadewstraat, Munder, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Decionstraat, Munder, Paramaribo, Suriname": {
+  "lat": 5.8524114,
+  "lon": -55.1790299,
+  "display_name": "Decionstraat, Munder, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Karperstraat, Nieuw-Nickerie, Nickerie, Suriname": {
+  "lat": 5.9245212,
+  "lon": -56.9907427,
+  "display_name": "Karperstraat, Van Pettenpolder, Nieuw Nickerie, Nickerie, Suriname",
+  "type": "road"
+ },
+ "Matabadalweg, Kwatta, Wanica, Suriname": {
+  "lat": 5.8506352,
+  "lon": -55.2621673,
+  "display_name": "Matabadalweg, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "West-Calcutta, Calcutta, Saramacca, Suriname": {
+  "lat": 5.8459883,
+  "lon": -55.6525716,
+  "display_name": "Oost West Verbinding Saramacca, Drinkwaterstation Tijgerkreek, Peperhol, Calcutta, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Kleine Combéweg, Centrum, Paramaribo, Suriname": null,
+ "Kleine Combéweg, Paramaribo, Suriname": {
+  "lat": 5.8267764,
+  "lon": -55.1496009,
+  "display_name": "Kleine Combéweg, Rainville, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Condorstraat, Leonsberg, Paramaribo, Suriname": {
+  "lat": 5.8759347,
+  "lon": -55.1086123,
+  "display_name": "Condorstraat, Leonsberg, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Wanakoestraat, Kwatta, Paramaribo, Suriname": null,
+ "Wanakoestraat, Paramaribo, Suriname": {
+  "lat": 5.8454687,
+  "lon": -55.2148912,
+  "display_name": "Wanakoestraat, Weg naar Zee, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Prakikistraat, Morgenstond, Paramaribo, Suriname": null,
+ "Isabellastraat, K. Baroe, Saramacca, Suriname": {
+  "lat": 5.7550219,
+  "lon": -55.3657582,
+  "display_name": "Isabellastraat, Hamburg, Kampong Baroe, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Suri Village IV, Morgenstond, Paramaribo, Suriname": null,
+ "Suri Village IV, Paramaribo, Suriname": {
+  "lat": 5.8802736,
+  "lon": -55.123267,
+  "display_name": "Suri Village IV, Blauwgrond, Paramaribo, Suriname",
+  "type": "residential"
+ },
+ "M.H. Malmbergweg, Ringweg, Paramaribo, Suriname": null,
+ "M.H. Malmbergweg, Paramaribo, Suriname": {
+  "lat": 5.8591889,
+  "lon": -55.1641053,
+  "display_name": "Mathilda H. Malmbergweg, Rainville, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Tamesisstraat, Leiding, Wanica, Suriname": null,
+ "Tamesisstraat, Wanica, Suriname": null,
+ "Tamesisstraat, Suriname": null,
+ "Amritsarweg, Kwatta, Paramaribo, Suriname": null,
+ "Amritsarweg, Paramaribo, Suriname": {
+  "lat": 5.845744,
+  "lon": -55.2173014,
+  "display_name": "Amritsarweg, Weg naar Zee, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Darshanistraat, Magentapolder, Wanica, Suriname": null,
+ "Darshanistraat, Wanica, Suriname": null,
+ "Darshanistraat, Suriname": null,
+ "Magentapolder, Wanica, Suriname": {
+  "lat": 5.7780697,
+  "lon": -55.2618649,
+  "display_name": "O.S. Magentapolder, Mawakaboweg, Koewarasan, Wanica, Suriname",
+  "type": "amenity"
+ },
+ "Chandoeweg, Koewarasan, Wanica, Suriname": null,
+ "Chandoeweg, Wanica, Suriname": null,
+ "Chandoeweg, Suriname": null,
+ "Koewarasan, Wanica, Suriname": {
+  "lat": 5.7688563,
+  "lon": -55.2908254,
+  "display_name": "Koewarasan, Wanica, Suriname",
+  "type": "village"
+ },
+ "Guavestraat, Clevia, Paramaribo, Suriname": null,
+ "Guavestraat, Paramaribo, Suriname": {
+  "lat": 5.8639254,
+  "lon": -55.1027436,
+  "display_name": "Guavestraat, Leonsberg, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Suikerspinstraat, Marïenburg, Commewijne, Suriname": {
+  "lat": 5.8717508,
+  "lon": -55.0427729,
+  "display_name": "Suikerspinstraat, Mariënburg, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Suri Village II, Morgenstond, Paramaribo, Suriname": null,
+ "Suri Village II, Paramaribo, Suriname": {
+  "lat": 5.8760755,
+  "lon": -55.1322602,
+  "display_name": "Suri Village II, Blauwgrond, Paramaribo, Suriname",
+  "type": "residential"
+ },
+ "Rubensstraat, Tourtonne, Paramaribo, Suriname": null,
+ "Rubensstraat, Paramaribo, Suriname": {
+  "lat": 5.8583972,
+  "lon": -55.1437265,
+  "display_name": "Rubensstraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Esperanceweg, Koewarasan, Wanica, Suriname": {
+  "lat": 5.7852548,
+  "lon": -55.2679811,
+  "display_name": "Esperanceweg, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "Salikweg, Welgelegen, Paramaribo, Suriname": {
+  "lat": 5.8421518,
+  "lon": -55.2217151,
+  "display_name": "Salikweg, Welgelegen, Weg naar Zee, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Pad van Wanica, Lelydorp, Wanica, Suriname": null,
+ "Pad van Wanica, Wanica, Suriname": null,
+ "Pad van Wanica, Suriname": null,
+ "Lelydorp, Wanica, Suriname": {
+  "lat": 5.6935158,
+  "lon": -55.2139345,
+  "display_name": "Lelydorp, Wanica, Suriname",
+  "type": "town"
+ },
+ "S.W. Churchillweg, Livorno, Paramaribo, Suriname": null,
+ "S.W. Churchillweg, Paramaribo, Suriname": null,
+ "Livorno, Paramaribo, Suriname": {
+  "lat": 5.7828771,
+  "lon": -55.1649505,
+  "display_name": "Livorno, Paramaribo, Suriname",
+  "type": "county"
+ },
+ "Arendstraat, Morgenstond, Paramaribo, Suriname": {
+  "lat": 5.8604558,
+  "lon": -55.1134735,
+  "display_name": "Arendstraat, Morgenstond, Suriname, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Nishaanweg, Calcutta, Saramacca, Suriname": {
+  "lat": 5.8391641,
+  "lon": -55.6742496,
+  "display_name": "Nishaanweg, Calcutta, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Jokhoestraat, Leiding, Wanica, Suriname": null,
+ "Jokhoestraat, Wanica, Suriname": null,
+ "Jokhoestraat, Suriname": {
+  "lat": 5.8071017,
+  "lon": -55.2216638,
+  "display_name": "Jokhoestraat, Tammenga, Distrikt Paramaribo, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Katwijkweg, Latour, Paramaribo, Suriname": {
+  "lat": 5.7945165,
+  "lon": -55.2109581,
+  "display_name": "Katwijkweg, Latour, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Leiding 7A, Leiding, Wanica, Suriname": null,
+ "Leiding 7A, Wanica, Suriname": {
+  "lat": 5.8278819,
+  "lon": -55.2873022,
+  "display_name": "Leiding 7A, Kwatta, Saramaccapolder, Wanica, Suriname",
+  "type": "road"
+ },
+ "Peperpot City, Meerzorg, Commewijne, Suriname": null,
+ "Peperpot City, Commewijne, Suriname": null,
+ "Peperpot City, Suriname": null,
+ "Meerzorg, Commewijne, Suriname": {
+  "lat": 5.8080003,
+  "lon": -55.1430103,
+  "display_name": "Meerzorg, Commewijne, Suriname",
+  "type": "village"
+ },
+ "Hosjelaan, Lelydorp, Wanica, Suriname": {
+  "lat": 5.7148873,
+  "lon": -55.1870264,
+  "display_name": "Hosjelaan, Lelydorp, Wanica, Suriname",
+  "type": "road"
+ },
+ "Wendyweg, Oost, Para, Suriname": {
+  "lat": 5.6297276,
+  "lon": -55.1098206,
+  "display_name": "Wendyweg, Smal Kalden, Oost, Para, Suriname",
+  "type": "road"
+ },
+ "Ramjewalalstraat, Garnizoenspad, Wanica, Suriname": null,
+ "Ramjewalalstraat, Wanica, Suriname": null,
+ "Ramjewalalstraat, Suriname": null,
+ "Fijne Klaroenweg, Garnizoenspad, Wanica, Suriname": null,
+ "Fijne Klaroenweg, Wanica, Suriname": {
+  "lat": 5.8438865,
+  "lon": -55.2961494,
+  "display_name": "Fijne Klaroenweg, Doebe Project, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Peperpot, Meerzorg, Commewijne, Suriname": {
+  "lat": 5.7678842,
+  "lon": -55.1248088,
+  "display_name": "Peperpot, Meerzorg, Commewijne, Suriname",
+  "type": "hamlet"
+ },
+ "Braamshoopweg, Lelydorp, Wanica, Suriname": {
+  "lat": 5.7175964,
+  "lon": -55.2249094,
+  "display_name": "Braamshoopweg, Lelydorp, Wanica, Suriname",
+  "type": "road"
+ },
+ "Weidumweg, Kwatta, Paramaribo, Suriname": null,
+ "Weidumweg, Paramaribo, Suriname": {
+  "lat": 5.8477952,
+  "lon": -55.1979526,
+  "display_name": "Weidumweg, Weg naar Zee, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Bomaweg, Bomapolder, Wanica, Suriname": null,
+ "Bomaweg, Wanica, Suriname": {
+  "lat": 5.7530813,
+  "lon": -55.2979782,
+  "display_name": "Bomaweg, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "Anton Dragtenweg, Clevia, Paramaribo, Suriname": null,
+ "Anton Dragtenweg, Paramaribo, Suriname": {
+  "lat": 5.8506794,
+  "lon": -55.1081937,
+  "display_name": "Anton Dragtenweg, Morgenstond, Suriname, Leonsberg, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Weg naar Peperpot, Meerzorg, Commewijne, Suriname": {
+  "lat": 5.7918766,
+  "lon": -55.14648,
+  "display_name": "Weg Naar Peperpot, Meerzorg, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Leiding, Bomapolder, Wanica, Suriname": null,
+ "Appelhoutweg, Houttuin, Wanica, Suriname": {
+  "lat": 5.7205969,
+  "lon": -55.1454978,
+  "display_name": "Appelhoutweg, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Hebertstraat, Domburg, Wanica, Suriname": {
+  "lat": 5.7000009,
+  "lon": -55.082147,
+  "display_name": "Hebertstraat, Domburg, Wanica, Suriname",
+  "type": "road"
+ },
+ "Chrisnanandweg, De Nieuwe Grond, Wanica, Suriname": null,
+ "Chrisnanandweg, Wanica, Suriname": null,
+ "Chrisnanandweg, Suriname": null,
+ "Manjadam, Meerzorg, Commewijne, Suriname": {
+  "lat": 5.806864,
+  "lon": -55.1397899,
+  "display_name": "Manjadam, Meerzorg, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Wisnoeweg, Koewarasan, Wanica, Suriname": null,
+ "Wisnoeweg, Wanica, Suriname": null,
+ "Wisnoeweg, Suriname": null,
+ "Goede Verwachting, Latour, Paramaribo, Suriname": {
+  "lat": 5.8040299,
+  "lon": -55.2175874,
+  "display_name": "Goede Verwachtingweg, Latour, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Atjehweg, Tamanredjo, Commewijne, Suriname": null,
+ "Atjehweg, Commewijne, Suriname": {
+  "lat": 5.7836408,
+  "lon": -55.0423815,
+  "display_name": "Atjehweg, Meerzorg, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Dr. Oostburgstraat, Leonsberg, Paramaribo, Suriname": null,
+ "Dr. Oostburgstraat, Paramaribo, Suriname": {
+  "lat": 5.879849,
+  "lon": -55.1148254,
+  "display_name": "Prof. Dr. Baltus Oostburgstraat, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Tara Chandmungraweg, Ringweg, Paramaribo, Suriname": null,
+ "Tara Chandmungraweg, Paramaribo, Suriname": null,
+ "Tara Chandmungraweg, Suriname": null,
+ "Ringweg, Paramaribo, Suriname": {
+  "lat": 5.8561482,
+  "lon": -55.1665819,
+  "display_name": "Ringweg Zuid, Munder, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Saramaccaweg, K. Baroe, Saramacca, Suriname": {
+  "lat": 5.748004,
+  "lon": -55.4019334,
+  "display_name": "Saramaccaweg, Creola, Kampong Baroe, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Arjanweg, Houttuin, Wanica, Suriname": {
+  "lat": 5.7130529,
+  "lon": -55.173892,
+  "display_name": "Arjanweg, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Ramiahoutweg, Houttuin, Wanica, Suriname": null,
+ "Ramiahoutweg, Wanica, Suriname": null,
+ "Ramiahoutweg, Suriname": null,
+ "Henkielaan, Uitvlugt, Paramaribo, Suriname": null,
+ "Henkielaan, Paramaribo, Suriname": {
+  "lat": 5.8184453,
+  "lon": -55.2029985,
+  "display_name": "Henkielaan, Flora, Distrikt Paramaribo, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Sopropoweg, Tijgerkreek, Saramacca, Suriname": {
+  "lat": 5.8245644,
+  "lon": -55.5644788,
+  "display_name": "Sopropoweg, Sidoredjo, Tijgerkreek, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Wellingtonstraat, Nieuw-Nickerie, Nickerie, Suriname": {
+  "lat": 5.941782,
+  "lon": -56.9854482,
+  "display_name": "Wellingtonstraat, Nationaal Projekt, Nieuw Nickerie, Nickerie, Suriname",
+  "type": "road"
+ },
+ "Bivakweg, Voorburg, Commewijne, Suriname": null,
+ "Bivakweg, Commewijne, Suriname": {
+  "lat": 5.8713028,
+  "lon": -55.0720261,
+  "display_name": "Bivakweg, Nieuw-Amsterdam, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Patjasketiweg, Meerzorg, Commewijne, Suriname": {
+  "lat": 5.8117025,
+  "lon": -55.1227348,
+  "display_name": "Patjasketiweg, Meerzorg, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Hardoarweg, Ringweg, Paramaribo, Suriname": null,
+ "Hardoarweg, Paramaribo, Suriname": {
+  "lat": 5.8533875,
+  "lon": -55.16397,
+  "display_name": "Hardoarweg, Rainville, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Bhagwandienweg, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.762611,
+  "lon": -55.1977265,
+  "display_name": "Bhagwandienweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Raja Harry Chandreweg, Lelydorp, Wanica, Suriname": {
+  "lat": 5.7015062,
+  "lon": -55.2182174,
+  "display_name": "Raja Harry Chandreweg, Lelydorp, Wanica, Suriname",
+  "type": "road"
+ },
+ "Gotong Rojong, Lelydorp, Wanica, Suriname": {
+  "lat": 5.6697707,
+  "lon": -55.2907356,
+  "display_name": "Gotong Rojongweg, Lelydorp, Wanica, Suriname",
+  "type": "road"
+ },
+ "Suri Village III, Morgenstond, Paramaribo, Suriname": null,
+ "Suri Village III, Paramaribo, Suriname": {
+  "lat": 5.8852766,
+  "lon": -55.1260812,
+  "display_name": "Suri Village III, Blauwgrond, Paramaribo, Suriname",
+  "type": "residential"
+ },
+ "Matipassi, Leiding, Wanica, Suriname": null,
+ "Matipassi, Wanica, Suriname": {
+  "lat": 5.8084849,
+  "lon": -55.2394655,
+  "display_name": "Matipassi, Weytinghweg, Saramaccapolder, Wanica, Suriname",
+  "type": "road"
+ },
+ "Van Kallenweg, Beekhuizen, Paramaribo, Suriname": null,
+ "Van Kallenweg, Paramaribo, Suriname": {
+  "lat": 5.7827898,
+  "lon": -55.1903516,
+  "display_name": "Van Kallenweg, Pontbuiten, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "S.W. Churchillweg, Oost, Para, Suriname": null,
+ "S.W. Churchillweg, Para, Suriname": null,
+ "Waldenstraat, Leonsberg, Paramaribo, Suriname": {
+  "lat": 5.8733839,
+  "lon": -55.1075385,
+  "display_name": "Waldenstraat, Leonsberg, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Timorweg, Meerzorg, Commewijne, Suriname": null,
+ "Timorweg, Commewijne, Suriname": null,
+ "Timorweg, Suriname": null,
+ "Richard van Geeneweg, Garnizoenspad, Wanica, Suriname": null,
+ "Kronenburgweg, De Nieuwe Grond, Wanica, Suriname": null,
+ "Kronenburgweg, Wanica, Suriname": null,
+ "Kronenburgweg, Suriname": null,
+ "Ephraimszegenweg, Latour, Paramaribo, Suriname": null,
+ "Ephraimszegenweg, Paramaribo, Suriname": null,
+ "Ephraimszegenweg, Suriname": null,
+ "Latour, Paramaribo, Suriname": {
+  "lat": 5.7932314,
+  "lon": -55.1825316,
+  "display_name": "Latour, Paramaribo, Suriname",
+  "type": "village"
+ },
+ "Bandspannerweg, Beekhuizen, Wanica, Suriname": null,
+ "Bandspannerweg, Wanica, Suriname": {
+  "lat": 5.7762701,
+  "lon": -55.1929099,
+  "display_name": "Bandspannerweg, Rahemal project, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Van Hattemweg, Lelydorp, Wanica, Suriname": {
+  "lat": 5.6800913,
+  "lon": -55.2422785,
+  "display_name": "Van Hattemweg, Lelydorp, Wanica, Suriname",
+  "type": "road"
+ },
+ "Oost-westverbinding, Calcutta, Saramacca, Suriname": null,
+ "Oost-westverbinding, Saramacca, Suriname": null,
+ "Calcutta, Saramacca, Suriname": {
+  "lat": 5.8464764,
+  "lon": -55.674455,
+  "display_name": "Calcutta, Saramacca, Suriname",
+  "type": "village"
+ },
+ "Nieuwe Charlesburg, Ringweg, Paramaribo, Suriname": null,
+ "Nieuwe Charlesburg, Paramaribo, Suriname": {
+  "lat": 5.8574711,
+  "lon": -55.1666313,
+  "display_name": "PARASPRINGS SURINAME, Nieuwe Charlesburgweg, Rainville, Paramaribo, Suriname",
+  "type": "shop"
+ },
+ "Obsidiaanstraat, Boxel, Wanica, Suriname": null,
+ "Obsidiaanstraat, Wanica, Suriname": {
+  "lat": 5.7131519,
+  "lon": -55.1280454,
+  "display_name": "Obsidiaanstraat, Domburg, Wanica, Suriname",
+  "type": "road"
+ },
+ "Bolletjesvarensweg, Oost, Para, Suriname": {
+  "lat": 5.6606622,
+  "lon": -55.0684314,
+  "display_name": "Bolletjesvarensweg, Oost, Para, Suriname",
+  "type": "road"
+ },
+ "Advocaatstraat, Morgenstond, Paramaribo, Suriname": null,
+ "Advocaatstraat, Paramaribo, Suriname": {
+  "lat": 5.8584827,
+  "lon": -55.1038743,
+  "display_name": "Advocaatstraat, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Poplinweg, Koewarasan, Wanica, Suriname": null,
+ "Poplinweg, Wanica, Suriname": null,
+ "Poplinweg, Suriname": null,
+ "Cocosdam, Domburg, Wanica, Suriname": {
+  "lat": 5.6714758,
+  "lon": -55.0738442,
+  "display_name": "Cocosdam, Oost, Para, Suriname",
+  "type": "road"
+ },
+ "Soekwastraat, Charlesburg, Paramaribo, Suriname": {
+  "lat": 5.8485493,
+  "lon": -55.1724894,
+  "display_name": "Soekwastraat, Charlesburg, Munder, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Avobakaweg, Oost, Para, Suriname": {
+  "lat": 5.6004681,
+  "lon": -55.100198,
+  "display_name": "Avobakaweg, Paranam refinery, La Vigilantia, Oost, Para, Suriname",
+  "type": "road"
+ },
+ "Pandit Manuratweg, Meerzorg, Commewijne, Suriname": {
+  "lat": 5.8083111,
+  "lon": -55.1543888,
+  "display_name": "Pandit Manuratweg, Meerzorg, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Mangroestraat, Houttuin, Wanica, Suriname": null,
+ "Mangroestraat, Wanica, Suriname": null,
+ "Mangroestraat, Suriname": null,
+ "Van ’t Hogerhuysstr, Beekhuizen, Paramaribo, Suriname": {
+  "lat": 5.8109763,
+  "lon": -55.1707239,
+  "display_name": "Van 't Hogerhuysstraat, Beekhuizen, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Kasoedjieweg, Morgenstond, Paramaribo, Suriname": null,
+ "Kasoedjieweg, Paramaribo, Suriname": {
+  "lat": 5.8644083,
+  "lon": -55.1113505,
+  "display_name": "Kasoedjieweg, Leonsberg, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Wirantalaan, Groningen, Saramacca, Suriname": {
+  "lat": 5.781907,
+  "lon": -55.4908411,
+  "display_name": "Wirantalaan, Columbia, Groningen, Distrikt Saramacca, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Sadiodam, Meerzorg, Commewijne, Suriname": {
+  "lat": 5.8022705,
+  "lon": -55.1429233,
+  "display_name": "Sadiodam, Meerzorg, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Hassankhanweg, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7560527,
+  "lon": -55.2197069,
+  "display_name": "Hassankhanweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Kampurweg, Welgelegen, Paramaribo, Suriname": null,
+ "Kampurweg, Paramaribo, Suriname": null,
+ "Kampurweg, Suriname": null,
+ "Welgelegen, Paramaribo, Suriname": {
+  "lat": 5.839683,
+  "lon": -55.2126346,
+  "display_name": "Welgelegen, Paramaribo, Suriname",
+  "type": "village"
+ },
+ "Epaulettenweg, Voorburg, Commewijne, Suriname": null,
+ "Epaulettenweg, Commewijne, Suriname": {
+  "lat": 5.8778189,
+  "lon": -55.0807319,
+  "display_name": "Epaulettenweg, Nieuw-Amsterdam, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Kamstagweg, Voorburg, Commewijne, Suriname": null,
+ "Kamstagweg, Commewijne, Suriname": null,
+ "Kamstagweg, Suriname": null,
+ "Voorburg, Commewijne, Suriname": {
+  "lat": 5.8828989,
+  "lon": -55.069583,
+  "display_name": "Voorburg, Nieuw-Amsterdam, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "neighbourhood"
+ },
+ "Suri Village I, Morgenstond, Paramaribo, Suriname": null,
+ "Suri Village I, Paramaribo, Suriname": {
+  "lat": 5.8688724,
+  "lon": -55.1313257,
+  "display_name": "Suri Village I, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "residential"
+ },
+ "Soenarjadiweg, K. Baroe, Saramacca, Suriname": null,
+ "Soenarjadiweg, Saramacca, Suriname": null,
+ "Soenarjadiweg, Suriname": null,
+ "K. Baroe, Saramacca, Suriname": {
+  "lat": 5.7526857,
+  "lon": -55.4109513,
+  "display_name": "Kampong Baroe, Saramacca, Suriname",
+  "type": "village"
+ },
+ "Rasiannaweg, Houttuin, Wanica, Suriname": {
+  "lat": 5.735371,
+  "lon": -55.1328394,
+  "display_name": "Rasiannaweg, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Veldemastraat, Charlesburg, Paramaribo, Suriname": null,
+ "Veldemastraat, Paramaribo, Suriname": {
+  "lat": 5.8388225,
+  "lon": -55.1681491,
+  "display_name": "Veldemastraat, Munder, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Thermometerstraat, Morgenstond, Paramaribo, Suriname": null,
+ "Thermometerstraat, Paramaribo, Suriname": null,
+ "Thermometerstraat, Suriname": null,
+ "Karoekondrestraat, Kasabaholo, Paramaribo, Suriname": null,
+ "Karoekondrestraat, Paramaribo, Suriname": {
+  "lat": 5.8200275,
+  "lon": -55.2177879,
+  "display_name": "Karoekondrestraat, Tammenga, Distrikt Paramaribo, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "La Rencontre 7e str, Domburg, Wanica, Suriname": {
+  "lat": 5.6870247,
+  "lon": -55.0786586,
+  "display_name": "La Rencontre 7e Straat, Domburg, Wanica, Suriname",
+  "type": "road"
+ },
+ "Lepentakvlinderweg, Beekhuizen, Wanica, Suriname": null,
+ "Lepentakvlinderweg, Wanica, Suriname": null,
+ "Lepentakvlinderweg, Suriname": null,
+ "Beekhuizen, Wanica, Suriname": {
+  "lat": 5.7689502,
+  "lon": -55.1814649,
+  "display_name": "Livorno Beekhuizenweg, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Lian Promweg, Noord, Para, Suriname": null,
+ "Lian Promweg, Para, Suriname": null,
+ "Lian Promweg, Suriname": null,
+ "Noord, Para, Suriname": {
+  "lat": 5.6006776,
+  "lon": -55.2801366,
+  "display_name": "Noord, Para, Suriname",
+  "type": "county"
+ },
+ "Smalkalden, Oost, Para, Suriname": null,
+ "S.W. Churchillweg, Ornamibo, Wanica, Suriname": null,
+ "Ornamibo, Wanica, Suriname": {
+  "lat": 5.7267848,
+  "lon": -55.1364808,
+  "display_name": "Vuilstort Ornamibo, Domburg, Wanica, Suriname",
+  "type": "landfill"
+ },
+ "Granietstraat, Tourtonne, Paramaribo, Suriname": null,
+ "Granietstraat, Paramaribo, Suriname": {
+  "lat": 5.8607508,
+  "lon": -55.138022,
+  "display_name": "Granietstraat, Maretraite 5, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Palm Village, Belwaarde, Commewijne, Suriname": null,
+ "Lepelaarstraat, Morgenstond, Paramaribo, Suriname": null,
+ "Lepelaarstraat, Paramaribo, Suriname": {
+  "lat": 5.8628751,
+  "lon": -55.1143151,
+  "display_name": "Lepelaarstraat, Leonsberg, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Eduard Prachtstraat, Kwatta, Paramaribo, Suriname": null,
+ "Eduard Prachtstraat, Paramaribo, Suriname": {
+  "lat": 5.8450536,
+  "lon": -55.2035039,
+  "display_name": "Eduard Prachtstraat, Weg naar Zee, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Oostburgstraat, Leonsberg, Paramaribo, Suriname": null,
+ "Oostburgstraat, Paramaribo, Suriname": {
+  "lat": 5.879849,
+  "lon": -55.1148254,
+  "display_name": "Prof. Dr. Baltus Oostburgstraat, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Dolfijnzicht, Mariënburg, Commewijne, Suriname": null,
+ "Dolfijnzicht, Commewijne, Suriname": {
+  "lat": 5.8772209,
+  "lon": -55.0339108,
+  "display_name": "Dolfijnzicht, Alkmaar, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Prasarabanstraat, K. Baroe, Saramacca, Suriname": null,
+ "Prasarabanstraat, Saramacca, Suriname": null,
+ "Prasarabanstraat, Suriname": null,
+ "Powisistraat, Morgenstond, Paramaribo, Suriname": {
+  "lat": 5.859665,
+  "lon": -55.1197672,
+  "display_name": "Powisistraat, Morgenstond, Suriname, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Wayamboweg, Wayambo, Saramacca, Suriname": {
+  "lat": 5.8513835,
+  "lon": -55.3050388,
+  "display_name": "Wayamboweg, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Pad van Wanica, Tout-Lui-Faut, Wanica, Suriname": null,
+ "Boxel-Paraweg, Boxel, Wanica, Suriname": null,
+ "Boxel-Paraweg, Wanica, Suriname": {
+  "lat": 5.7006335,
+  "lon": -55.1025623,
+  "display_name": "Boxel Paraweg, Domburg, Wanica, Suriname",
+  "type": "road"
+ },
+ "M.R. Adhinweg, Ornamibo, Wanica, Suriname": null,
+ "M.R. Adhinweg, Wanica, Suriname": null,
+ "M.R. Adhinweg, Suriname": null,
+ "Idrisweg, De Nieuwe Grond, Wanica, Suriname": null,
+ "Idrisweg, Wanica, Suriname": null,
+ "Idrisweg, Suriname": null,
+ "Velddienstweg, Voorburg, Commewijne, Suriname": null,
+ "Velddienstweg, Commewijne, Suriname": {
+  "lat": 5.8748491,
+  "lon": -55.0766889,
+  "display_name": "Velddienstweg, Nieuw-Amsterdam, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Roeienstraat, Oost, Para, Suriname": null,
+ "Roeienstraat, Para, Suriname": null,
+ "Roeienstraat, Suriname": null,
+ "Welgedacht C, Bomapolder, Wanica, Suriname": null,
+ "Pierpontweg, Dijkveld, Wanica, Suriname": null,
+ "Pierpontweg, Wanica, Suriname": {
+  "lat": 5.7634579,
+  "lon": -55.1641301,
+  "display_name": "Pierpontweg, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Mon Plaisirweg, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7440358,
+  "lon": -55.1956812,
+  "display_name": "Mon Plaisirweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Braamshoop, Lelydorp, Wanica, Suriname": {
+  "lat": 5.7236751,
+  "lon": -55.2678696,
+  "display_name": "Grand Village Braamshoop, Lelydorp, Wanica, Suriname",
+  "type": "residential"
+ },
+ "Grote Combéweg, Centrum, Paramaribo, Suriname": null,
+ "Grote Combéweg, Paramaribo, Suriname": {
+  "lat": 5.8282266,
+  "lon": -55.1513534,
+  "display_name": "Grote Combéweg, Rainville, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Wanicaweg, Leiding, Wanica, Suriname": null,
+ "Wanicaweg, Wanica, Suriname": {
+  "lat": 5.8180414,
+  "lon": -55.2330879,
+  "display_name": "Wanicaweg, Weytinghweg, Saramaccapolder, Wanica, Suriname",
+  "type": "road"
+ },
+ "Hasselbainkweg, Leiding, Wanica, Suriname": null,
+ "Hasselbainkweg, Wanica, Suriname": {
+  "lat": 5.8110739,
+  "lon": -55.2631032,
+  "display_name": "Hasselbainkweg, Saramaccapolder, Wanica, Suriname",
+  "type": "road"
+ },
+ "Richard van Geene I, Garnizoenspad, Wanica, Suriname": null,
+ "Richard van Geene I, Wanica, Suriname": {
+  "lat": 5.8197124,
+  "lon": -55.2967674,
+  "display_name": "Richard van Geeneweg, Saramaccapolder, Wanica, Suriname",
+  "type": "road"
+ },
+ "Aquariusstraat, Kwatta, Paramaribo, Suriname": null,
+ "Aquariusstraat, Paramaribo, Suriname": {
+  "lat": 5.8507469,
+  "lon": -55.2052904,
+  "display_name": "Aquariusstraat, Weg naar Zee, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Orleanekreekweg, Tamanredjo, Commewijne, Suriname": null,
+ "Orleanekreekweg, Commewijne, Suriname": null,
+ "Orleanekreekweg, Suriname": null,
+ "Grapefruitstraat, Morgenstond, Paramaribo, Suriname": null,
+ "Grapefruitstraat, Paramaribo, Suriname": {
+  "lat": 5.8640919,
+  "lon": -55.1119845,
+  "display_name": "Grapefruitstraat, Leonsberg, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Ganymedesstraat, Kwatta, Paramaribo, Suriname": null,
+ "Ganymedesstraat, Paramaribo, Suriname": {
+  "lat": 5.8521945,
+  "lon": -55.2190408,
+  "display_name": "Ganymedesstraat, Weg naar Zee, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Gunputstraat, Leonsberg, Paramaribo, Suriname": {
+  "lat": 5.8782754,
+  "lon": -55.1133462,
+  "display_name": "Gunputstraat, Leonsberg, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Kwattaweg, Kwatta, Paramaribo, Suriname": {
+  "lat": 5.8464995,
+  "lon": -55.2329303,
+  "display_name": "Kwattaweg, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Haideraliweg, Garnizoenspad, Wanica, Suriname": null,
+ "Haideraliweg, Wanica, Suriname": {
+  "lat": 5.8530788,
+  "lon": -55.2665755,
+  "display_name": "Haideraliweg, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "H. Steinbergstraat, Beekhuizen, Paramaribo, Suriname": {
+  "lat": 5.8093531,
+  "lon": -55.1752182,
+  "display_name": "Herman Steinbergstraat, Beekhuizen, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Vossenweg, Boxel, Wanica, Suriname": null,
+ "Vossenweg, Wanica, Suriname": {
+  "lat": 5.7163023,
+  "lon": -55.1205949,
+  "display_name": "Vossenweg, Domburg, Wanica, Suriname",
+  "type": "road"
+ },
+ "Haarlem, Lelydorp, Wanica, Suriname": {
+  "lat": 5.6612406,
+  "lon": -55.3425222,
+  "display_name": "Haarlem, Lelydorp, Wanica, Suriname",
+  "type": "hamlet"
+ },
+ "Dr. J.F. Nassylaan, Centrum, Paramaribo, Suriname": {
+  "lat": 5.831087,
+  "lon": -55.1617004,
+  "display_name": "Dr. J.F. Nassylaan, Paramaribo, Centrum, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "J. Karamat Aliweg, Jagtlust, Commewijne, Suriname": null,
+ "J. Karamat Aliweg, Commewijne, Suriname": {
+  "lat": 5.807616,
+  "lon": -55.1018153,
+  "display_name": "Jozef Karamat-Aliweg, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Rahemalweg, Beekhuizen, Wanica, Suriname": null,
+ "Rahemalweg, Wanica, Suriname": {
+  "lat": 5.7690614,
+  "lon": -55.194558,
+  "display_name": "Rahemalweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Welgedacht A, Bomapolder, Wanica, Suriname": null,
+ "Palissadeweg, Noord, Para, Suriname": null,
+ "Palissadeweg, Para, Suriname": null,
+ "Palissadeweg, Suriname": null,
+ "Sidodadiweg, Groningen, Saramacca, Suriname": {
+  "lat": 5.8197802,
+  "lon": -55.4982946,
+  "display_name": "Sidodadiweg, Groningen, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Suralcoweg, Noord, Para, Suriname": {
+  "lat": 5.6536223,
+  "lon": -55.2508056,
+  "display_name": "Suralcoweg, Noord, Para, Suriname",
+  "type": "road"
+ },
+ "Aburahoutweg, Houttuin, Wanica, Suriname": {
+  "lat": 5.7193881,
+  "lon": -55.1465051,
+  "display_name": "Aburahoutweg, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Stolkweg, Charlesburg, Paramaribo, Suriname": null,
+ "Stolkweg, Paramaribo, Suriname": {
+  "lat": 5.8384405,
+  "lon": -55.176673,
+  "display_name": "Stolkweg, Munder, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Montauban, Tamanredjo, Commewijne, Suriname": null,
+ "Montauban, Commewijne, Suriname": null,
+ "Montauban, Suriname": null,
+ "Wandoestraat, Charlesburg, Paramaribo, Suriname": {
+  "lat": 5.8504986,
+  "lon": -55.1734478,
+  "display_name": "Wandoestraat, Charlesburg, Munder, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Mopentibo, Meerzorg, Commewijne, Suriname": {
+  "lat": 5.7907211,
+  "lon": -55.1283188,
+  "display_name": "Mopentibo trail, Meerzorg, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Cornelisstraat, Centrum, Paramaribo, Suriname": {
+  "lat": 5.8166659,
+  "lon": -55.1735901,
+  "display_name": "Cornelisstraat, Paramaribo, Centrum, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "De Craneweg, Lelydorp, Wanica, Suriname": {
+  "lat": 5.7014717,
+  "lon": -55.2449966,
+  "display_name": "De Craneweg, Lelydorp, Wanica, Suriname",
+  "type": "road"
+ },
+ "Rijweg naar Carolina, Oost, Para, Suriname": null,
+ "Rijweg naar Carolina, Para, Suriname": null,
+ "Rijweg naar Carolina, Suriname": null,
+ "Buitenhelmweg, Voorburg, Commewijne, Suriname": null,
+ "Buitenhelmweg, Commewijne, Suriname": {
+  "lat": 5.8729562,
+  "lon": -55.082701,
+  "display_name": "Buitenhelmweg, Nieuw-Amsterdam, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Khakiweg-rechts, Voorburg, Commewijne, Suriname": null,
+ "Khakiweg-rechts, Commewijne, Suriname": null,
+ "Khakiweg-rechts, Suriname": null,
+ "Khakiweg-links, Voorburg, Commewijne, Suriname": null,
+ "Khakiweg-links, Commewijne, Suriname": null,
+ "Khakiweg-links, Suriname": null,
+ "Pukkelweg, Voorburg, Commewijne, Suriname": null,
+ "Pukkelweg, Commewijne, Suriname": {
+  "lat": 5.8768647,
+  "lon": -55.0867714,
+  "display_name": "Pukkelweg, Nieuw-Amsterdam, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Ranzelweg, Voorburg, Commewijne, Suriname": null,
+ "Ranzelweg, Commewijne, Suriname": {
+  "lat": 5.8765092,
+  "lon": -55.087239,
+  "display_name": "Ranzelweg, Nieuw-Amsterdam, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Pinapalmstraat, Kwatta, Wanica, Suriname": {
+  "lat": 5.8289434,
+  "lon": -55.2337078,
+  "display_name": "Pinapalmstraat, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Ganzeestraat, Munder, Paramaribo, Suriname": null,
+ "Ganzeestraat, Paramaribo, Suriname": null,
+ "Ganzeestraat, Suriname": null,
+ "Munder, Paramaribo, Suriname": {
+  "lat": 5.8762654,
+  "lon": -55.1748958,
+  "display_name": "Munder, Paramaribo, Suriname",
+  "type": "county"
+ },
+ "Bekervarensstraat, Domburg, Wanica, Suriname": null,
+ "Bekervarensstraat, Wanica, Suriname": null,
+ "Bekervarensstraat, Suriname": null,
+ "Domburg, Wanica, Suriname": {
+  "lat": 5.7009627,
+  "lon": -55.0809133,
+  "display_name": "Domburg, Wanica, Suriname",
+  "type": "village"
+ },
+ "Anton Dragtenweg, Elisabethshof, Paramaribo, Suriname": null,
+ "Ericlaan, L' Hermitage, Paramaribo, Suriname": null,
+ "Ericlaan, Paramaribo, Suriname": {
+  "lat": 5.8185454,
+  "lon": -55.1990821,
+  "display_name": "Ericlaan, Flora, Distrikt Paramaribo, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Kasjoemastraat, Uitvlugt, Paramaribo, Suriname": null,
+ "Kasjoemastraat, Paramaribo, Suriname": {
+  "lat": 5.8377815,
+  "lon": -55.1984938,
+  "display_name": "Kasjoemastraat, Welgelegen, Distrikt Paramaribo, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Parmessarweg, Hamptoncourt, Nickerie, Suriname": {
+  "lat": 5.8716682,
+  "lon": -56.9177805,
+  "display_name": "Parmessarweg, Hamptoncourt, Oostelijke Polders, Nickerie, Suriname",
+  "type": "road"
+ },
+ "Bang Kiraiweg, Groningen, Saramacca, Suriname": null,
+ "Bang Kiraiweg, Saramacca, Suriname": null,
+ "Bang Kiraiweg, Suriname": null,
+ "Groningen, Saramacca, Suriname": {
+  "lat": 5.7934347,
+  "lon": -55.4763243,
+  "display_name": "Groningen, Saramacca, Suriname",
+  "type": "town"
+ },
+ "Rampersadweg, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7577804,
+  "lon": -55.2091406,
+  "display_name": "Rampersadweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Drambrandersgracht, Centrum, Paramaribo, Suriname": {
+  "lat": 5.8248776,
+  "lon": -55.1689029,
+  "display_name": "Drambrandersgracht, Paramaribo, Centrum, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Ashwinweg, Kwatta, Paramaribo, Suriname": null,
+ "Ashwinweg, Paramaribo, Suriname": null,
+ "Ashwinweg, Suriname": null,
+ "Kwatta, Paramaribo, Suriname": {
+  "lat": 5.8464995,
+  "lon": -55.2329303,
+  "display_name": "Kwattaweg, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Soerodaristraat, Clevia, Paramaribo, Suriname": null,
+ "Soerodaristraat, Paramaribo, Suriname": null,
+ "Soerodaristraat, Suriname": null,
+ "Clevia, Paramaribo, Suriname": {
+  "lat": 5.8647579,
+  "lon": -55.1060894,
+  "display_name": "O.S. Clevia, Pisangrodjostraat, Leonsberg, Blauwgrond, Paramaribo, Suriname",
+  "type": "amenity"
+ },
+ "Leliëndaal, Mariënburg, Commewijne, Suriname": null,
+ "Okro Uduweg, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7235334,
+  "lon": -55.2044238,
+  "display_name": "Okro Uduweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Verzanastraat, Ornamibo, Wanica, Suriname": null,
+ "Verzanastraat, Wanica, Suriname": {
+  "lat": 5.7415417,
+  "lon": -55.1329338,
+  "display_name": "Verzanastraat, Domburg, Wanica, Suriname",
+  "type": "road"
+ },
+ "Prinsessestraat, Centrum, Paramaribo, Suriname": null,
+ "Prinsessestraat, Paramaribo, Suriname": {
+  "lat": 5.842468,
+  "lon": -55.1543338,
+  "display_name": "Prinsessestraat, Rainville, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Fosforstraat, Tourtonne, Paramaribo, Suriname": null,
+ "Fosforstraat, Paramaribo, Suriname": {
+  "lat": 5.8588762,
+  "lon": -55.1455208,
+  "display_name": "Fosforstraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Mauke Poolstraat, Ma Retraite, Paramaribo, Suriname": null,
+ "Mauke Poolstraat, Paramaribo, Suriname": {
+  "lat": 5.8616401,
+  "lon": -55.1288562,
+  "display_name": "Mauke Poolstraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Wusestraat, Lelydorp, Wanica, Suriname": {
+  "lat": 5.7053027,
+  "lon": -55.2076263,
+  "display_name": "Wusestraat, Lelydorp, Wanica, Suriname",
+  "type": "road"
+ },
+ "Naaldhoutstraat, Houttuin, Wanica, Suriname": {
+  "lat": 5.7103243,
+  "lon": -55.1520363,
+  "display_name": "Naaldhoutstraat, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Lashkarweg, Kwatta, Wanica, Suriname": {
+  "lat": 5.8535176,
+  "lon": -55.2607175,
+  "display_name": "Lashkarweg, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Adrichem, Oost, Para, Suriname": {
+  "lat": 5.6845482,
+  "lon": -55.0696354,
+  "display_name": "Adrichemweg, Oost, Para, Suriname",
+  "type": "road"
+ },
+ "Hertshoornvarensweg, Oost, Para, Suriname": null,
+ "Hertshoornvarensweg, Para, Suriname": null,
+ "Hertshoornvarensweg, Suriname": null,
+ "L’ Esperance, Oost, Para, Suriname": null,
+ "L’ Esperance, Para, Suriname": null,
+ "L’ Esperance, Suriname": {
+  "lat": 5.7852548,
+  "lon": -55.2679811,
+  "display_name": "Esperanceweg, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "Fujoeweg, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.742998,
+  "lon": -55.229895,
+  "display_name": "Fujoeweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Fazantstraat, Morgenstond, Paramaribo, Suriname": null,
+ "Fazantstraat, Paramaribo, Suriname": null,
+ "Fazantstraat, Suriname": null,
+ "Hauraweg, Kwatta, Wanica, Suriname": {
+  "lat": 5.8441472,
+  "lon": -55.2382331,
+  "display_name": "Hauraweg, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "J.F. Kennedyweg, Zuid, Para, Suriname": null,
+ "J.F. Kennedyweg, Para, Suriname": null,
+ "J.F. Kennedyweg, Suriname": null,
+ "Zuid, Para, Suriname": {
+  "lat": 5.4575567,
+  "lon": -55.2611939,
+  "display_name": "Zuid, Para, Suriname",
+  "type": "county"
+ },
+ "Fredericiweg, Longmay, Nickerie, Suriname": {
+  "lat": 5.9143647,
+  "lon": -56.9261084,
+  "display_name": "Fredericiweg, Longmay, Paradise, Oostelijke Polders, Nickerie, Suriname",
+  "type": "road"
+ },
+ "Hendrikstraat, Nieuw-Nickerie, Nickerie, Suriname": {
+  "lat": 5.9403214,
+  "lon": -56.9981152,
+  "display_name": "Hendrikstraat, Nieuw Nickerie, Nickerie, Suriname",
+  "type": "road"
+ },
+ "Henkie Spalburgweg, Kwatta, Wanica, Suriname": {
+  "lat": 5.8378331,
+  "lon": -55.2474503,
+  "display_name": "Henkie Spalburgweg, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Semaniastraat-West, Garnizoenspad, Wanica, Suriname": null,
+ "Semaniastraat-West, Wanica, Suriname": {
+  "lat": 5.8557353,
+  "lon": -55.296847,
+  "display_name": "Semaniastraat-West, Jibodh Project, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Gerardstraat, Boxel, Wanica, Suriname": null,
+ "Gerardstraat, Wanica, Suriname": {
+  "lat": 5.7182273,
+  "lon": -55.1240991,
+  "display_name": "Gerardstraat, Domburg, Wanica, Suriname",
+  "type": "road"
+ },
+ "Ameeshaweg, Kwatta, Wanica, Suriname": null,
+ "Ameeshaweg, Wanica, Suriname": null,
+ "Ameeshaweg, Suriname": null,
+ "Kwatta, Wanica, Suriname": {
+  "lat": 5.8474366,
+  "lon": -55.235495,
+  "display_name": "Kwatta, Wanica, Suriname",
+  "type": "village"
+ },
+ "Amardeepstraat, Bomapolder, Wanica, Suriname": null,
+ "Amardeepstraat, Wanica, Suriname": null,
+ "Amardeepstraat, Suriname": null,
+ "Bomapolder, Wanica, Suriname": {
+  "lat": 5.7654986,
+  "lon": -55.2792626,
+  "display_name": "Bomapolder Serie 2 en 3, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "Chitoestraat, Welgelegen, Paramaribo, Suriname": {
+  "lat": 5.8383477,
+  "lon": -55.2156838,
+  "display_name": "Chitoestraat, Welgelegen, Distrikt Paramaribo, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Hoogestraat, Centrum, Paramaribo, Suriname": {
+  "lat": 5.8251865,
+  "lon": -55.1661063,
+  "display_name": "Hoogestraat, Paramaribo, Centrum, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Frederikshoopweg, Pontbuiten, Wanica, Suriname": {
+  "lat": 5.7823692,
+  "lon": -55.2135415,
+  "display_name": "Frederikshoopweg, Pontbuiten, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Sipifowroestraat, Morgenstond, Paramaribo, Suriname": null,
+ "Sipifowroestraat, Paramaribo, Suriname": {
+  "lat": 5.8664595,
+  "lon": -55.1175011,
+  "display_name": "Sipifowroestraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Pisanrodjostraat, Clevia, Paramaribo, Suriname": null,
+ "Pisanrodjostraat, Paramaribo, Suriname": null,
+ "Pisanrodjostraat, Suriname": null,
+ "Kodironoweg, Tamanredjo, Commewijne, Suriname": {
+  "lat": 5.7835628,
+  "lon": -55.0252397,
+  "display_name": "Kodironoweg, Tamanredjo ꦠꦩꦤ꧀ꦉꦗ, Commewijne, Suriname",
+  "type": "road"
+ },
+ "C. Roblesweg, Voorburg, Commewijne, Suriname": {
+  "lat": 5.8840753,
+  "lon": -55.0701799,
+  "display_name": "Commissaris Roblesweg, Voorburg, Nieuw-Amsterdam, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Dadelpruimweg, Tamanredjo, Commewijne, Suriname": null,
+ "Dadelpruimweg, Commewijne, Suriname": {
+  "lat": 5.7878306,
+  "lon": -55.0556974,
+  "display_name": "Dadelpruimweg, Richelieu, Alkmaar, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Boesdoksistraat, Morgenstond, Paramaribo, Suriname": {
+  "lat": 5.8552329,
+  "lon": -55.1107027,
+  "display_name": "Boesdoksistraat, Morgenstond, Suriname, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Saharanpurweg, Kwatta, Wanica, Suriname": {
+  "lat": 5.8510877,
+  "lon": -55.2360089,
+  "display_name": "Saharanpurweg, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Driekinderenweg, Garnizoenspad, Wanica, Suriname": null,
+ "Driekinderenweg, Wanica, Suriname": null,
+ "Driekinderenweg, Suriname": null,
+ "Kapurhoutweg, Houttuin, Wanica, Suriname": {
+  "lat": 5.6980524,
+  "lon": -55.1568973,
+  "display_name": "Kapurhoutweg, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Santopolderweg, Bomapolder, Wanica, Suriname": null,
+ "Santopolderweg, Wanica, Suriname": {
+  "lat": 5.7861739,
+  "lon": -55.2763473,
+  "display_name": "Santopolderweg, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "P. Bindastraat, Garnizoenspad, Wanica, Suriname": null,
+ "P. Bindastraat, Wanica, Suriname": null,
+ "P. Bindastraat, Suriname": {
+  "lat": 5.8193277,
+  "lon": -55.1947303,
+  "display_name": "Bindastraat, Flora, Distrikt Paramaribo, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Leiding, Koewarasan, Wanica, Suriname": {
+  "lat": 5.7811406,
+  "lon": -55.2981639,
+  "display_name": "Leiding 16, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "Islam Ramdjanstraat, Tourtonne, Paramaribo, Suriname": null,
+ "Islam Ramdjanstraat, Paramaribo, Suriname": {
+  "lat": 5.8663926,
+  "lon": -55.1398779,
+  "display_name": "Islam Ramdjanstraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Upkarstraat, Garnizoenspad, Wanica, Suriname": null,
+ "Upkarstraat, Wanica, Suriname": null,
+ "Upkarstraat, Suriname": null,
+ "Abarcostraat, Houttuin, Wanica, Suriname": {
+  "lat": 5.7168601,
+  "lon": -55.1622155,
+  "display_name": "Abarcostraat, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Gonggrijpstraat, Centrum, Paramaribo, Suriname": null,
+ "Gonggrijpstraat, Paramaribo, Suriname": {
+  "lat": 5.8319887,
+  "lon": -55.1592118,
+  "display_name": "Gonggrijpstraat, Rainville, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Magentaweg, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7754534,
+  "lon": -55.2175347,
+  "display_name": "Magentaweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Debipersadweg, Kwatta, Wanica, Suriname": {
+  "lat": 5.8378086,
+  "lon": -55.2600713,
+  "display_name": "Debipersadweg, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Frans Halsstraat, Tourtonne, Paramaribo, Suriname": null,
+ "Zilverstraat, Ma Retraite, Paramaribo, Suriname": null,
+ "Zilverstraat, Paramaribo, Suriname": {
+  "lat": 5.8512314,
+  "lon": -55.1361021,
+  "display_name": "Zilverstraat, Maretraite 4, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Paragrasweg, Charlesburg, Paramaribo, Suriname": null,
+ "Paragrasweg, Paramaribo, Suriname": {
+  "lat": 5.8440508,
+  "lon": -55.1645147,
+  "display_name": "Paragrasweg, Rainville, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Mangolaan, Charlesburg, Paramaribo, Suriname": null,
+ "Mangolaan, Paramaribo, Suriname": {
+  "lat": 5.8437661,
+  "lon": -55.1625343,
+  "display_name": "Mangolaan, Rainville, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Kievietstraat, Morgenstond, Paramaribo, Suriname": null,
+ "Kievietstraat, Paramaribo, Suriname": {
+  "lat": 5.869072,
+  "lon": -55.1219239,
+  "display_name": "Kievietstraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Rietvlechterweg, Noord, Para, Suriname": {
+  "lat": 5.6625985,
+  "lon": -55.2458952,
+  "display_name": "Rietvlechterweg, Noord, Para, Suriname",
+  "type": "road"
+ },
+ "Theodorusstraat, Centrum, Paramaribo, Suriname": {
+  "lat": 5.8153622,
+  "lon": -55.1716253,
+  "display_name": "Theodorusstraat, Paramaribo, Centrum, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Gemaalweg, Corantijnpolder, Nickerie, Suriname": null,
+ "Gemaalweg, Nickerie, Suriname": {
+  "lat": 5.9218772,
+  "lon": -57.0287812,
+  "display_name": "Gemaalweg, Westelijke Polders, Nickerie, Suriname",
+  "type": "road"
+ },
+ "P. Soekhoeweg, Clarapolder, Nickerie, Suriname": null,
+ "P. Soekhoeweg, Nickerie, Suriname": null,
+ "P. Soekhoeweg, Suriname": {
+  "lat": 5.7590397,
+  "lon": -55.2191047,
+  "display_name": "Soekhoeweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Hematietstraat, Ma Retraite, Paramaribo, Suriname": null,
+ "Hematietstraat, Paramaribo, Suriname": {
+  "lat": 5.8517647,
+  "lon": -55.1404695,
+  "display_name": "Hematietstraat, Maretraite 4, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Mijnzorgweg, Lelydorp, Wanica, Suriname": {
+  "lat": 5.7281864,
+  "lon": -55.2355402,
+  "display_name": "Mijnzorgweg, Lelydorp, Wanica, Suriname",
+  "type": "road"
+ },
+ "Noordpolderdam, Garnizoenspad, Wanica, Suriname": null,
+ "Noordpolderdam, Wanica, Suriname": {
+  "lat": 5.8370404,
+  "lon": -55.3005121,
+  "display_name": "Noordpolderdam, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Pisangrodjostraat, Clevia, Paramaribo, Suriname": null,
+ "Pisangrodjostraat, Paramaribo, Suriname": {
+  "lat": 5.8655285,
+  "lon": -55.1061997,
+  "display_name": "Pisangrodjostraat, Leonsberg, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Redjopawiroweg, Noord, Para, Suriname": null,
+ "Redjopawiroweg, Para, Suriname": null,
+ "Redjopawiroweg, Suriname": null,
+ "Welgedacht A, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7560035,
+  "lon": -55.2106175,
+  "display_name": "19 A, Welgedacht C weg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "building"
+ },
+ "Aliredjoweg, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7436912,
+  "lon": -55.2128994,
+  "display_name": "Aliredjoweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "U.H. Jodhaweg, Meerzorg, Commewijne, Suriname": null,
+ "U.H. Jodhaweg, Commewijne, Suriname": null,
+ "U.H. Jodhaweg, Suriname": null,
+ "Invejaweg, Magentapolder, Wanica, Suriname": null,
+ "Morgenroodweg, Beekhuizen, Wanica, Suriname": null,
+ "Morgenroodweg, Wanica, Suriname": {
+  "lat": 5.7651842,
+  "lon": -55.192741,
+  "display_name": "Morgenroodweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Etwariastraat, Leiding, Wanica, Suriname": null,
+ "Etwariastraat, Wanica, Suriname": null,
+ "Etwariastraat, Suriname": null,
+ "Bridjlalweg, Leiding, Wanica, Suriname": null,
+ "Bridjlalweg, Wanica, Suriname": {
+  "lat": 5.8081521,
+  "lon": -55.2376622,
+  "display_name": "Bridjlalweg, Weytinghweg, Saramaccapolder, Wanica, Suriname",
+  "type": "road"
+ },
+ "Kropinastraat, Uitvlugt, Paramaribo, Suriname": null,
+ "Kropinastraat, Paramaribo, Suriname": {
+  "lat": 5.8296496,
+  "lon": -55.1875569,
+  "display_name": "Kropinastraat, Welgelegen, Distrikt Paramaribo, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Zijstr. Kwattaweg, Kwatta, Paramaribo, Suriname": null,
+ "Zijstr. Kwattaweg, Paramaribo, Suriname": null,
+ "Zijstr. Kwattaweg, Suriname": null,
+ "Magentakanaalweg, Bomapolder, Wanica, Suriname": null,
+ "Magentakanaalweg, Wanica, Suriname": {
+  "lat": 5.7671933,
+  "lon": -55.2421064,
+  "display_name": "Magentakanaalweg, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "Chevarroweg, Beekhuizen, Wanica, Suriname": null,
+ "Chevarroweg, Wanica, Suriname": {
+  "lat": 5.7702951,
+  "lon": -55.1927113,
+  "display_name": "Chevarroweg, Rahemal project, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Shasweg, Charlesburg, Paramaribo, Suriname": null,
+ "Shasweg, Paramaribo, Suriname": {
+  "lat": 5.8545344,
+  "lon": -55.1640679,
+  "display_name": "Shasweg, Rainville, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Sobraiweg, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7596541,
+  "lon": -55.225918,
+  "display_name": "Sobraiweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Van Idsingaweg, Waldeck, Nickerie, Suriname": {
+  "lat": 5.9604799,
+  "lon": -57.0202227,
+  "display_name": "Van Idsingaweg, Waldeck, Westelijke Polders, Nickerie, Suriname",
+  "type": "road"
+ },
+ "Tweede Rijweg, Uitvlugt, Paramaribo, Suriname": null,
+ "Tweede Rijweg, Paramaribo, Suriname": {
+  "lat": 5.832454,
+  "lon": -55.2018961,
+  "display_name": "Tweede Rijweg, Welgelegen, Distrikt Paramaribo, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Adventurijnstraat, Boxel, Wanica, Suriname": null,
+ "Adventurijnstraat, Wanica, Suriname": {
+  "lat": 5.7215467,
+  "lon": -55.1216699,
+  "display_name": "Adventurijnstraat, Domburg, Wanica, Suriname",
+  "type": "road"
+ },
+ "J.F. Kennedyweg, Noord, Para, Suriname": null,
+ "S. Abdoelkariemstraat, Kwatta, Wanica, Suriname": null,
+ "S. Abdoelkariemstraat, Wanica, Suriname": null,
+ "S. Abdoelkariemstraat, Suriname": null,
+ "Jaysonstraat, Kwatta, Wanica, Suriname": {
+  "lat": 5.8425399,
+  "lon": -55.246534,
+  "display_name": "Jaysonstraat, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Latourweg, Beekhuizen, Paramaribo, Suriname": null,
+ "Latourweg, Paramaribo, Suriname": {
+  "lat": 5.789141,
+  "lon": -55.18376,
+  "display_name": "Latourweg, Latour, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Kasyustraat, Nieuw-Nickerie, Nickerie, Suriname": {
+  "lat": 5.9370338,
+  "lon": -56.9779827,
+  "display_name": "Kasyustraat, Nationaal Projekt, Nieuw Nickerie, Nickerie, Suriname",
+  "type": "road"
+ },
+ "Krappaolieweg, Jagtlust, Commewijne, Suriname": null,
+ "Krappaolieweg, Commewijne, Suriname": {
+  "lat": 5.825045,
+  "lon": -55.0968568,
+  "display_name": "Krappaolieweg, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Prehnietstraat, Boxel, Wanica, Suriname": null,
+ "Prehnietstraat, Wanica, Suriname": {
+  "lat": 5.7120835,
+  "lon": -55.1266163,
+  "display_name": "Prehnietstraat, Domburg, Wanica, Suriname",
+  "type": "road"
+ },
+ "Laosweg, Bomapolder, Wanica, Suriname": null,
+ "Laosweg, Wanica, Suriname": {
+  "lat": 5.7595091,
+  "lon": -55.2861902,
+  "display_name": "Laosweg, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "Adrichemweg, Oost, Para, Suriname": {
+  "lat": 5.6845482,
+  "lon": -55.0696354,
+  "display_name": "Adrichemweg, Oost, Para, Suriname",
+  "type": "road"
+ },
+ "Soeraghweg, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.734919,
+  "lon": -55.2187024,
+  "display_name": "Soeraghweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "S.W. Churchillweg, Domburg, Wanica, Suriname": null,
+ "Fredericiweg, Boonackerpolder, Nickerie, Suriname": null,
+ "Fredericiweg, Nickerie, Suriname": {
+  "lat": 5.9143647,
+  "lon": -56.9261084,
+  "display_name": "Fredericiweg, Longmay, Paradise, Oostelijke Polders, Nickerie, Suriname",
+  "type": "road"
+ },
+ "Bilingahoutweg, Houttuin, Wanica, Suriname": null,
+ "Bilingahoutweg, Wanica, Suriname": null,
+ "Bilingahoutweg, Suriname": null,
+ "Ebbenhoutweg, Houttuin, Wanica, Suriname": {
+  "lat": 5.7046912,
+  "lon": -55.1552519,
+  "display_name": "Ebbenhoutweg, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Mareliweg, Magentapolder, Wanica, Suriname": null,
+ "Mareliweg, Wanica, Suriname": null,
+ "Mareliweg, Suriname": null,
+ "Julianastraat, Combé, Paramaribo, Suriname": null,
+ "Julianastraat, Paramaribo, Suriname": {
+  "lat": 5.832947,
+  "lon": -55.1505527,
+  "display_name": "Julianastraat, Maretraite 1+2, Rainville, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Anand Nagarweg, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7548995,
+  "lon": -55.2356999,
+  "display_name": "Anand Nagarweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Sophia’slustweg, Kwatta, Wanica, Suriname": {
+  "lat": 5.8412642,
+  "lon": -55.2486746,
+  "display_name": "Sophia Slustweg, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Monkoustraat, Ma Retraite, Paramaribo, Suriname": null,
+ "Monkoustraat, Paramaribo, Suriname": {
+  "lat": 5.8613772,
+  "lon": -55.1282857,
+  "display_name": "Monkoustraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Boerenkoolweg, Garnizoenspad, Wanica, Suriname": null,
+ "Boerenkoolweg, Wanica, Suriname": null,
+ "Boerenkoolweg, Suriname": null,
+ "Kalicharanweg, Welgelegen, Paramaribo, Suriname": {
+  "lat": 5.8423829,
+  "lon": -55.2239522,
+  "display_name": "Kalicharanweg, Welgelegen, Weg naar Zee, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "H.I. Bechanstraat, Alkmaar, Commewijne, Suriname": null,
+ "H.I. Bechanstraat, Commewijne, Suriname": null,
+ "H.I. Bechanstraat, Suriname": null,
+ "Alkmaar, Commewijne, Suriname": {
+  "lat": 5.8448599,
+  "lon": -55.0219294,
+  "display_name": "Alkmaar, Commewijne, Suriname",
+  "type": "village"
+ },
+ "Nieuw-Amsterdam, Voorburg, Commewijne, Suriname": null,
+ "Nieuw-Amsterdam, Commewijne, Suriname": {
+  "lat": 5.8804189,
+  "lon": -55.0849545,
+  "display_name": "Nieuw-Amsterdam, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "village"
+ },
+ "Morgenstondlaan, Morgenstond, Paramaribo, Suriname": {
+  "lat": 5.8616771,
+  "lon": -55.1128348,
+  "display_name": "Morgenstondlaan, Morgenstond, Suriname, Leonsberg, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Tjotjofowroestraat, Morgenstond, Paramaribo, Suriname": null,
+ "Tjotjofowroestraat, Paramaribo, Suriname": null,
+ "Tjotjofowroestraat, Suriname": null,
+ "Bokobokowiwiriweg, Tout-Lui-Faut, Wanica, Suriname": null,
+ "Bokobokowiwiriweg, Wanica, Suriname": {
+  "lat": 5.7324967,
+  "lon": -55.1777778,
+  "display_name": "Bokobokowiwiriweg, Maretraiteproject, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Koolraapweg, Garnizoenspad, Wanica, Suriname": null,
+ "Koolraapweg, Wanica, Suriname": {
+  "lat": 5.8432154,
+  "lon": -55.297915,
+  "display_name": "Koolraapweg, Doebe Project, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Nieuw Weergevonden, Leiding, Wanica, Suriname": null,
+ "Nieuw Weergevonden, Wanica, Suriname": {
+  "lat": 5.7947137,
+  "lon": -55.2294515,
+  "display_name": "Nieuw Weergevondenweg, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "Slingerweg, Beekhuizen, Paramaribo, Suriname": {
+  "lat": 5.8019727,
+  "lon": -55.1797492,
+  "display_name": "Slingerweg, Beekhuizen, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Leerlooierweg, Noord, Para, Suriname": null,
+ "Leerlooierweg, Para, Suriname": {
+  "lat": 5.664492,
+  "lon": -55.1071628,
+  "display_name": "Leerlooierweg, Oost, Para, Suriname",
+  "type": "road"
+ },
+ "Ballingenweg, Kwatta, Wanica, Suriname": null,
+ "Ballingenweg, Wanica, Suriname": null,
+ "Ballingenweg, Suriname": null,
+ "Bhoedoeweg, De Nieuwe Grond, Wanica, Suriname": null,
+ "Bhoedoeweg, Wanica, Suriname": null,
+ "Bhoedoeweg, Suriname": null,
+ "Verl. Anamoestraat, Tourtonne, Paramaribo, Suriname": null,
+ "Verl. Anamoestraat, Paramaribo, Suriname": {
+  "lat": 5.8570278,
+  "lon": -55.141338,
+  "display_name": "Verlengde Anamoestraat, Maretraite 5, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Helena Christinaweg, Koewarasan, Wanica, Suriname": {
+  "lat": 5.7381942,
+  "lon": -55.2713268,
+  "display_name": "Helena Christinaweg, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "Copernicusstraat, Elisabethshof, Paramaribo, Suriname": null,
+ "P.P. Tewarieweg, Livorno, Paramaribo, Suriname": null,
+ "P.P. Tewarieweg, Paramaribo, Suriname": null,
+ "P.P. Tewarieweg, Suriname": null,
+ "Carlo Julenweg, Garnizoenspad, Wanica, Suriname": null,
+ "Carlo Julenweg, Wanica, Suriname": {
+  "lat": 5.8417384,
+  "lon": -55.2941546,
+  "display_name": "Carlo Julenweg, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Louis Autarstraat, Garnizoenspad, Wanica, Suriname": null,
+ "Louis Autarstraat, Wanica, Suriname": null,
+ "Louis Autarstraat, Suriname": null,
+ "Soekhram Paltiestraat, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7438087,
+  "lon": -55.1877116,
+  "display_name": "Soekhram Paltiestraat, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Bloemenveldweg, Livorno, Paramaribo, Suriname": null,
+ "Bloemenveldweg, Paramaribo, Suriname": {
+  "lat": 5.7785834,
+  "lon": -55.1909058,
+  "display_name": "Bloemenveldweg, Pontbuiten, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Leiding 16A, Leiding, Wanica, Suriname": null,
+ "Leiding 16A, Wanica, Suriname": {
+  "lat": 5.7859136,
+  "lon": -55.2956722,
+  "display_name": "Leiding 16A, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "Pouwmaweg, Kwatta, Paramaribo, Suriname": null,
+ "Pouwmaweg, Paramaribo, Suriname": null,
+ "Pouwmaweg, Suriname": null,
+ "Chiffonweg, Bomapolder, Wanica, Suriname": null,
+ "Chiffonweg, Wanica, Suriname": {
+  "lat": 5.76558,
+  "lon": -55.2888981,
+  "display_name": "Chiffonweg, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "Roshnistraat-West, Garnizoenspad, Wanica, Suriname": null,
+ "Roshnistraat-West, Wanica, Suriname": {
+  "lat": 5.8583651,
+  "lon": -55.2967332,
+  "display_name": "Roshnistraat-West, Jibodh Project, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Taurusstraat, Kwatta, Paramaribo, Suriname": null,
+ "Taurusstraat, Paramaribo, Suriname": {
+  "lat": 5.8545632,
+  "lon": -55.2024557,
+  "display_name": "Taurusstraat, Weg naar Zee, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Cygnusstraat, Kwatta, Paramaribo, Suriname": null,
+ "Cygnusstraat, Paramaribo, Suriname": {
+  "lat": 5.8536951,
+  "lon": -55.2024767,
+  "display_name": "Cygnusstraat, Weg naar Zee, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Weidestraat, Centrum, Paramaribo, Suriname": null,
+ "Weidestraat, Paramaribo, Suriname": null,
+ "Weidestraat, Suriname": null,
+ "Centrum, Paramaribo, Suriname": {
+  "lat": 5.8241764,
+  "lon": -55.1662813,
+  "display_name": "Centrum, Paramaribo, Suriname",
+  "type": "county"
+ },
+ "Broedershoopweg, Lelydorp, Wanica, Suriname": null,
+ "Broedershoopweg, Wanica, Suriname": null,
+ "Broedershoopweg, Suriname": null,
+ "Koraalweg, Houttuin, Wanica, Suriname": {
+  "lat": 5.7190003,
+  "lon": -55.1564414,
+  "display_name": "Koraalweg, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Industrieweg-Zuid, Beekhuizen, Paramaribo, Suriname": null,
+ "Industrieweg-Zuid, Paramaribo, Suriname": {
+  "lat": 5.7987823,
+  "lon": -55.1798112,
+  "display_name": "Industrieweg Zuid, Latour, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Oost-westverbinding, Meerzorg, Commewijne, Suriname": null,
+ "Bakkieweg, Latour, Paramaribo, Suriname": {
+  "lat": 5.7952694,
+  "lon": -55.2016577,
+  "display_name": "Bakkieweg, Latour, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Andre Meyerstraat, Tourtonne, Paramaribo, Suriname": null,
+ "Surya Nagerweg, Tout-Lui-Faut, Wanica, Suriname": null,
+ "Surya Nagerweg, Wanica, Suriname": null,
+ "Surya Nagerweg, Suriname": null,
+ "C. Weytinghweg, Leiding, Wanica, Suriname": null,
+ "C. Weytinghweg, Wanica, Suriname": {
+  "lat": 5.8100782,
+  "lon": -55.2292351,
+  "display_name": "Weytinghweg, Saramaccapolder, Wanica, Suriname",
+  "type": "village"
+ },
+ "Sophia’slustweg, Kwatta, Paramaribo, Suriname": null,
+ "Sophia’slustweg, Paramaribo, Suriname": null,
+ "Sophia’slustweg, Suriname": {
+  "lat": 5.8412642,
+  "lon": -55.2486746,
+  "display_name": "Sophia Slustweg, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "La Rencontre, Domburg, Wanica, Suriname": {
+  "lat": 5.6962431,
+  "lon": -55.0718644,
+  "display_name": "La Rencontre 2e Straat, Domburg, Wanica, Suriname",
+  "type": "road"
+ },
+ "Engelbrechtweg, Meerzorg, Commewijne, Suriname": {
+  "lat": 5.8014796,
+  "lon": -55.1510849,
+  "display_name": "Engelbrechtweg, Meerzorg, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Gemberweg, Bomapolder, Wanica, Suriname": null,
+ "Gemberweg, Wanica, Suriname": {
+  "lat": 5.759654,
+  "lon": -55.2940873,
+  "display_name": "Gemberweg, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "Kogeltangstraat, Morgenstond, Paramaribo, Suriname": null,
+ "Kogeltangstraat, Paramaribo, Suriname": null,
+ "Kogeltangstraat, Suriname": null,
+ "P. Tilakdharieweg, Alkmaar, Commewijne, Suriname": {
+  "lat": 5.8173426,
+  "lon": -55.0226858,
+  "display_name": "Pandit Tilakdharieweg, Alkmaar, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Paula Ephemiaweg, Tamanredjo, Commewijne, Suriname": null,
+ "Paula Ephemiaweg, Commewijne, Suriname": {
+  "lat": 5.7809841,
+  "lon": -55.0442969,
+  "display_name": "Paula Ephemiaweg, Meerzorg, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Rabarberweg, Bomapolder, Wanica, Suriname": null,
+ "Rabarberweg, Wanica, Suriname": null,
+ "Rabarberweg, Suriname": null,
+ "Floresstraat, Jagtlust, Commewijne, Suriname": null,
+ "Floresstraat, Commewijne, Suriname": null,
+ "Floresstraat, Suriname": null,
+ "Highway City, Houttuin, Wanica, Suriname": null,
+ "Highway City, Wanica, Suriname": null,
+ "Highway City, Suriname": null,
+ "Rozenbottelstraat, Tout-Lui-Faut, Wanica, Suriname": null,
+ "Rozenbottelstraat, Wanica, Suriname": null,
+ "Rozenbottelstraat, Suriname": null,
+ "Lust & Rust, Lust & Rust, Commewijne, Suriname": null,
+ "Lust & Rust, Commewijne, Suriname": {
+  "lat": 5.829119,
+  "lon": -55.0831622,
+  "display_name": "Lust En Rust Serie A, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Rode Ibisstraat, Morgenstond, Paramaribo, Suriname": null,
+ "Rode Ibisstraat, Paramaribo, Suriname": {
+  "lat": 5.8665962,
+  "lon": -55.1185389,
+  "display_name": "Rode Ibisstraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Schimmelpenninckstr, Charlesburg, Paramaribo, Suriname": null,
+ "Schimmelpenninckstr, Paramaribo, Suriname": {
+  "lat": 5.8383991,
+  "lon": -55.1687805,
+  "display_name": "Schimmelpenninckstraat, Munder, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "O. Varmaweg, Kwatta, Paramaribo, Suriname": {
+  "lat": 5.9020886,
+  "lon": -55.2371531,
+  "display_name": "Oedayrajsingh Varmaweg, Kwatta, Weg naar Zee, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Kwattaweg, Kwatta, Wanica, Suriname": {
+  "lat": 5.8464995,
+  "lon": -55.2329303,
+  "display_name": "Kwattaweg, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Abdoel Ramanweg, Houttuin, Wanica, Suriname": null,
+ "Abdoel Ramanweg, Wanica, Suriname": null,
+ "Abdoel Ramanweg, Suriname": null,
+ "Iduweg, Tammenga, Paramaribo, Suriname": null,
+ "Iduweg, Paramaribo, Suriname": null,
+ "Iduweg, Suriname": null,
+ "Tammenga, Paramaribo, Suriname": {
+  "lat": 5.8240223,
+  "lon": -55.2153364,
+  "display_name": "Tammenga, Distrikt Paramaribo, Paramaribo, Suriname",
+  "type": "village"
+ },
+ "Hofstraat, Centrum, Paramaribo, Suriname": {
+  "lat": 5.8231535,
+  "lon": -55.1669962,
+  "display_name": "Hofstraat, Paramaribo, Centrum, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Shantiweg, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7452498,
+  "lon": -55.219991,
+  "display_name": "Shantiweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Mohabierweg, Beekhuizen, Wanica, Suriname": null,
+ "Mohabierweg, Wanica, Suriname": {
+  "lat": 5.7671836,
+  "lon": -55.1968988,
+  "display_name": "Mohabierweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Bridj Village, Tourtonne, Paramaribo, Suriname": null,
+ "Bridj Village, Paramaribo, Suriname": {
+  "lat": 5.8771961,
+  "lon": -55.1449057,
+  "display_name": "Bridj Village, Rainville, Paramaribo, Suriname",
+  "type": "neighbourhood"
+ },
+ "Van Geerkestraat, Tourtonne, Paramaribo, Suriname": null,
+ "Van Geerkestraat, Paramaribo, Suriname": {
+  "lat": 5.8654966,
+  "lon": -55.1340661,
+  "display_name": "Van Geerkestraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Tigrifowroestraat, Morgenstond, Paramaribo, Suriname": null,
+ "Tigrifowroestraat, Paramaribo, Suriname": null,
+ "Tigrifowroestraat, Suriname": null,
+ "Plutostraat, Elisabethshof, Paramaribo, Suriname": null,
+ "Plutostraat, Paramaribo, Suriname": {
+  "lat": 5.8399913,
+  "lon": -55.1383792,
+  "display_name": "Plutostraat, Maretraite 3, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Kwatakamaweg, Houttuin, Wanica, Suriname": {
+  "lat": 5.7282241,
+  "lon": -55.1474267,
+  "display_name": "Kwatakamaweg, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Pad van Wanica, De Nieuwe Grond, Wanica, Suriname": null,
+ "C. Thurkowweg, Jagtlust, Commewijne, Suriname": null,
+ "C. Thurkowweg, Commewijne, Suriname": {
+  "lat": 5.8445475,
+  "lon": -55.0891142,
+  "display_name": "Commissaris Thurkowweg, Palm Village, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Charles Knelstraat, Tourtonne, Paramaribo, Suriname": null,
+ "Charles Knelstraat, Paramaribo, Suriname": {
+  "lat": 5.8689823,
+  "lon": -55.1387438,
+  "display_name": "Charles Knelstraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Highway, Oost, Para, Suriname": {
+  "lat": 5.6782563,
+  "lon": -55.1043416,
+  "display_name": "Martin Luther Kingweg, Oost, Para, Suriname",
+  "type": "road"
+ },
+ "Palm Grove, Belwaarde, Commewijne, Suriname": null,
+ "Palm Grove, Commewijne, Suriname": {
+  "lat": 5.8533439,
+  "lon": -55.0851982,
+  "display_name": "Palm Grovelaan, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Pronkweg, Voorburg, Commewijne, Suriname": null,
+ "Pronkweg, Commewijne, Suriname": {
+  "lat": 5.8656995,
+  "lon": -55.0760946,
+  "display_name": "Pronkweg, Nieuw-Amsterdam, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Dr. Voigtstraat, Leonsberg, Paramaribo, Suriname": null,
+ "Dr. Voigtstraat, Paramaribo, Suriname": {
+  "lat": 5.8802573,
+  "lon": -55.1139227,
+  "display_name": "Dr. Voigtstraat, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Picoletstraat, Groningen, Saramacca, Suriname": {
+  "lat": 5.7925039,
+  "lon": -55.4798263,
+  "display_name": "Picoletstraat, Columbia, Groningen, Distrikt Saramacca, Saramacca, Suriname",
+  "type": "road"
+ },
+ "G. Pandayweg, Wayambo, Saramacca, Suriname": {
+  "lat": 5.859782,
+  "lon": -55.5872078,
+  "display_name": "Gangaram Pandayweg, Huwelijkszorg, Wayamboweg, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Verl. Welgedacht A, Bomapolder, Wanica, Suriname": null,
+ "Verl. Welgedacht A, Wanica, Suriname": null,
+ "Verl. Welgedacht A, Suriname": null,
+ "Sarwanweg, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7636514,
+  "lon": -55.2354981,
+  "display_name": "Sarwanweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Umeshweg, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7516704,
+  "lon": -55.237746,
+  "display_name": "Umeshweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "A. Kamperveenstraat, Tourtonne, Paramaribo, Suriname": null,
+ "A. Kamperveenstraat, Paramaribo, Suriname": {
+  "lat": 5.8687696,
+  "lon": -55.1397995,
+  "display_name": "André Kamperveenstraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Landkoerstraat, Ma Retraite, Paramaribo, Suriname": null,
+ "Landkoerstraat, Paramaribo, Suriname": {
+  "lat": 5.862666,
+  "lon": -55.1282764,
+  "display_name": "Landkoerstraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Kasoedjieweg, Clevia, Paramaribo, Suriname": null,
+ "Rijsdijk, Zuid, Para, Suriname": null,
+ "Van ’t Hogerhuysstraat, Beekhuizen, Paramaribo, Suriname": {
+  "lat": 5.8044639,
+  "lon": -55.174207,
+  "display_name": "Van 't Hogerhuysstraat, Beekhuizen, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Polstellerstraat, Morgenstond, Paramaribo, Suriname": null,
+ "Polstellerstraat, Paramaribo, Suriname": null,
+ "Polstellerstraat, Suriname": null,
+ "J. Vermeerstraat, Tourtonne, Paramaribo, Suriname": null,
+ "J. Vermeerstraat, Paramaribo, Suriname": {
+  "lat": 5.856225,
+  "lon": -55.1492531,
+  "display_name": "Johannes Vermeerstraat, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Gompertsstraat, Ma Retraite, Paramaribo, Suriname": null,
+ "Gompertsstraat, Paramaribo, Suriname": {
+  "lat": 5.856403,
+  "lon": -55.1355931,
+  "display_name": "Jacques Gompertsstraat, Maretraite 5, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Maisweg, Tout-Lui-Faut, Wanica, Suriname": null,
+ "Maisweg, Wanica, Suriname": {
+  "lat": 5.7478479,
+  "lon": -55.1661005,
+  "display_name": "Maisweg, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Kensenhuisproject, Tout-Lui-Faut, Wanica, Suriname": null,
+ "Kensenhuisproject, Wanica, Suriname": {
+  "lat": 5.751022,
+  "lon": -55.1570132,
+  "display_name": "Kensenhuisproject, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Jozef Chehinstraat, Tourtonne, Paramaribo, Suriname": null,
+ "Jozef Chehinstraat, Paramaribo, Suriname": {
+  "lat": 5.8680586,
+  "lon": -55.1427866,
+  "display_name": "Jozef Chehinstraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Leiding 10A, Leiding, Wanica, Suriname": null,
+ "Leiding 10A, Wanica, Suriname": {
+  "lat": 5.8222166,
+  "lon": -55.2531266,
+  "display_name": "Leiding 10A, Kwatta, Saramaccapolder, Wanica, Suriname",
+  "type": "road"
+ },
+ "H. G. Pandaystraat, Garnizoenspad, Wanica, Suriname": null,
+ "H. G. Pandaystraat, Wanica, Suriname": null,
+ "H. G. Pandaystraat, Suriname": null,
+ "Groot Blijdenshoopweg, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7595992,
+  "lon": -55.1949782,
+  "display_name": "Groot Blijdenshoopweg, De Nieuwe Grond, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Niranaweg, Charlesburg, Paramaribo, Suriname": null,
+ "Niranaweg, Paramaribo, Suriname": {
+  "lat": 5.85391,
+  "lon": -55.1647691,
+  "display_name": "Niranaweg, Rainville, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Highway, Boxel, Wanica, Suriname": null,
+ "Highway, Wanica, Suriname": {
+  "lat": 5.7393771,
+  "lon": -55.138237,
+  "display_name": "Martin Luther Kingweg, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Helena Christinaweg, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7346673,
+  "lon": -55.2311589,
+  "display_name": "Helena Christinaweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Koemakkalaan, Combé, Paramaribo, Suriname": null,
+ "Koemakkalaan, Paramaribo, Suriname": null,
+ "Koemakkalaan, Suriname": null,
+ "Combé, Paramaribo, Suriname": {
+  "lat": 5.8267764,
+  "lon": -55.1496009,
+  "display_name": "Kleine Combéweg, Rainville, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Zwartenhovenbrugstr, Centrum, Paramaribo, Suriname": {
+  "lat": 5.8276447,
+  "lon": -55.1613504,
+  "display_name": "Zwartenhovenbrugstraat, Paramaribo, Centrum, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Highway, Houttuin, Wanica, Suriname": {
+  "lat": 5.7591826,
+  "lon": -55.1678469,
+  "display_name": "Martin Luther Kingweg, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Aromanisweg, Meerzorg, Commewijne, Suriname": {
+  "lat": 5.8042304,
+  "lon": -55.1363693,
+  "display_name": "Aromanisweg, Meerzorg, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Korhoenstraat, Tourtonne, Paramaribo, Suriname": null,
+ "Korhoenstraat, Paramaribo, Suriname": null,
+ "Korhoenstraat, Suriname": null,
+ "Tourtonne, Paramaribo, Suriname": {
+  "lat": 5.8665197,
+  "lon": -55.1541172,
+  "display_name": "Tourtonne Garden, Rainville, Paramaribo, Suriname",
+  "type": "neighbourhood"
+ },
+ "Tourtonnelaan, Tourtonne, Paramaribo, Suriname": {
+  "lat": 5.8369684,
+  "lon": -55.1523936,
+  "display_name": "Lian Fa Tourtonnelaan, 140, Tourtonnelaan, Maretraite 1+2, Rainville, Paramaribo, Suriname",
+  "type": "amenity"
+ },
+ "Anton Dragtenweg, Morgenstond, Paramaribo, Suriname": {
+  "lat": 5.8506794,
+  "lon": -55.1081937,
+  "display_name": "Anton Dragtenweg, Morgenstond, Suriname, Leonsberg, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Gangajaliweg, Kwatta, Paramaribo, Suriname": null,
+ "Gangajaliweg, Paramaribo, Suriname": null,
+ "Gangajaliweg, Suriname": {
+  "lat": 5.8425182,
+  "lon": -55.2304372,
+  "display_name": "Gangajaliweg, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Vredenburg Serie B, Houttuin, Wanica, Suriname": {
+  "lat": 5.7100148,
+  "lon": -55.1606812,
+  "display_name": "Vredenburg Serie B, Lelydorp, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Highway, Domburg, Wanica, Suriname": {
+  "lat": 5.7322869,
+  "lon": -55.1327756,
+  "display_name": "Martin Luther Kingweg, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Plamuurmesstraat, Pontbuiten, Paramaribo, Suriname": {
+  "lat": 5.7789373,
+  "lon": -55.1831592,
+  "display_name": "Plamuurmesstraat, Pontbuiten, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Kwattaweg, Munder, Paramaribo, Suriname": {
+  "lat": 5.8413434,
+  "lon": -55.190308,
+  "display_name": "Kwattaweg, Paramaribo, Centrum, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Radj Ramdienweg, Leiding, Wanica, Suriname": null,
+ "Radj Ramdienweg, Wanica, Suriname": null,
+ "Radj Ramdienweg, Suriname": null,
+ "Oesmanomandaliweg, Meerzorg, Commewijne, Suriname": null,
+ "Oesmanomandaliweg, Commewijne, Suriname": null,
+ "Oesmanomandaliweg, Suriname": null,
+ "Soekhanstraat, Kwatta, Paramaribo, Suriname": null,
+ "Soekhanstraat, Paramaribo, Suriname": {
+  "lat": 5.8490508,
+  "lon": -55.2154902,
+  "display_name": "Soekhanstraat, Weg naar Zee, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "George Hindoristraat, Tourtonne, Paramaribo, Suriname": null,
+ "Luxor Residential Com, Meerzorg, Commewijne, Suriname": null,
+ "Luxor Residential Com, Commewijne, Suriname": null,
+ "Luxor Residential Com, Suriname": null,
+ "J.S. Greenstraat, Blauwgrond, Paramaribo, Suriname": null,
+ "J.S. Greenstraat, Paramaribo, Suriname": null,
+ "J.S. Greenstraat, Suriname": null,
+ "Blauwgrond, Paramaribo, Suriname": {
+  "lat": 5.8685506,
+  "lon": -55.1193332,
+  "display_name": "Blauwgrond, Paramaribo, Suriname",
+  "type": "county"
+ },
+ "Jarpesiweg, Garnizoenspad, Wanica, Suriname": null,
+ "Jarpesiweg, Wanica, Suriname": null,
+ "Jarpesiweg, Suriname": null,
+ "Zesde Rijweg, Wayambo, Saramacca, Suriname": null,
+ "Zesde Rijweg, Saramacca, Suriname": null,
+ "Zesde Rijweg, Suriname": null,
+ "Wayambo, Saramacca, Suriname": {
+  "lat": 5.904331,
+  "lon": -55.6216722,
+  "display_name": "Wayamboweg, Saramacca, Suriname",
+  "type": "county"
+ },
+ "Weg naar Coppename, Calcutta, Saramacca, Suriname": null,
+ "Weg naar Coppename, Saramacca, Suriname": null,
+ "Weg naar Coppename, Suriname": null,
+ "Billingahoutweg, Houttuin, Wanica, Suriname": {
+  "lat": 5.7064051,
+  "lon": -55.15629,
+  "display_name": "Billingahoutweg, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Lakatanweg, Jarikaba, Saramacca, Suriname": {
+  "lat": 5.8209329,
+  "lon": -55.3336447,
+  "display_name": "Lakatanweg, Jarikaba, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Amazonestraat, Beniespark, Paramaribo, Suriname": null,
+ "Amazonestraat, Paramaribo, Suriname": {
+  "lat": 5.8530263,
+  "lon": -55.1836728,
+  "display_name": "Amazonestraat, Munder, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Paloeloeweg, Groningen, Saramacca, Suriname": {
+  "lat": 5.8064852,
+  "lon": -55.4601488,
+  "display_name": "Paloeloeweg, Groningen, Distrikt Saramacca, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Lust & Rust Serie A, Lust & Rust, Commewijne, Suriname": null,
+ "Lust & Rust Serie A, Commewijne, Suriname": {
+  "lat": 5.829119,
+  "lon": -55.0831622,
+  "display_name": "Lust En Rust Serie A, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Koolweg, Tijgerkreek, Saramacca, Suriname": {
+  "lat": 5.8380672,
+  "lon": -55.6075946,
+  "display_name": "Koolweg, Sidoredjo, Tijgerkreek, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Verl. Tout-Lui-Fautwg, Tout-Lui-Faut, Wanica, Suriname": null,
+ "Verl. Tout-Lui-Fautwg, Wanica, Suriname": null,
+ "Verl. Tout-Lui-Fautwg, Suriname": null,
+ "Wilgenhoutstraat, Houttuin, Wanica, Suriname": {
+  "lat": 5.7305658,
+  "lon": -55.1440633,
+  "display_name": "Wilgenhoutstraat, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "MK Village, Leiding, Wanica, Suriname": null,
+ "MK Village, Wanica, Suriname": null,
+ "MK Village, Suriname": null,
+ "Stoelmanstraat, Centrum, Paramaribo, Suriname": {
+  "lat": 5.8305498,
+  "lon": -55.159484,
+  "display_name": "Stoelmanstraat, Paramaribo, Centrum, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Meursweg, Oost, Para, Suriname": {
+  "lat": 5.6109752,
+  "lon": -55.1415311,
+  "display_name": "Meursweg, Onverdacht, Oost, Para, Suriname",
+  "type": "road"
+ },
+ "Argonstraat, Tourtonne, Paramaribo, Suriname": null,
+ "Argonstraat, Paramaribo, Suriname": {
+  "lat": 5.86362,
+  "lon": -55.1393915,
+  "display_name": "Argonstraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Jagtlust, Jagtlust, Commewijne, Suriname": null,
+ "Mandoerweg, Tamanredjo, Commewijne, Suriname": {
+  "lat": 5.7845265,
+  "lon": -55.0058753,
+  "display_name": "Mandoerweg, Tamanredjo ꦠꦩꦤ꧀ꦉꦗ, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Hamburg, K. Baroe, Saramacca, Suriname": {
+  "lat": 5.7630479,
+  "lon": -55.360981,
+  "display_name": "Hamburg, Kampong Baroe, Saramacca, Suriname",
+  "type": "hamlet"
+ },
+ "De Hulp – Montauban, Tamanredjo, Commewijne, Suriname": null,
+ "De Hulp – Montauban, Commewijne, Suriname": null,
+ "De Hulp – Montauban, Suriname": null,
+ "Tamanredjo, Tamanredjo, Commewijne, Suriname": {
+  "lat": 5.7847748,
+  "lon": -55.0245073,
+  "display_name": "Tamanredjo ꦠꦩꦤ꧀ꦉꦗ, Commewijne, Suriname",
+  "type": "village"
+ },
+ "Gansistraat, Morgenstond, Paramaribo, Suriname": {
+  "lat": 5.8580086,
+  "lon": -55.111802,
+  "display_name": "Gansistraat, Morgenstond, Suriname, Leonsberg, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "E. Kaersenhoutstraat, Tourtonne, Paramaribo, Suriname": null,
+ "E. Kaersenhoutstraat, Paramaribo, Suriname": {
+  "lat": 5.8705023,
+  "lon": -55.1417322,
+  "display_name": "Eduard Kaersenhoutstraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Keizerstraat, Centrum, Paramaribo, Suriname": {
+  "lat": 5.8270155,
+  "lon": -55.1574157,
+  "display_name": "Keizerstraat, Paramaribo, Centrum, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "M. de Barriosstraat, Tourtonne, Paramaribo, Suriname": null,
+ "M. de Barriosstraat, Paramaribo, Suriname": {
+  "lat": 5.8691643,
+  "lon": -55.1426027,
+  "display_name": "Michael de Barriosstraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Hildesheim, Wayambo, Saramacca, Suriname": null,
+ "Hildesheim, Saramacca, Suriname": null,
+ "Hildesheim, Suriname": null,
+ "J. Lachmonstraat, Tammenga, Paramaribo, Suriname": {
+  "lat": 5.8155814,
+  "lon": -55.1960407,
+  "display_name": "Mr. Jagernath Lachmonstraat, Flora, Beekhuizen, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Krakoenstraat, Morgenstond, Paramaribo, Suriname": {
+  "lat": 5.8654773,
+  "lon": -55.1244661,
+  "display_name": "Krakoenstraat, Morgenstond, Suriname, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Industrieweg-Noord, Beekhuizen, Paramaribo, Suriname": {
+  "lat": 5.8009865,
+  "lon": -55.1796825,
+  "display_name": "Industrieweg Noord, Beekhuizen, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Aromansiweg, Meerzorg, Commewijne, Suriname": null,
+ "Aromansiweg, Commewijne, Suriname": null,
+ "Aromansiweg, Suriname": null,
+ "Bridge Village, Tourtonne, Paramaribo, Suriname": null,
+ "Bridge Village, Paramaribo, Suriname": null,
+ "Bridge Village, Suriname": null,
+ "Ravinastraat 21, Wanica, Hanna’s Lust, Wanica, Suriname": null,
+ "Ravinastraat 21, Wanica, Wanica, Suriname": null,
+ "Ravinastraat 21, Wanica, Suriname": null,
+ "Hanna’s Lust, Wanica, Suriname": null,
+ "Leiding 10a, Leiding, Paramaribo, Suriname": null,
+ "Leiding 10a, Paramaribo, Suriname": null,
+ "Leiding 10a, Suriname": {
+  "lat": 5.8222166,
+  "lon": -55.2531266,
+  "display_name": "Leiding 10A, Kwatta, Saramaccapolder, Wanica, Suriname",
+  "type": "road"
+ },
+ "The Meadows 8 (gated community), Noordpolderdam, Wanica, Suriname": null,
+ "The Meadows 8 (gated community), Wanica, Suriname": null,
+ "The Meadows 8 (gated community), Suriname": null,
+ "Bomapolder serie 1 perc, Boma, Wanica, Suriname": null,
+ "Bomapolder serie 1 perc, Wanica, Suriname": null,
+ "Bomapolder serie 1 perc, Suriname": null,
+ "Boma, Wanica, Suriname": {
+  "lat": 5.7530813,
+  "lon": -55.2979782,
+  "display_name": "Bomaweg, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "Agaveweg, Leliendaal, Commewijne, Suriname": null,
+ "Agaveweg, Commewijne, Suriname": {
+  "lat": 5.8774593,
+  "lon": -55.0370907,
+  "display_name": "Agaveweg, Alkmaar, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Diana Stellaweg pc, Jagtlust, Commewijne, Suriname": null,
+ "Diana Stellaweg pc, Commewijne, Suriname": null,
+ "Diana Stellaweg pc, Suriname": null,
+ "Katoenfowroestraat hk. Bagabagastraat perc, Morgenstond, Paramaribo, Suriname": null,
+ "Katoenfowroestraat hk. Bagabagastraat perc, Paramaribo, Suriname": null,
+ "Katoenfowroestraat hk. Bagabagastraat perc, Suriname": null,
+ "Lao Sestraat, Grand Village Braamshoop, Wanica, Suriname": {
+  "lat": 5.7256592,
+  "lon": -55.2680331,
+  "display_name": "Lao Sestraat, Grand Village Braamshoop, Lelydorp, Wanica, Suriname",
+  "type": "road"
+ },
+ "Hoek Arvineshstraat / Zoestraat, Koewarasan, Wanica, Suriname": null,
+ "Hoek Arvineshstraat / Zoestraat, Wanica, Suriname": null,
+ "Hoek Arvineshstraat / Zoestraat, Suriname": null,
+ "Wendyweg, Blauwmeer, Para, Suriname": null,
+ "Wendyweg, Para, Suriname": {
+  "lat": 5.6351829,
+  "lon": -55.0991137,
+  "display_name": "Wendyweg, Oost, Para, Suriname",
+  "type": "road"
+ },
+ "Pardolaan, Uitvlugt, Paramaribo, Suriname": null,
+ "Pardolaan, Paramaribo, Suriname": {
+  "lat": 5.8285473,
+  "lon": -55.199069,
+  "display_name": "Pardolaan, Welgelegen, Distrikt Paramaribo, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Wayamboweg 126-135 – Zesde Rijweg, Zesde Rijweg, Saramacca, Suriname": null,
+ "Wayamboweg 126-135 – Zesde Rijweg, Saramacca, Suriname": null,
+ "Wayamboweg 126-135 – Zesde Rijweg, Suriname": null,
+ "Saramacca, Suriname": {
+  "lat": 5.7870805,
+  "lon": -55.6064574,
+  "display_name": "Saramacca, Suriname",
+  "type": "state"
+ },
+ "Kortgroenweg 2080 (Voorburg), Voorburg, Commewijne, Suriname": null,
+ "Kortgroenweg 2080 (Voorburg), Commewijne, Suriname": null,
+ "Kortgroenweg 2080 (Voorburg), Suriname": null,
+ "Sewnarainweg, Tout Lui Faut, Wanica, Suriname": null,
+ "Sewnarainweg, Wanica, Suriname": {
+  "lat": 5.7254676,
+  "lon": -55.2119568,
+  "display_name": "Sewnarainweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Swastikastraat, Kwatta, Paramaribo, Suriname": null,
+ "Swastikastraat, Paramaribo, Suriname": null,
+ "Swastikastraat, Suriname": null,
+ "Ornamibo 1a+1b, ornamibo, Wanica, Suriname": null,
+ "Ornamibo 1a+1b, Wanica, Suriname": null,
+ "Ornamibo 1a+1b, Suriname": null,
+ "ornamibo, Wanica, Suriname": {
+  "lat": 5.7267848,
+  "lon": -55.1364808,
+  "display_name": "Vuilstort Ornamibo, Domburg, Wanica, Suriname",
+  "type": "landfill"
+ },
+ "Zamiroenweg 64 en, Lust en Rust, Commewijne, Suriname": null,
+ "Zamiroenweg 64 en, Commewijne, Suriname": null,
+ "Zamiroenweg 64 en, Suriname": null,
+ "Lust en Rust, Commewijne, Suriname": {
+  "lat": 5.829119,
+  "lon": -55.0831622,
+  "display_name": "Lust En Rust Serie A, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Malangweg, Houttuin, Wanica, Suriname": {
+  "lat": 5.696995,
+  "lon": -55.1774141,
+  "display_name": "Malangweg, Lelydorp, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Raghoebierstraat, Tourtonne, Paramaribo, Suriname": null,
+ "Raghoebierstraat, Paramaribo, Suriname": null,
+ "Raghoebierstraat, Suriname": null,
+ "Ellestraat, Latour, Paramaribo, Suriname": {
+  "lat": 5.7908948,
+  "lon": -55.1789477,
+  "display_name": "Ellestraat, Latour, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Gongrijpstraat 13a83 BR, Paramaribo Centrum, Paramaribo, Suriname": null,
+ "Gongrijpstraat 13a83 BR, Paramaribo, Suriname": null,
+ "Gongrijpstraat 13a83 BR, Suriname": null,
+ "Paramaribo Centrum, Paramaribo, Suriname": {
+  "lat": 5.8253796,
+  "lon": -55.1530992,
+  "display_name": "Centrale Bank van Suriname, Waterkant, Paramaribo, Centrum, Paramaribo, Suriname",
+  "type": "building"
+ },
+ "Lansvarensweg perc, Waterland, Para, Suriname": null,
+ "Lansvarensweg perc, Para, Suriname": null,
+ "Lansvarensweg perc, Suriname": null,
+ "Waterland, Para, Suriname": {
+  "lat": 5.6734918,
+  "lon": -55.0417101,
+  "display_name": "Waterland, Oost, Para, Suriname",
+  "type": "locality"
+ },
+ "Arjanweg perc, Houttuin, Wanica, Suriname": null,
+ "Arjanweg perc, Wanica, Suriname": null,
+ "Arjanweg perc, Suriname": null,
+ "Sopropoweg perc, Saramacca, Saramacca, Suriname": null,
+ "Sopropoweg perc, Saramacca, Suriname": null,
+ "Sopropoweg perc, Suriname": null,
+ "Anton Dragtenweg, voorland Leonsberg, Leonsberg, Paramaribo, Suriname": null,
+ "Anton Dragtenweg, voorland Leonsberg, Paramaribo, Suriname": null,
+ "Anton Dragtenweg, voorland Leonsberg, Suriname": null,
+ "Leonsberg, Paramaribo, Suriname": {
+  "lat": 5.8692506,
+  "lon": -55.1026346,
+  "display_name": "Leonsberg, Blauwgrond, Paramaribo, Suriname",
+  "type": "hamlet"
+ },
+ "Sir Winston Churchillweg 129, 130 en, Boxel, Wanica, Suriname": null,
+ "Sir Winston Churchillweg 129, 130 en, Wanica, Suriname": null,
+ "Sir Winston Churchillweg 129, 130 en, Suriname": null,
+ "Hoek Atigoneweg / Anteosweg, Garnizoenspad, Wanica, Suriname": null,
+ "Hoek Atigoneweg / Anteosweg, Wanica, Suriname": null,
+ "Hoek Atigoneweg / Anteosweg, Suriname": null,
+ "Shivamweg, Boxel, Wanica, Suriname": null,
+ "Shivamweg, Wanica, Suriname": {
+  "lat": 5.7030642,
+  "lon": -55.0929884,
+  "display_name": "Shivamweg, Domburg, Wanica, Suriname",
+  "type": "road"
+ },
+ "Feng Ming Tistraat, Grand Village Braamshoop, Wanica, Suriname": null,
+ "Feng Ming Tistraat, Wanica, Suriname": null,
+ "Feng Ming Tistraat, Suriname": null,
+ "Grand Village Braamshoop, Wanica, Suriname": {
+  "lat": 5.7236751,
+  "lon": -55.2678696,
+  "display_name": "Grand Village Braamshoop, Lelydorp, Wanica, Suriname",
+  "type": "residential"
+ },
+ "Sir Winston Churchillweg, Waterland, Para, Suriname": null,
+ "Sir Winston Churchillweg, Para, Suriname": {
+  "lat": 5.674064,
+  "lon": -55.070502,
+  "display_name": "Sir Winston Churchillweg, Oost, Para, Suriname",
+  "type": "road"
+ },
+ "Padiweg, Uitkijk, Saramacca, Suriname": null,
+ "Padiweg, Saramacca, Suriname": {
+  "lat": 5.8249236,
+  "lon": -55.3157856,
+  "display_name": "Padiweg, Jarikaba, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Mauke Poolstraat hk Monkoustraat, Morgenstond, Paramaribo, Suriname": null,
+ "Mauke Poolstraat hk Monkoustraat, Paramaribo, Suriname": null,
+ "Mauke Poolstraat hk Monkoustraat, Suriname": null,
+ "Lashkarweg pc, Kwatta, Wanica, Suriname": {
+  "lat": 5.8535176,
+  "lon": -55.2607175,
+  "display_name": "Lashkarweg, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Advocaatstraat 18+, Morgenstond, Paramaribo, Suriname": null,
+ "Advocaatstraat 18+, Paramaribo, Suriname": {
+  "lat": 5.8584827,
+  "lon": -55.1038743,
+  "display_name": "Advocaatstraat, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Bolletjesvarensweg 248 (Waterland-Para), Waterland, Para, Suriname": null,
+ "Bolletjesvarensweg 248 (Waterland-Para), Para, Suriname": null,
+ "Bolletjesvarensweg 248 (Waterland-Para), Suriname": null,
+ "Commissaris Weythinghweg, Leiding, Paramaribo, Suriname": null,
+ "Commissaris Weythinghweg, Paramaribo, Suriname": null,
+ "Commissaris Weythinghweg, Suriname": null,
+ "Leiding, Paramaribo, Suriname": {
+  "lat": 5.8100389,
+  "lon": -55.2230887,
+  "display_name": "Leiding Trading, 48, Commissaris Weythingweg, Weytinghweg, Saramaccapolder, Paramaribo, Suriname",
+  "type": "shop"
+ },
+ "Mopentiboweg, Boma, Wanica, Suriname": null,
+ "Palmboomstraat pc, Nieuw Nickerie, Nickerie, Suriname": {
+  "lat": 5.931723,
+  "lon": -56.9835163,
+  "display_name": "Palmboomstraat, Van Pettenpolder, Nieuw Nickerie, Nickerie, Suriname",
+  "type": "road"
+ },
+ "Ibisweg, Leliendaal, Commewijne, Suriname": null,
+ "Ibisweg, Commewijne, Suriname": null,
+ "Ibisweg, Suriname": {
+  "lat": 5.6277896,
+  "lon": -55.0901624,
+  "display_name": "Nijl Ibisweg, Smal Kalden, Oost, Para, Suriname",
+  "type": "road"
+ },
+ "Beverlyhillsstraat 30 – Crystal Ville, Kwatta, Paramaribo, Suriname": null,
+ "Beverlyhillsstraat 30 – Crystal Ville, Paramaribo, Suriname": null,
+ "Beverlyhillsstraat 30 – Crystal Ville, Suriname": null,
+ "Nieuwzorgweg, Pontbuiten, Paramaribo, Suriname": {
+  "lat": 5.7858966,
+  "lon": -55.2083837,
+  "display_name": "Nieuwzorgweg, Pontbuiten, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Bagelenweg, Onverwacht, Para, Suriname": {
+  "lat": 5.6126253,
+  "lon": -55.1945046,
+  "display_name": "Bagelenweg, Onverwacht, Noord, Para, Suriname",
+  "type": "road"
+ },
+ "Mariendaal Noord, Tamanredjo, Commewijne, Suriname": null,
+ "Mariendaal Noord, Commewijne, Suriname": null,
+ "Mariendaal Noord, Suriname": null,
+ "Hoek Matapilaan en Twatwaweg, Wageningen, Nickerie, Suriname": null,
+ "Hoek Matapilaan en Twatwaweg, Nickerie, Suriname": null,
+ "Hoek Matapilaan en Twatwaweg, Suriname": null,
+ "Wageningen, Nickerie, Suriname": {
+  "lat": 5.7710604,
+  "lon": -56.6876895,
+  "display_name": "Wageningen, Nickerie, Suriname",
+  "type": "village"
+ },
+ "Acaciahoutstraat, Vredenburg Serie A, Wanica, Suriname": null,
+ "Acaciahoutstraat, Wanica, Suriname": {
+  "lat": 5.7176588,
+  "lon": -55.1597151,
+  "display_name": "Acaciahoutstraat, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Hornilaan, Uitvlucht, Paramaribo, Suriname": null,
+ "Hornilaan, Paramaribo, Suriname": {
+  "lat": 5.8340078,
+  "lon": -55.2055333,
+  "display_name": "Hornilaan, Welgelegen, Distrikt Paramaribo, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Damboentong pc, Tijgerkreek, Saramacca, Suriname": {
+  "lat": 5.8173353,
+  "lon": -55.5889757,
+  "display_name": "Damboentong, Tijgerkreek, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Khadimlaan, Leiding, Wanica, Suriname": null,
+ "Khadimlaan, Wanica, Suriname": null,
+ "Khadimlaan, Suriname": null,
+ "Libanonweg 140H + 140I, Para – Noord, Para, Suriname": null,
+ "Libanonweg 140H + 140I, Para, Suriname": null,
+ "Libanonweg 140H + 140I, Suriname": null,
+ "Para – Noord, Para, Suriname": {
+  "lat": 5.618176,
+  "lon": -55.2460098,
+  "display_name": "Para Parc Resort, Kalfweg, Noord, Para, Suriname",
+  "type": "leisure"
+ },
+ "Jayantweg, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7622478,
+  "lon": -55.2350866,
+  "display_name": "Jayantweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Okro Uduweg, Vredenburg serie A, Wanica, Suriname": null,
+ "Okro Uduweg, Wanica, Suriname": {
+  "lat": 5.7235334,
+  "lon": -55.2044238,
+  "display_name": "Okro Uduweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Orleanekreek 1a+1b, Tamanredjo, Commewijne, Suriname": null,
+ "Orleanekreek 1a+1b, Commewijne, Suriname": null,
+ "Orleanekreek 1a+1b, Suriname": null,
+ "Noorden van Johan Inajut Karamataliweg 89, Jaglust, Commewijne, Suriname": null,
+ "Noorden van Johan Inajut Karamataliweg 89, Commewijne, Suriname": null,
+ "Noorden van Johan Inajut Karamataliweg 89, Suriname": null,
+ "Jaglust, Commewijne, Suriname": null,
+ "Lelydorperweg, Lelydorp, Wanica, Suriname": {
+  "lat": 5.6909051,
+  "lon": -55.2075178,
+  "display_name": "Lelydorperweg, Lelydorp, Wanica, Suriname",
+  "type": "road"
+ },
+ "Colletestraat, Lake land, Wanica, Suriname": null,
+ "Colletestraat, Wanica, Suriname": null,
+ "Colletestraat, Suriname": null,
+ "Lake land, Wanica, Suriname": null,
+ "Voorland Plantage Marienbosch, Marienbosch, Commewijne, Suriname": null,
+ "Voorland Plantage Marienbosch, Commewijne, Suriname": null,
+ "Voorland Plantage Marienbosch, Suriname": null,
+ "Marienbosch, Commewijne, Suriname": null,
+ "Zuster Jensenweg, Nieuw Amsterdam, Commewijne, Suriname": {
+  "lat": 5.8854691,
+  "lon": -55.0489935,
+  "display_name": "Zuster Jensenweg, Mariënburg, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Abdulghani Madharweg, Nickerie, Zeedijk, Nickerie, Suriname": null,
+ "Abdulghani Madharweg, Nickerie, Nickerie, Suriname": {
+  "lat": 5.9547397,
+  "lon": -57.0462268,
+  "display_name": "Abdulghani Madharweg, Westelijke Polders, Nickerie, Suriname",
+  "type": "road"
+ },
+ "Dian Dessaweg, Para-Noord, Para, Suriname": {
+  "lat": 5.6628886,
+  "lon": -55.2413179,
+  "display_name": "Dian Dessaweg, Noord, Para, Suriname",
+  "type": "road"
+ },
+ "Brigade Generaalweg, Voorburg, Commewijne, Suriname": null,
+ "Brigade Generaalweg, Commewijne, Suriname": {
+  "lat": 5.8739685,
+  "lon": -55.0834564,
+  "display_name": "Brigade Generaalweg - Noord, Nieuw-Amsterdam, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Engelsebeerweg, De Nieuwe Grond, Wanica, Suriname": {
+  "lat": 5.7740107,
+  "lon": -55.1903507,
+  "display_name": "Engelsebeerweg, Rahemal project, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Palmolieweg, Jaglust, Commewijne, Suriname": null,
+ "Palmolieweg, Commewijne, Suriname": {
+  "lat": 5.8254749,
+  "lon": -55.096479,
+  "display_name": "Palmolieweg, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Pronkweg 107+, Nieuw Amsterdam, Commewijne, Suriname": {
+  "lat": 5.8656995,
+  "lon": -55.0760946,
+  "display_name": "Pronkweg, Nieuw-Amsterdam, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Kweeklustweg, Pont Buiten, Wanica, Suriname": null,
+ "Kweeklustweg, Wanica, Suriname": null,
+ "Kweeklustweg, Suriname": {
+  "lat": 5.7876325,
+  "lon": -55.1988545,
+  "display_name": "Kweeklustweg, Pontbuiten, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Atropoweg, Tuindorp Eureka, Wanica, Suriname": null,
+ "Atropoweg, Wanica, Suriname": {
+  "lat": 5.8652875,
+  "lon": -55.2810694,
+  "display_name": "Atropoweg, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Lachmanweg 17+, Latour, Paramaribo, Suriname": {
+  "lat": 5.7980696,
+  "lon": -55.1818661,
+  "display_name": "Lachmanweg, Latour, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Bombayweg 124 (BCFE), Calcutta, Saramacca, Suriname": null,
+ "Bombayweg 124 (BCFE), Saramacca, Suriname": null,
+ "Bombayweg 124 (BCFE), Suriname": null,
+ "Hadji I. Soemitaweg C7440 no 105 – Tamanredjo, Tamanredjo, Commewijne, Suriname": null,
+ "Hadji I. Soemitaweg C7440 no 105 – Tamanredjo, Commewijne, Suriname": null,
+ "Hadji I. Soemitaweg C7440 no 105 – Tamanredjo, Suriname": null,
+ "Canawapibo 228B, Oost West verbinding, Commewijne, Suriname": null,
+ "Canawapibo 228B, Commewijne, Suriname": null,
+ "Canawapibo 228B, Suriname": null,
+ "Oost West verbinding, Commewijne, Suriname": {
+  "lat": 5.8153693,
+  "lon": -55.1549194,
+  "display_name": "Oost-West Verbinding, Meerzorg, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Jimmyweg, Para – Noord, Para, Suriname": null,
+ "Jimmyweg, Para, Suriname": null,
+ "Jimmyweg, Suriname": null,
+ "Willem Campagnestraat, Abra Broki, Paramaribo, Suriname": null,
+ "Willem Campagnestraat, Paramaribo, Suriname": {
+  "lat": 5.8144509,
+  "lon": -55.1768616,
+  "display_name": "Willem Campagnestraat, Beekhuizen, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Obsidiaanstraat, Domburg, Wanica, Suriname": {
+  "lat": 5.7131519,
+  "lon": -55.1280454,
+  "display_name": "Obsidiaanstraat, Domburg, Wanica, Suriname",
+  "type": "road"
+ },
+ "Adusta- Uilweg, Lelydorp, Wanica, Suriname": null,
+ "Adusta- Uilweg, Wanica, Suriname": null,
+ "Adusta- Uilweg, Suriname": null,
+ "Houttuyn Wellness River Resort kavels 20,26,27,28, Houttuin, Wanica, Suriname": null,
+ "Houttuyn Wellness River Resort kavels 20,26,27,28, Wanica, Suriname": null,
+ "Houttuyn Wellness River Resort kavels 20,26,27,28, Suriname": null,
+ "Sidodadieweg, Groningen, Saramacca, Suriname": null,
+ "Sidodadieweg, Saramacca, Suriname": null,
+ "Sidodadieweg, Suriname": {
+  "lat": 5.7111045,
+  "lon": -55.2577439,
+  "display_name": "Sidodadieweg, Lelydorp, Wanica, Suriname",
+  "type": "road"
+ },
+ "Remingtonstraat 37 (Zavana Estates), Garnizoenspad, Wanica, Suriname": null,
+ "Remingtonstraat 37 (Zavana Estates), Wanica, Suriname": null,
+ "Remingtonstraat 37 (Zavana Estates), Suriname": null,
+ "Oost West Verbinding 6A, Solitude, Commewijne, Suriname": null,
+ "Oost West Verbinding 6A, Commewijne, Suriname": {
+  "lat": 5.8152532,
+  "lon": -55.1530033,
+  "display_name": "Oost-West Verbinding, Meerzorg, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Commissaris Roblesweg, Leliendaal, Commewijne, Suriname": null,
+ "Commissaris Roblesweg, Commewijne, Suriname": {
+  "lat": 5.8894332,
+  "lon": -55.0811641,
+  "display_name": "Commissaris Roblesweg, Nieuw-Amsterdam, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Locoweg, Onverwacht, Para, Suriname": null,
+ "Locoweg, Para, Suriname": null,
+ "Locoweg, Suriname": null,
+ "Onverwacht, Para, Suriname": {
+  "lat": 5.5900807,
+  "lon": -55.1936338,
+  "display_name": "Onverwacht, Noord, Para, Suriname",
+  "type": "town"
+ },
+ "Aeneasweg, Tuindorp Eureka, Wanica, Suriname": null,
+ "Aeneasweg, Wanica, Suriname": null,
+ "Aeneasweg, Suriname": null,
+ "Tuindorp Eureka, Wanica, Suriname": null,
+ "Bevelhebberweg ZD, Voorburg, Commewijne, Suriname": null,
+ "Bevelhebberweg ZD, Commewijne, Suriname": {
+  "lat": 5.8778973,
+  "lon": -55.0816587,
+  "display_name": "Bevelhebberweg - Zuid, Nieuw-Amsterdam, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Paula Ephemiaweg 81b, Tamansari, Commewijne, Suriname": null,
+ "Paula Ephemiaweg 81b, Commewijne, Suriname": {
+  "lat": 5.7809841,
+  "lon": -55.0442969,
+  "display_name": "Paula Ephemiaweg, Meerzorg, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Lompongweg, Tamanredjo, Commewijne, Suriname": null,
+ "Lompongweg, Commewijne, Suriname": null,
+ "Lompongweg, Suriname": null,
+ "Dr. E. Kochweg B C D E G, Groningen, Saramacca, Suriname": null,
+ "Dr. E. Kochweg B C D E G, Saramacca, Suriname": null,
+ "Dr. E. Kochweg B C D E G, Suriname": null,
+ "1e Palisadeweg, Palisadeweg, Wanica, Suriname": null,
+ "1e Palisadeweg, Wanica, Suriname": null,
+ "1e Palisadeweg, Suriname": {
+  "lat": 5.6602186,
+  "lon": -55.2306855,
+  "display_name": "Palisadeweg 1, Noord, Para, Suriname",
+  "type": "road"
+ },
+ "Noordpolderdam, Noordpolderdam, Wanica, Suriname": null,
+ "La Resource 183, Boxel, Wanica, Suriname": null,
+ "La Resource 183, Wanica, Suriname": null,
+ "La Resource 183, Suriname": null,
+ "La Ressource 227+, Boxel, Wanica, Suriname": null,
+ "La Ressource 227+, Wanica, Suriname": {
+  "lat": 5.7249865,
+  "lon": -55.1159875,
+  "display_name": "La Ressource, Domburg, Wanica, Suriname",
+  "type": "road"
+ },
+ "Hercus Lingerweg perc. 69, 69A, 70 en 70A, Vierkinderen, Para, Suriname": null,
+ "Hercus Lingerweg perc. 69, 69A, 70 en 70A, Para, Suriname": null,
+ "Hercus Lingerweg perc. 69, 69A, 70 en 70A, Suriname": null,
+ "Vierkinderen, Para, Suriname": {
+  "lat": 5.5054568,
+  "lon": -55.2226589,
+  "display_name": "Vierkinderen, Zuid, Para, Suriname",
+  "type": "village"
+ },
+ "Ramonweg 95, Ephraimzegen, Paramaribo, Suriname": null,
+ "Ramonweg 95, Paramaribo, Suriname": {
+  "lat": 5.7979842,
+  "lon": -55.194799,
+  "display_name": "Ramonweg, Latour, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Saramaccastraat 22 &, Centrum, Paramaribo, Suriname": {
+  "lat": 5.8220061,
+  "lon": -55.1626323,
+  "display_name": "Saramaccastraat, Paramaribo, Centrum, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Betelpalmlaan, Commewijne, Commewijne, Suriname": {
+  "lat": 5.8492761,
+  "lon": -55.0852642,
+  "display_name": "Betelpalmlaan, Palm Village, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Tout Lui Foutkanaalweg Links, Wanica, Wanica, Suriname": null,
+ "Tout Lui Foutkanaalweg Links, Wanica, Suriname": null,
+ "Tout Lui Foutkanaalweg Links, Suriname": null,
+ "Wanica, Wanica, Suriname": {
+  "lat": 4.8824813,
+  "lon": -55.0725748,
+  "display_name": "Suriname, Brokopondo, Suriname",
+  "type": "river"
+ },
+ "Wanishaweg, Wanica, Wanica, Suriname": {
+  "lat": 5.7455144,
+  "lon": -55.171053,
+  "display_name": "Wanishaweg, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Catharina Sophiastraat KM 62,5. Calcutta, Saramacca, Saramacca, Suriname": null,
+ "Catharina Sophiastraat KM 62,5. Calcutta, Saramacca, Suriname": null,
+ "Catharina Sophiastraat KM 62,5. Calcutta, Suriname": null,
+ "Paloeloeweg, Saramacca, Saramacca, Saramacca, Suriname": {
+  "lat": 5.8064852,
+  "lon": -55.4601488,
+  "display_name": "Paloeloeweg, Groningen, Distrikt Saramacca, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Ooievaarstraat, Paramaribo Noord en omgeving, Paramaribo, Suriname": null,
+ "Ooievaarstraat, Paramaribo, Suriname": null,
+ "Ooievaarstraat, Suriname": null,
+ "Paramaribo Noord en omgeving, Paramaribo, Suriname": null,
+ "Baas Moesweg, Wanica, Wanica, Suriname": null,
+ "Baas Moesweg, Wanica, Suriname": null,
+ "Baas Moesweg, Suriname": null,
+ "Jaitoenweg, Commewijne, Commewijne, Suriname": null,
+ "Jaitoenweg, Commewijne, Suriname": null,
+ "Jaitoenweg, Suriname": {
+  "lat": 5.7025259,
+  "lon": -55.1019443,
+  "display_name": "Noerkhanhadja D.J. Jaitoenweg, Domburg, Wanica, Suriname",
+  "type": "road"
+ },
+ "Rooibosstraat, Wanica, Wanica, Suriname": {
+  "lat": 5.7399984,
+  "lon": -55.168528,
+  "display_name": "Rooibosstraat, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Masoemanweg 326, 327 en, Commewijne, Commewijne, Suriname": null,
+ "Masoemanweg 326, 327 en, Commewijne, Suriname": null,
+ "Masoemanweg 326, 327 en, Suriname": null,
+ "Commewijne, Commewijne, Suriname": {
+  "lat": 4.8824813,
+  "lon": -55.0725748,
+  "display_name": "Suriname, Brokopondo, Suriname",
+  "type": "river"
+ },
+ "Zavana Estates- Rotschildstraat, Wanica, Wanica, Suriname": null,
+ "Zavana Estates- Rotschildstraat, Wanica, Suriname": null,
+ "Zavana Estates- Rotschildstraat, Suriname": null,
+ "Rijsdijkweg, Para, Para, Suriname": {
+  "lat": 5.6299719,
+  "lon": -55.2329691,
+  "display_name": "Rijsdijkweg, Bernharddorp (West), Noord, Para, Suriname",
+  "type": "road"
+ },
+ "Mr. F.H.C. Frans Losecaat-Vermeerstraat percel, Paramaribo Noord en omgeving, Paramaribo, Suriname": null,
+ "Mr. F.H.C. Frans Losecaat-Vermeerstraat percel, Paramaribo, Suriname": null,
+ "Mr. F.H.C. Frans Losecaat-Vermeerstraat percel, Suriname": null,
+ "Thermometerstraat, Paramaribo Noord en omgeving, Paramaribo, Suriname": null,
+ "Stralendepalmlaan, Commewijne, Commewijne, Suriname": {
+  "lat": 5.8442298,
+  "lon": -55.0851065,
+  "display_name": "Stralendepalmlaan, Palm Village, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Sophiaslustweg, Wanica, Wanica, Suriname": null,
+ "Sophiaslustweg, Wanica, Suriname": null,
+ "Sophiaslustweg, Suriname": null,
+ "Plantage Ouderzorg - Commewijne, Commewijne, Commewijne, Suriname": null,
+ "Plantage Ouderzorg - Commewijne, Commewijne, Suriname": null,
+ "Plantage Ouderzorg - Commewijne, Suriname": null,
+ "Thakoerdinweg, Wanica, Wanica, Suriname": {
+  "lat": 5.7689189,
+  "lon": -55.1998366,
+  "display_name": "Thakoerdinweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Koraalweg #45,47, Wanica, Wanica, Suriname": null,
+ "Koraalweg #45,47, Wanica, Suriname": null,
+ "Koraalweg #45,47, Suriname": null,
+ "Arkadiweg, Wanica, Wanica, Suriname": null,
+ "Arkadiweg, Wanica, Suriname": null,
+ "Arkadiweg, Suriname": null,
+ "Palm Village, Stralendepalmlaan, Commewijne, Commewijne, Suriname": null,
+ "Palm Village, Stralendepalmlaan, Commewijne, Suriname": null,
+ "Palm Village, Stralendepalmlaan, Suriname": null,
+ "Greenfieldweg, Wanica, Wanica, Suriname": null,
+ "Greenfieldweg, Wanica, Suriname": null,
+ "Greenfieldweg, Suriname": {
+  "lat": 5.7942829,
+  "lon": -55.2167861,
+  "display_name": "Greenfieldweg, Latour, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Anton Dragtenweg, Paramaribo Noord en omgeving, Paramaribo, Suriname": null,
+ "6e rijweg, Saramacca, Saramacca, Saramacca, Suriname": {
+  "lat": 5.83561,
+  "lon": -55.3048904,
+  "display_name": "Vijfde Rijweg, Wayamboweg, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Aracaristraat perc 1191 (Clevia), Paramaribo Noord en omgeving, Paramaribo, Suriname": null,
+ "Aracaristraat perc 1191 (Clevia), Paramaribo, Suriname": null,
+ "Aracaristraat perc 1191 (Clevia), Suriname": null,
+ "Weg naar Peperpot, Commewijne, Commewijne, Suriname": {
+  "lat": 5.7918766,
+  "lon": -55.14648,
+  "display_name": "Weg Naar Peperpot, Meerzorg, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Wageningen, Nickerie, Nickerie, Suriname": {
+  "lat": 5.7710604,
+  "lon": -56.6876895,
+  "display_name": "Wageningen, Nickerie, Suriname",
+  "type": "village"
+ },
+ "Hoek ringweg krawkrawstraat, Paramaribo Noord en omgeving, Paramaribo, Suriname": null,
+ "Hoek ringweg krawkrawstraat, Paramaribo, Suriname": null,
+ "Hoek ringweg krawkrawstraat, Suriname": null,
+ "Libanonweg, Wanica, Wanica, Suriname": {
+  "lat": 5.6701734,
+  "lon": -55.259102,
+  "display_name": "Libanonweg, Lelydorp, Wanica, Suriname",
+  "type": "road"
+ },
+ "Geertruidaweg nummer, Wanica, Wanica, Suriname": null,
+ "Geertruidaweg nummer, Wanica, Suriname": null,
+ "Geertruidaweg nummer, Suriname": null,
+ "Paula Eumeviaweg #, Commewijne, Commewijne, Suriname": null,
+ "Paula Eumeviaweg #, Commewijne, Suriname": null,
+ "Paula Eumeviaweg #, Suriname": null,
+ "TjeTjeweg, Commewijne, Commewijne, Suriname": null,
+ "TjeTjeweg, Commewijne, Suriname": null,
+ "TjeTjeweg, Suriname": null,
+ "Damboenton 1, #30, Groningen, Saramacca, Saramacca, Suriname": null,
+ "Damboenton 1, #30, Groningen, Saramacca, Suriname": null,
+ "Damboenton 1, #30, Groningen, Suriname": null,
+ "Isrie Nankoeweg, Saramacca, Saramacca, Suriname": {
+  "lat": 5.817469,
+  "lon": -55.3344089,
+  "display_name": "Isrie Nankoeweg, Jarikaba, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Sinabo, aan de Oost-West verbinding op km, Commewijne, Commewijne, Suriname": null,
+ "Sinabo, aan de Oost-West verbinding op km, Commewijne, Suriname": null,
+ "Sinabo, aan de Oost-West verbinding op km, Suriname": null,
+ "Rijsdijkweg - Okopipiweg-West, Para, Para, Suriname": null,
+ "Rijsdijkweg - Okopipiweg-West, Para, Suriname": null,
+ "Rijsdijkweg - Okopipiweg-West, Suriname": null,
+ "Bergimanbarklakstraat, Wanica, Wanica, Suriname": null,
+ "Bergimanbarklakstraat, Wanica, Suriname": null,
+ "Bergimanbarklakstraat, Suriname": null,
+ "Antinoonweg #, Wanica, Wanica, Suriname": {
+  "lat": 5.8611082,
+  "lon": -55.281204,
+  "display_name": "Antinoonweg, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Saramacca 6e rijweg, Saramacca, Saramacca, Suriname": null,
+ "Saramacca 6e rijweg, Saramacca, Suriname": null,
+ "Saramacca 6e rijweg, Suriname": null,
+ "Plantage Lanquedoc te Tamanredjopolder, Commewijne, Commewijne, Suriname": null,
+ "Plantage Lanquedoc te Tamanredjopolder, Commewijne, Suriname": null,
+ "Plantage Lanquedoc te Tamanredjopolder, Suriname": null,
+ "Bolletjesvarensweg, Para, Para, Suriname": {
+  "lat": 5.6606622,
+  "lon": -55.0684314,
+  "display_name": "Bolletjesvarensweg, Oost, Para, Suriname",
+  "type": "road"
+ },
+ "Adhienweg 33- Latour, Paramaribo Zuid en omgeving, Paramaribo, Suriname": null,
+ "Adhienweg 33- Latour, Paramaribo, Suriname": {
+  "lat": 5.7971308,
+  "lon": -55.1823776,
+  "display_name": "Adhienweg, Latour, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Oliepalmweg # 256, Commewijne, Commewijne, Suriname": null,
+ "Oliepalmweg # 256, Commewijne, Suriname": null,
+ "Oliepalmweg # 256, Suriname": null,
+ "Bomapolder - Bukskinweg, Wanica, Wanica, Suriname": null,
+ "Bomapolder - Bukskinweg, Wanica, Suriname": null,
+ "Bomapolder - Bukskinweg, Suriname": null,
+ "Vredeslustweg, Wanica, Wanica, Suriname": {
+  "lat": 5.7600624,
+  "lon": -55.2059104,
+  "display_name": "Vredeslustweg 2, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Arubaweg pc, Para, Para, Suriname": {
+  "lat": 5.6657081,
+  "lon": -55.2197778,
+  "display_name": "Arubaweg, Noord, Para, Suriname",
+  "type": "road"
+ },
+ "Gabajolaan #, Wanica, Wanica, Suriname": null,
+ "Gabajolaan #, Wanica, Suriname": null,
+ "Gabajolaan #, Suriname": null,
+ "La Paixweg, Commewijne, Commewijne, Suriname": {
+  "lat": 5.7802555,
+  "lon": -55.0436761,
+  "display_name": "La Paixweg, Meerzorg, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Smithfieldweg / Saramacca, Saramacca, Saramacca, Suriname": {
+  "lat": 5.8452185,
+  "lon": -55.5317744,
+  "display_name": "Smithfieldweg, Tambaredjo, Groningen, Tijgerkreek, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Palmolieweg pc nr, Commewijne, Commewijne, Suriname": null,
+ "Palmolieweg pc nr, Commewijne, Suriname": null,
+ "Palmolieweg pc nr, Suriname": null,
+ "Gunputstraat, Paramaribo Noord en omgeving, Paramaribo, Suriname": null,
+ "Gunputstraat, Paramaribo, Suriname": {
+  "lat": 5.8782754,
+  "lon": -55.1133462,
+  "display_name": "Gunputstraat, Leonsberg, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "palmvillage, Commewijne, Commewijne, Suriname": null,
+ "palmvillage, Commewijne, Suriname": null,
+ "palmvillage, Suriname": null,
+ "Palm Island, Commewijne, Commewijne, Suriname": null,
+ "Palm Island, Commewijne, Suriname": null,
+ "Palm Island, Suriname": null,
+ "Palmvillage, Commewijne, Commewijne, Suriname": null,
+ "Palmvillage, Commewijne, Suriname": null,
+ "Palmvillage, Suriname": null,
+ "De Hulp (commewijne), Commewijne, Commewijne, Suriname": null,
+ "De Hulp (commewijne), Commewijne, Suriname": null,
+ "De Hulp (commewijne), Suriname": null,
+ "Saramaccaweg Maho 11.8 ha, Saramacca, Saramacca, Suriname": null,
+ "Saramaccaweg Maho 11.8 ha, Saramacca, Suriname": null,
+ "Saramaccaweg Maho 11.8 ha, Suriname": null,
+ "Saramaccaweg, Paramaribo Zuid en omgeving, Paramaribo, Suriname": null,
+ "Saramaccaweg, Paramaribo, Suriname": null,
+ "Saramaccaweg, Suriname": {
+  "lat": 5.8732742,
+  "lon": -55.0457337,
+  "display_name": "Saramaccaweg, Mariënburg, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Vredenburg Serie A, Wanica, Wanica, Suriname": {
+  "lat": 5.719044,
+  "lon": -55.1627681,
+  "display_name": "Vredenburg Serie A, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Laan van wijsheid pc. #, Commewijne, Commewijne, Suriname": null,
+ "Laan van wijsheid pc. #, Commewijne, Suriname": null,
+ "Laan van wijsheid pc. #, Suriname": null,
+ "Kievietstraat PC, Paramaribo Noord en omgeving, Paramaribo, Suriname": null,
+ "Kievietstraat PC, Paramaribo, Suriname": {
+  "lat": 5.869676,
+  "lon": -55.1229186,
+  "display_name": "Kievietstraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Kievietstraat PC #, Paramaribo Noord en omgeving, Paramaribo, Suriname": null,
+ "Kievietstraat PC #, Paramaribo, Suriname": {
+  "lat": 5.869072,
+  "lon": -55.1219239,
+  "display_name": "Kievietstraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Vivian Ornastraat, Paramaribo Noord en omgeving, Paramaribo, Suriname": null,
+ "Vivian Ornastraat, Paramaribo, Suriname": {
+  "lat": 5.8703316,
+  "lon": -55.142525,
+  "display_name": "Vivian Ornastraat, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Mahadjan Ramadhinweg, Para, Para, Suriname": null,
+ "Mahadjan Ramadhinweg, Para, Suriname": null,
+ "Mahadjan Ramadhinweg, Suriname": null,
+ "Saramacca (3,1 ha), Saramacca, Saramacca, Suriname": null,
+ "Saramacca (3,1 ha), Saramacca, Suriname": null,
+ "Saramacca (3,1 ha), Suriname": null,
+ "Saramacca (7,5 ha), Saramacca, Saramacca, Suriname": null,
+ "Saramacca (7,5 ha), Saramacca, Suriname": null,
+ "Saramacca (7,5 ha), Suriname": null,
+ "Melkvee Projekt Rijsdijkweg no, Para, Para, Suriname": null,
+ "Melkvee Projekt Rijsdijkweg no, Para, Suriname": null,
+ "Melkvee Projekt Rijsdijkweg no, Suriname": null,
+ "Dhankorieweg #23 - Tawajariepolder, Wanica, Wanica, Suriname": null,
+ "Dhankorieweg #23 - Tawajariepolder, Wanica, Suriname": null,
+ "Dhankorieweg #23 - Tawajariepolder, Suriname": null,
+ "Dhankorie- en Rolineweg #20 - Tawajariepolder, Wanica, Wanica, Suriname": null,
+ "Dhankorie- en Rolineweg #20 - Tawajariepolder, Wanica, Suriname": null,
+ "Dhankorie- en Rolineweg #20 - Tawajariepolder, Suriname": null,
+ "Dhankorieweg #22 - Tawajariepolder, Wanica, Wanica, Suriname": null,
+ "Dhankorieweg #22 - Tawajariepolder, Wanica, Suriname": null,
+ "Dhankorieweg #22 - Tawajariepolder, Suriname": null,
+ "Dhankorieweg #21 - Tawajariepolder, Wanica, Wanica, Suriname": null,
+ "Dhankorieweg #21 - Tawajariepolder, Wanica, Suriname": null,
+ "Dhankorieweg #21 - Tawajariepolder, Suriname": null,
+ "Dhankorie- en Somaweg #24 - Tawajariepolder, Wanica, Wanica, Suriname": null,
+ "Dhankorie- en Somaweg #24 - Tawajariepolder, Wanica, Suriname": null,
+ "Dhankorie- en Somaweg #24 - Tawajariepolder, Suriname": null,
+ "Tampoeaweg, Wanica, Wanica, Suriname": {
+  "lat": 5.7440802,
+  "lon": -55.2693011,
+  "display_name": "Tampoeaweg, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "Martin Luther Kingweg #, Para, Para, Suriname": {
+  "lat": 5.6782563,
+  "lon": -55.1043416,
+  "display_name": "Martin Luther Kingweg, Oost, Para, Suriname",
+  "type": "road"
+ },
+ "Sinabo km 38,5 pc. # 99 - Commewijne, Commewijne, Commewijne, Suriname": null,
+ "Sinabo km 38,5 pc. # 99 - Commewijne, Commewijne, Suriname": null,
+ "Sinabo km 38,5 pc. # 99 - Commewijne, Suriname": null,
+ "Goerdien Dayanandweg, Saramacca, Saramacca, Suriname": null,
+ "Goerdien Dayanandweg, Saramacca, Suriname": null,
+ "Goerdien Dayanandweg, Suriname": null,
+ "Tenthelftweg #, Commewijne, Commewijne, Suriname": {
+  "lat": 5.8750923,
+  "lon": -55.0889197,
+  "display_name": "Tenthelftweg, Nieuw-Amsterdam, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "Accaribo Ramradjstraat no, Para, Para, Suriname": null,
+ "Accaribo Ramradjstraat no, Para, Suriname": null,
+ "Accaribo Ramradjstraat no, Suriname": null,
+ "Linkeroever Saramacca rivier, Saramacca, Saramacca, Suriname": null,
+ "Linkeroever Saramacca rivier, Saramacca, Suriname": null,
+ "Linkeroever Saramacca rivier, Suriname": null,
+ "Communicatieweg / Peperpot, Commewijne, Commewijne, Suriname": null,
+ "Communicatieweg / Peperpot, Commewijne, Suriname": null,
+ "Communicatieweg / Peperpot, Suriname": null,
+ "Leliendaal, Commewijne, Commewijne, Suriname": null,
+ "Leliendaal, Commewijne, Suriname": null,
+ "Leliendaal, Suriname": {
+  "lat": 5.7955771,
+  "lon": -55.1934915,
+  "display_name": "Leliendaalweg, Latour, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "3e zijstraat Boxel-Paraweg pc #, Para, Para, Suriname": null,
+ "3e zijstraat Boxel-Paraweg pc #, Para, Suriname": null,
+ "3e zijstraat Boxel-Paraweg pc #, Suriname": null,
+ "Oostzijde Zwartbondstraat, Lelydorp, Wanica, Suriname": null,
+ "Oostzijde Zwartbondstraat, Wanica, Suriname": null,
+ "Oostzijde Zwartbondstraat, Suriname": null,
+ "Nan Kinstraat, Braamshoop, Wanica, Suriname": {
+  "lat": 5.7257796,
+  "lon": -55.265707,
+  "display_name": "Nan Kinstraat, Grand Village Braamshoop, Lelydorp, Wanica, Suriname",
+  "type": "road"
+ },
+ "Javaweg, Lelydorp, Wanica, Suriname": {
+  "lat": 5.6911389,
+  "lon": -55.2466518,
+  "display_name": "Javaweg, Lelydorp, Wanica, Suriname",
+  "type": "road"
+ },
+ "East-West Connection, Totness, Coronie, Suriname": null,
+ "East-West Connection, Coronie, Suriname": null,
+ "East-West Connection, Suriname": null,
+ "Totness, Coronie, Suriname": {
+  "lat": 5.8771314,
+  "lon": -56.3307762,
+  "display_name": "Totness, Coronie, Suriname",
+  "type": "town"
+ },
+ "Garnizoenspad, Tineweg, Wanica, Suriname": null,
+ "Misgunstweg, Groningen, Wanica, Suriname": null,
+ "Misgunstweg, Wanica, Suriname": null,
+ "Misgunstweg, Suriname": {
+  "lat": 5.7906235,
+  "lon": -55.4766195,
+  "display_name": "Misgunstweg, Columbia, Groningen, Distrikt Saramacca, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Johan Adolf Pengelstraat, Suriname": {
+  "lat": 5.8188522,
+  "lon": -55.1747368,
+  "display_name": "Johan Adolf Pengelstraat, Paramaribo, Centrum, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Lelydorperweg #, Suriname": {
+  "lat": 5.6909051,
+  "lon": -55.2075178,
+  "display_name": "Lelydorperweg, Lelydorp, Wanica, Suriname",
+  "type": "road"
+ },
+ "Frederik Derbystraat 152c, Suriname": null,
+ "Centrum en omgeving, Suriname": null,
+ "Houttuinweg, Suriname": {
+  "lat": 5.7068279,
+  "lon": -55.2063616,
+  "display_name": "Houttuinweg, Lelydorp, Wanica, Suriname",
+  "type": "road"
+ },
+ "Koningsvarenweg, Oost, Para, Suriname": null,
+ "Koningsvarenweg, Para, Suriname": null,
+ "Koningsvarenweg, Suriname": null,
+ "Vier Kinderenweg, Wanica, Suriname": {
+  "lat": 5.7805279,
+  "lon": -55.2345971,
+  "display_name": "Vier Kinderenweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Hk.Manavstraat – Armaanstraat, Boma, Wanica, Suriname": null,
+ "Hk.Manavstraat – Armaanstraat, Wanica, Suriname": null,
+ "Hk.Manavstraat – Armaanstraat, Suriname": null,
+ "Hadji I. Soemitaweg, Tamanredjo, Commewijne, Suriname": null,
+ "Hadji I. Soemitaweg, Commewijne, Suriname": null,
+ "Hadji I. Soemitaweg, Suriname": null,
+ "Adrichem 4, 37&, Waterland, Para, Suriname": null,
+ "Adrichem 4, 37&, Para, Suriname": null,
+ "Adrichem 4, 37&, Suriname": null,
+ "Boxel C1396/, Boxel, Wanica, Suriname": null,
+ "Boxel C1396/, Wanica, Suriname": {
+  "lat": 5.7006335,
+  "lon": -55.1025623,
+  "display_name": "Boxel Paraweg, Domburg, Wanica, Suriname",
+  "type": "road"
+ },
+ "Waterland 1087, Waterland, Para, Suriname": null,
+ "Waterland 1087, Para, Suriname": {
+  "lat": 5.6734918,
+  "lon": -55.0417101,
+  "display_name": "Waterland, Oost, Para, Suriname",
+  "type": "locality"
+ },
+ "Lakeland Tout lui Faut, Wanica, Wanica, Suriname": null,
+ "Lakeland Tout lui Faut, Wanica, Suriname": null,
+ "Lakeland Tout lui Faut, Suriname": null,
+ "40 ha eigendomsperceel te Nieuw Charlesburg!, Paramaribo Noord en omgeving, Paramaribo, Suriname": null,
+ "40 ha eigendomsperceel te Nieuw Charlesburg!, Paramaribo, Suriname": null,
+ "40 ha eigendomsperceel te Nieuw Charlesburg!, Suriname": null,
+ "AAN DE SURINAME RIVIER!!! + 75M WATERKANT!, Commewijne, Commewijne, Suriname": null,
+ "AAN DE SURINAME RIVIER!!! + 75M WATERKANT!, Commewijne, Suriname": null,
+ "AAN DE SURINAME RIVIER!!! + 75M WATERKANT!, Suriname": null,
+ "21 - 65 ha te Bittenzorg, Oost-Westverbinding, Commewijne, Commewijne, Commewijne, Suriname": null,
+ "21 - 65 ha te Bittenzorg, Oost-Westverbinding, Commewijne, Commewijne, Suriname": null,
+ "21 - 65 ha te Bittenzorg, Oost-Westverbinding, Commewijne, Suriname": null,
+ "De Morgenstond - Anton Dragtenweg, Paramaribo Noord en omgeving, Paramaribo, Suriname": null,
+ "De Morgenstond - Anton Dragtenweg, Paramaribo, Suriname": {
+  "lat": 5.8545456,
+  "lon": -55.1042859,
+  "display_name": "Hotel Gallerie cafe De Ark van Noac, Anton Dragtenweg, Morgenstond, Suriname, Leonsberg, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "tourism"
+ },
+ "Damboetongweg, Damboentong, Saramacca, Suriname": null,
+ "Damboetongweg, Saramacca, Suriname": null,
+ "Damboetongweg, Suriname": null,
+ "Damboentong, Saramacca, Suriname": {
+  "lat": 5.8173353,
+  "lon": -55.5889757,
+  "display_name": "Damboentong, Tijgerkreek, Saramacca, Suriname",
+  "type": "road"
+ },
+ "Mooreikenhoutwewg, Lelydorp, Wanica, Suriname": null,
+ "Mooreikenhoutwewg, Wanica, Suriname": null,
+ "Mooreikenhoutwewg, Suriname": null,
+ "Domburg Middenweg, Domburg, Wanica, Suriname": {
+  "lat": 5.6900395,
+  "lon": -55.0871292,
+  "display_name": "Domburg Middenweg, Domburg, Wanica, Suriname",
+  "type": "road"
+ },
+ "Hoenderparkweg, Suriname": {
+  "lat": 5.8449968,
+  "lon": -55.1644923,
+  "display_name": "Hoenderparkweg, Rainville, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Keizerstraat 136/, Suriname": {
+  "lat": 5.8270155,
+  "lon": -55.1574157,
+  "display_name": "Keizerstraat, Paramaribo, Centrum, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "De Craneweg perc, Suriname": null,
+ "Lelydorp en omgeving, Suriname": null,
+ "Interne Financiering, Suriname": null,
+ "8 Signs To Recognize When Youre Dealing With A Non Serious Buyer, Suriname": null,
+ "Terzol Real Estate As Your Buying Agent, Suriname": null,
+ "Checklist Before Buying, Suriname": null,
+ "Increase in Rents in Suriname by 20% in the Past 5 Years, Suriname": null,
+ "Rent or buy?, Suriname": null,
+ "Debunked! 4 myths about renting that you should stop believing immediately!, Suriname": null,
+ "Supplies Appraisal, Suriname": null,
+ "Roadmap For The Appraisal Process, Suriname": null,
+ "Terzol Realty As Your Appraiser, Suriname": null,
+ "Krishna Liliaweg, Wanica / Garnizoenspad, Wanica, Suriname": null,
+ "Peprepinweg, Peprepin, Wanica, Suriname": null,
+ "Kalloestraat, Kwatta, Wanica, Suriname": {
+  "lat": 5.8491671,
+  "lon": -55.2781459,
+  "display_name": "Kalloestraat, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Agamemnonweg, Kwatta, Wanica, Suriname": {
+  "lat": 5.8658171,
+  "lon": -55.2866288,
+  "display_name": "Agamemnonweg, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Zwartbontstraat, Reeberg, Wanica, Suriname": null,
+ "Zwartbontstraat, Wanica, Suriname": {
+  "lat": 5.6698743,
+  "lon": -55.2843026,
+  "display_name": "Zwartbontstraat, Lelydorp, Wanica, Suriname",
+  "type": "road"
+ },
+ "Tout Lui Faut kanaalweg, Tout Lui Faut, Wanica, Suriname": null,
+ "Richelieu, Richelieu, Commewijne, Suriname": null,
+ "Richelieu, Commewijne, Suriname": {
+  "lat": 5.7890923,
+  "lon": -55.0539301,
+  "display_name": "Richelieu, Alkmaar, Commewijne, Suriname",
+  "type": "hamlet"
+ }
+}

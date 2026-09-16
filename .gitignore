@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+web/thumbs/
+stats.py
+*.b64
+*.tgz
