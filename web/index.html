@@ -125,6 +125,7 @@ input:focus-visible,select:focus-visible,button:focus-visible{outline:2px solid 
 .pop h3{margin:0 0 4px;font-size:15px}
 .pop .line{margin-bottom:5px}
 .pop a{color:var(--accent)}
+.pop a.ad{color:var(--accent-ink)}
 .call{
   display:inline-block;margin:3px 6px 0 0;padding:6px 11px;border-radius:9px;
   background:var(--panel3);color:var(--ink);text-decoration:none;font-weight:600;font-size:12.5px;
@@ -137,7 +138,7 @@ input:focus-visible,select:focus-visible,button:focus-visible{outline:2px solid 
 }
 .legend b{font-size:11px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.06em}
 .legend span{display:flex;align-items:center;gap:7px;white-space:nowrap}
-.legend i{width:12px;height:12px;border-radius:50%;border:2px solid #fff;display:inline-block;flex:none}
+.legend i{width:12px;height:12px;border-radius:50%;border:2px solid #fff;display:inline-block;flex:none;box-shadow:0 0 0 1px #000}
 .glis-note{font-size:11px;color:var(--muted);margin-top:2px}
 
 #viewToggle{
@@ -363,9 +364,16 @@ function render(){
   for (const d of VIEW){
     if (d.lat == null) continue;
     const approx = d.geocode_quality && d.geocode_quality !== "street";
+    const r = d.is_new ? 8.5 : 7;
+    // A black casing under the white ring: two outlines keep the dot readable
+    // on pale streets and on dark green alike.
+    dotLayer.addLayer(L.circleMarker([d.lat, d.lon], {
+      renderer: canvasRenderer, radius: r + 1.5, weight: 1.4,
+      color: "#000", opacity: approx ? .45 : .8, fill: false, interactive: false,
+    }));
     const mk = L.circleMarker([d.lat, d.lon], {
       renderer: canvasRenderer,
-      radius: d.is_new ? 8.5 : 7,
+      radius: r,
       weight: d.is_new ? 3 : 2.2,
       color: d.is_new ? "#fbbf24" : "#ffffff",
       opacity: 1, fillColor: colorOf(d), fillOpacity: approx ? .5 : .95,
@@ -477,28 +485,36 @@ const glisSeen = new Set();
 
 async function loadGlis(){
   if (!$("#cGlis") || $("#cGlis").ariaPressed !== "true") return;
+  const chip = $("#cGlis");
   if (map.getZoom() < 15){
     glisLayer.clearLayers(); glisSeen.clear();
+    chip.textContent = "Kadaster \u2014 zoom verder in";
     return;
   }
+  chip.textContent = "Kadaster tonen";
   if (glisBusy) return;
   glisBusy = true;
   try {
     const b = map.getBounds();
     const env = [b.getWest(), b.getSouth(), b.getEast(), b.getNorth()].join(",");
-    const layers = [...new Set(VIEW.map(d => GLIS_LAYERS[d.district]).filter(v => v != null))];
-    for (const layer of (layers.length ? layers : [6, 9])){
-      const url = `${GLIS}/${layer}/query?geometry=${env}&geometryType=esriGeometryEnvelope`
+    // Only ask the district layers that actually cover what is on screen -
+    // querying all ten takes seconds and returns nothing for nine of them.
+    const here = new Set();
+    for (const d of VIEW) if (d.lat != null && b.contains([d.lat, d.lon])) here.add(GLIS_LAYERS[d.district]);
+    const layers = [...here].filter(v => v != null);
+    const results = await Promise.all((layers.length ? layers : [6, 9]).map(layer =>
+      fetch(`${GLIS}/${layer}/query?geometry=${env}&geometryType=esriGeometryEnvelope`
         + `&inSR=4326&outSR=4326&spatialRel=esriSpatialRelIntersects`
         + `&outFields=PerceelID,PerceelNR,PerceelOpp,EenheidOpp,Ressort,Distrikt,Uitmetings`
-        + `&returnGeometry=true&resultRecordCount=600&f=geojson`;
-      const res = await fetch(url).then(r => r.ok ? r.json() : null).catch(() => null);
+        + `&returnGeometry=true&resultRecordCount=800&f=geojson`)
+        .then(r => r.ok ? r.json() : null).catch(() => null)));
+    for (const res of results){
       for (const f of (res && res.features) || []){
         const p = f.properties || {};
         const key = p.PerceelID || JSON.stringify(f.geometry).slice(0, 60);
         if (glisSeen.has(key)) continue;
         glisSeen.add(key);
-        L.geoJSON(f, {style:{color:"#38bdf8", weight:1.2, fillOpacity:.06, fillColor:"#38bdf8"}})
+        L.geoJSON(f, {style:{color:"#0284c7", weight:1.6, opacity:.95, fillOpacity:.10, fillColor:"#38bdf8"}})
           .bindPopup(`<div class="pop"><h3>Kadaster (GLIS)</h3>
             <div class="line">Perceel-ID <b>${p.PerceelID || "—"}</b></div>
             <div class="line">Perceelnummer ${p.PerceelNR || "—"}</div>
