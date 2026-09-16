@@ -3,91 +3,166 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Percelen Suriname</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗺️</text></svg>">
+<title>Percelen te koop in Suriname</title>
+<meta name="description" content="Alle percelen die te koop staan in Suriname, van alle makelaarssites op één kaart.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📍</text></svg>">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <style>
 :root{
-  --bg:#0f1417; --panel:#161d21; --panel2:#1d262b; --line:#2b373e;
-  --ink:#e8eef1; --muted:#93a4ad; --accent:#3fb98c; --accent2:#f0a63c;
-  --warn:#e2685f; --radius:12px;
+  --bg:#0e1316; --panel:#151c21; --panel2:#1c252b; --panel3:#243038; --line:#2b3841;
+  --ink:#e9eff2; --ink2:#b9c7cf; --muted:#8497a1;
+  --accent:#34d399; --accent-ink:#04120d; --gold:#fbbf24; --red:#f87171;
+  --r:14px; --shadow:0 4px 18px rgba(0,0,0,.35);
 }
 @media (prefers-color-scheme:light){
   :root:not([data-theme="dark"]){
-    --bg:#f3f5f6; --panel:#ffffff; --panel2:#f7f9fa; --line:#dfe5e8;
-    --ink:#12191d; --muted:#61727c; --accent:#1c8f68; --accent2:#c97f11;
+    --bg:#eef1f3; --panel:#fff; --panel2:#f5f7f9; --panel3:#eaeef1; --line:#dde4e8;
+    --ink:#101820; --ink2:#38474f; --muted:#64757f;
+    --accent:#0f9d6b; --accent-ink:#fff; --gold:#b57d0a; --red:#d64545;
+    --shadow:0 4px 18px rgba(20,40,60,.12);
   }
 }
 *{box-sizing:border-box}
 html,body{margin:0;height:100%}
 body{
-  background:var(--bg);color:var(--ink);
-  font:15px/1.45 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-  overflow:hidden;
+  background:var(--bg);color:var(--ink);overflow:hidden;
+  font:15px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  -webkit-text-size-adjust:100%;
 }
-#app{display:grid;grid-template-columns:minmax(330px,400px) 1fr;height:100dvh}
+button,input,select{font:inherit;color:inherit}
+#app{display:grid;grid-template-columns:min(420px,38vw) 1fr;height:100dvh}
 #side{display:flex;flex-direction:column;background:var(--panel);border-right:1px solid var(--line);min-width:0}
-header{padding:14px 16px 10px;border-bottom:1px solid var(--line)}
-h1{font-size:17px;margin:0 0 3px;letter-spacing:-.01em}
-.sub{font-size:12px;color:var(--muted)}
-.stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px;font-size:11.5px;color:var(--muted)}
-.stats b{color:var(--ink)}
-#filters{padding:10px 16px;border-bottom:1px solid var(--line);display:grid;gap:9px}
-.row{display:flex;gap:8px;align-items:center}
-.row>*{min-width:0}
-label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
-select,input[type=search],input[type=number]{
-  width:100%;background:var(--panel2);color:var(--ink);border:1px solid var(--line);
-  border-radius:8px;padding:7px 9px;font:inherit;font-size:13px;
+
+header{padding:16px 18px 12px;border-bottom:1px solid var(--line)}
+h1{font-size:19px;margin:0;letter-spacing:-.02em}
+.count{font-size:13px;color:var(--muted);margin-top:3px}
+.count b{color:var(--ink)}
+
+/* ---------- filters ---------- */
+#filters{padding:12px 18px 14px;border-bottom:1px solid var(--line);display:grid;gap:14px;overflow:visible}
+.field{display:grid;gap:7px;min-width:0}
+label,.lbl{font-size:12.5px;color:var(--ink2);font-weight:600}
+.lbl .val{float:right;font-weight:500;color:var(--muted)}
+input[type=search],select{
+  width:100%;background:var(--panel2);border:1px solid var(--line);border-radius:10px;
+  padding:10px 12px;font-size:14px;
 }
-input[type=range]{width:100%;accent-color:var(--accent)}
-.chips{display:flex;gap:6px;flex-wrap:wrap}
+input[type=search]{-webkit-appearance:none}
+select{cursor:pointer}
+input:focus-visible,select:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+
+/* dual-thumb range */
+.range{position:relative;height:26px;margin-top:2px}
+.range .track{position:absolute;top:11px;left:0;right:0;height:4px;border-radius:3px;background:var(--panel3)}
+.range .fill{position:absolute;top:11px;height:4px;border-radius:3px;background:var(--accent)}
+.range input[type=range]{
+  position:absolute;top:0;left:0;width:100%;height:26px;margin:0;background:none;
+  -webkit-appearance:none;appearance:none;pointer-events:none;
+}
+.range input[type=range]::-webkit-slider-thumb{
+  -webkit-appearance:none;pointer-events:auto;width:20px;height:20px;border-radius:50%;
+  background:var(--accent);border:3px solid var(--panel);box-shadow:0 1px 4px rgba(0,0,0,.4);cursor:grab;
+}
+.range input[type=range]::-moz-range-thumb{
+  pointer-events:auto;width:16px;height:16px;border-radius:50%;
+  background:var(--accent);border:3px solid var(--panel);cursor:grab;
+}
+
+/* tags */
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag-x{
+  display:inline-flex;align-items:center;gap:6px;background:var(--accent);color:var(--accent-ink);
+  border:0;border-radius:99px;padding:5px 7px 5px 11px;font-size:12.5px;font-weight:600;cursor:pointer;
+}
+.tag-x span{font-size:15px;line-height:1;opacity:.75}
+.tag-x:hover span{opacity:1}
+
+.chips{display:flex;gap:7px;flex-wrap:wrap}
 .chip{
-  border:1px solid var(--line);background:var(--panel2);color:var(--muted);
-  padding:4px 9px;border-radius:99px;font-size:12px;cursor:pointer;user-select:none;
+  border:1px solid var(--line);background:var(--panel2);color:var(--ink2);
+  padding:7px 12px;border-radius:99px;font-size:13px;cursor:pointer;
 }
-.chip[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:#04120d;font-weight:600}
-#list{overflow-y:auto;flex:1;padding:8px 10px 40px;scrollbar-width:thin}
+.chip[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:600}
+.linkbtn{background:none;border:0;color:var(--muted);font-size:12.5px;text-decoration:underline;cursor:pointer;padding:0;justify-self:start}
+.linkbtn:hover{color:var(--ink)}
+
+/* ---------- list ---------- */
+#list{overflow-y:auto;flex:1;padding:10px 12px 60px;overscroll-behavior:contain}
 .card{
-  display:grid;grid-template-columns:96px 1fr;gap:10px;padding:8px;margin-bottom:8px;
-  background:var(--panel2);border:1px solid var(--line);border-radius:var(--radius);cursor:pointer;
+  display:grid;grid-template-columns:104px 1fr;gap:12px;padding:10px;margin-bottom:10px;
+  background:var(--panel2);border:1px solid var(--line);border-radius:var(--r);cursor:pointer;
 }
 .card:hover{border-color:var(--accent)}
 .card.active{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}
-.card img{width:96px;height:74px;object-fit:cover;border-radius:8px;background:var(--line);display:block}
-.card .ph{width:96px;height:74px;border-radius:8px;background:var(--line);display:grid;place-items:center;color:var(--muted);font-size:20px}
-.t{font-weight:600;font-size:13.5px;margin:0 0 2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.meta{font-size:12px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 8px}
-.price{color:var(--accent);font-weight:700;font-size:13.5px}
-.tag{font-size:10.5px;padding:1px 6px;border-radius:99px;border:1px solid var(--line);color:var(--muted)}
-.tag.new{border-color:var(--accent2);color:var(--accent2)}
-.tag.dup{border-color:var(--muted)}
-.tag.dated{border-color:var(--accent);color:var(--accent)}
+.card .ph,.card img{width:104px;height:84px;border-radius:10px;object-fit:cover;background:var(--panel3);display:block}
+.card .ph{display:grid;place-items:center;color:var(--muted);font-size:22px}
+.body{min-width:0;display:grid;gap:4px;align-content:start}
+.t{font-weight:650;font-size:14.5px;margin:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.price{color:var(--accent);font-weight:700;font-size:15px}
+.line{font-size:12.5px;color:var(--muted);display:flex;flex-wrap:wrap;gap:3px 10px;align-items:baseline}
+.pill{
+  font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid var(--line);
+  color:var(--ink2);background:var(--panel);white-space:nowrap
+}
+.pill.src{border-color:var(--accent);color:var(--accent)}
+.pill.fb{border-color:#60a5fa;color:#60a5fa}
+.pill.both{border-color:var(--gold);color:var(--gold)}
+.ad{
+  display:inline-block;margin-top:3px;padding:6px 12px;border-radius:9px;
+  background:var(--accent);color:var(--accent-ink);text-decoration:none;font-weight:650;font-size:12.5px;
+}
+.ad:hover{filter:brightness(1.08)}
+.empty{padding:44px 20px;text-align:center;color:var(--muted);font-size:14px}
+.more{width:100%;padding:12px;border-radius:10px;border:1px dashed var(--line);background:none;color:var(--muted);cursor:pointer}
+
+/* ---------- map ---------- */
 #map{height:100dvh}
 .leaflet-container{background:var(--bg);font:inherit}
-.pop{width:250px}
-.pop img{width:100%;height:150px;object-fit:cover;border-radius:8px;margin-bottom:6px;background:#333}
-.pop h3{margin:0 0 4px;font-size:14px}
-.pop .meta{margin-bottom:6px}
+.leaflet-popup-content-wrapper{background:var(--panel);color:var(--ink);border-radius:var(--r);box-shadow:var(--shadow)}
+.leaflet-popup-tip{background:var(--panel)}
+.leaflet-popup-content{margin:12px 14px;width:264px!important}
+.pop img{width:100%;height:150px;object-fit:cover;border-radius:10px;margin-bottom:8px;background:var(--panel3)}
+.pop h3{margin:0 0 4px;font-size:15px}
+.pop .line{margin-bottom:5px}
 .pop a{color:var(--accent)}
-.pop .call{display:inline-block;margin:4px 6px 0 0;padding:4px 9px;border-radius:7px;background:var(--accent);color:#04120d;text-decoration:none;font-weight:600;font-size:12px}
-.pop .wa{background:#25d366}
-.legend{
-  background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:7px 9px;
-  font-size:11px;color:var(--muted);display:grid;gap:3px;box-shadow:0 2px 10px rgba(0,0,0,.25)
+.call{
+  display:inline-block;margin:3px 6px 0 0;padding:6px 11px;border-radius:9px;
+  background:var(--panel3);color:var(--ink);text-decoration:none;font-weight:600;font-size:12.5px;
 }
-.legend span{display:flex;align-items:center;gap:6px;white-space:nowrap}
-.legend i{width:11px;height:11px;border-radius:50%;border:1.5px solid #fff;display:inline-block}
-.home-dot{background:var(--accent2);border:2px solid #fff;border-radius:50%;width:14px;height:14px;box-shadow:0 0 0 3px rgba(240,166,60,.35)}
-#toggle{position:absolute;z-index:1300;top:10px;right:10px;display:none}
-.empty{padding:30px 16px;text-align:center;color:var(--muted);font-size:13px}
-@media (max-width:820px){
-  #app{grid-template-columns:1fr;grid-template-rows:1fr}
+.call.wa{background:#25d366;color:#04120d}
+.home-dot{background:var(--gold);border:2px solid #fff;border-radius:50%;width:14px;height:14px;box-shadow:0 0 0 3px rgba(251,191,36,.35)}
+.legend{
+  background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:9px 11px;
+  font-size:11.5px;color:var(--ink2);display:grid;gap:4px;box-shadow:var(--shadow)
+}
+.legend b{font-size:11px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.06em}
+.legend span{display:flex;align-items:center;gap:7px;white-space:nowrap}
+.legend i{width:12px;height:12px;border-radius:50%;border:2px solid #fff;display:inline-block;flex:none}
+.glis-note{font-size:11px;color:var(--muted);margin-top:2px}
+
+#viewToggle{
+  position:absolute;z-index:1300;top:12px;right:12px;display:none;
+  padding:10px 18px;border-radius:99px;border:1px solid var(--line);
+  background:var(--panel);color:var(--ink);font-weight:650;box-shadow:var(--shadow);cursor:pointer;
+}
+#filterToggle{display:none}
+
+@media (max-width:860px){
+  #app{grid-template-columns:1fr}
   #map{position:absolute;inset:0;height:100dvh}
   #side{position:absolute;inset:0;z-index:1200;background:var(--panel)}
-  body:not(.mapview) .leaflet-control-container{display:none}
   body.mapview #side{display:none}
-  #toggle{display:block;padding:8px 14px;border-radius:99px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font-weight:600}
+  body:not(.mapview) .leaflet-control-container{display:none}
+  #viewToggle{display:block}
+  header{padding:14px 16px 10px}
+  h1{font-size:17px}
+  #filters{padding:12px 16px}
+  #list{padding:10px 16px 80px}
+  body.filters-closed #filters{display:none}
+  #filterToggle{
+    display:block;margin:10px 16px 0;padding:9px;width:calc(100% - 32px);border-radius:10px;
+    border:1px solid var(--line);background:var(--panel2);color:var(--ink2);font-weight:600;cursor:pointer;
+  }
 }
 </style>
 </head>
@@ -95,299 +170,451 @@ input[type=range]{width:100%;accent-color:var(--accent)}
 <div id="app">
   <aside id="side">
     <header>
-      <h1>Percelen te koop &mdash; Paramaribo &amp; Wanica</h1>
-      <div class="sub" id="sub">laden&hellip;</div>
-      <div class="stats" id="stats"></div>
+      <h1>Percelen te koop in Suriname</h1>
+      <div class="count" id="count">laden&hellip;</div>
     </header>
+    <button id="filterToggle">Filters verbergen</button>
     <div id="filters">
-      <input type="search" id="q" placeholder="Zoek straat, buurt, makelaar&hellip;">
-      <div class="row">
-        <select id="district"><option value="">Alle districten</option></select>
+      <input type="search" id="q" placeholder="Zoek op straat, buurt of makelaar" autocomplete="off">
+
+      <div class="field">
+        <label for="districtPick">Waar wil je zoeken?</label>
+        <select id="districtPick"><option value="">Heel Suriname &mdash; kies een district</option></select>
+        <div class="tags" id="districtTags"></div>
+      </div>
+
+      <div class="field">
+        <div class="lbl">Prijs <span class="val" id="priceVal"></span></div>
+        <div class="range" id="priceRange">
+          <div class="track"></div><div class="fill"></div>
+          <input type="range" id="priceMin" min="0" max="100" value="0" aria-label="Laagste prijs">
+          <input type="range" id="priceMax" min="0" max="100" value="100" aria-label="Hoogste prijs">
+        </div>
+      </div>
+
+      <div class="field">
+        <div class="lbl">Grootte van het perceel <span class="val" id="sizeVal"></span></div>
+        <div class="range" id="sizeRange">
+          <div class="track"></div><div class="fill"></div>
+          <input type="range" id="sizeMin" min="0" max="100" value="0" aria-label="Kleinste perceel">
+          <input type="range" id="sizeMax" min="0" max="100" value="100" aria-label="Grootste perceel">
+        </div>
+      </div>
+
+      <div class="field">
+        <div class="lbl">Afstand tot het centrum van Paramaribo <span class="val" id="kmVal"></span></div>
+        <div class="range" id="kmRange" style="height:26px">
+          <div class="track"></div><div class="fill"></div>
+          <input type="range" id="kmMin" min="0" max="100" value="0" aria-label="Minimale afstand" style="display:none">
+          <input type="range" id="kmMax" min="0" max="100" value="100" aria-label="Maximale afstand">
+        </div>
+      </div>
+
+      <div class="chips">
+        <button class="chip" id="cPhoto" aria-pressed="false">Met foto</button>
+        <button class="chip" id="cExact" aria-pressed="false">Exacte locatie</button>
+        <button class="chip" id="cNew" aria-pressed="false">Nieuw</button>
+        <button class="chip" id="cGlis" aria-pressed="false">Kadaster tonen</button>
+      </div>
+
+      <div class="field">
+        <label for="sort">Sorteren</label>
         <select id="sort">
           <option value="centre">Dichtst bij de stad</option>
-          <option value="home">Dichtst bij Schuilplaats</option>
-          <option value="price">Prijs laag &rarr; hoog</option>
-          <option value="pm2">Prijs per m&sup2;</option>
+          <option value="price">Goedkoopste eerst</option>
+          <option value="priceDesc">Duurste eerst</option>
+          <option value="pm2">Beste prijs per m&sup2;</option>
           <option value="size">Grootste perceel</option>
           <option value="posted">Nieuwst geplaatst</option>
-          <option value="new">Nieuw gevonden</option>
         </select>
       </div>
-      <div class="row">
-        <div style="flex:1"><label>Max prijs <span id="maxPriceLbl"></span></label><input type="range" id="maxPrice" min="0" max="100" value="100"></div>
-        <div style="flex:1"><label>Min m&sup2; <span id="minSizeLbl"></span></label><input type="range" id="minSize" min="0" max="100" value="0"></div>
-      </div>
-      <div><label>Max km van Paramaribo centrum <span id="maxKmLbl"></span></label><input type="range" id="maxKm" min="1" max="40" value="40"></div>
-      <div class="chips" id="chips">
-        <button class="chip" id="cTarget" aria-pressed="true">Alleen Pbo/Wanica</button>
-        <button class="chip" id="cCloser" aria-pressed="false">Dichter bij stad dan nu</button>
-        <button class="chip" id="cPhoto" aria-pressed="false">Met foto</button>
-        <button class="chip" id="cNew" aria-pressed="false">Nieuw</button>
-        <button class="chip" id="cExact" aria-pressed="false">Exacte locatie</button>
-      </div>
-      <select id="source"><option value="">Alle bronnen</option></select>
+
+      <button class="linkbtn" id="reset">Alle filters wissen</button>
     </div>
     <div id="list"></div>
   </aside>
   <div id="map"></div>
 </div>
-<button id="toggle">Kaart</button>
+<button id="viewToggle">Kaart</button>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
+"use strict";
 const $ = s => document.querySelector(s);
-const fmtEur = n => n == null ? "prijs op aanvraag" : "€ " + Math.round(n).toLocaleString("nl-NL");
-const fmtDate = s => {
+const eur = n => n == null ? null : "€ " + Math.round(n).toLocaleString("nl-NL");
+const m2  = n => n == null ? null : Math.round(n).toLocaleString("nl-NL") + " m²";
+
+/* ---------------- data + state ---------------- */
+let DATA = [], VIEW = [], SHOWN = 0, PAGE = 60;
+let map, dotLayer, canvasRenderer, glisLayer, byId = new Map(), activeId = null;
+let BASELINE = false;
+let PRICES = [], SIZES = [], KMS = [];
+const picked = new Set();
+
+/* price bands drive the dot colour */
+const BANDS = [
+  {max: 25000,    color:"#2dd4bf", label:"tot € 25.000"},
+  {max: 45000,    color:"#4ade80", label:"€ 25.000 – 45.000"},
+  {max: 80000,    color:"#fbbf24", label:"€ 45.000 – 80.000"},
+  {max: 150000,   color:"#fb923c", label:"€ 80.000 – 150.000"},
+  {max: Infinity, color:"#f43f5e", label:"boven € 150.000"},
+];
+const NOPRICE = "#a78bfa";
+const colorOf = d => d.price_eur == null ? NOPRICE : BANDS.find(b => d.price_eur < b.max).color;
+
+/* sliders map 0-100 onto the real spread of the data, so the handles
+   always cover something instead of bunching up at the left. */
+const q = (arr, p) => arr.length ? arr[Math.min(arr.length-1, Math.max(0, Math.round((arr.length-1)*p)))] : 0;
+const fromPct = (arr, pct) => q(arr, Math.pow(pct/100, 1.7));
+const roundTo = (v, step) => Math.round(v/step)*step;
+
+function dateAgo(s){
   if (!s) return null;
-  const d = new Date(s + (s.length === 10 ? "T12:00:00" : ""));
+  const d = new Date(s.length === 10 ? s + "T12:00:00" : s);
   if (isNaN(d)) return null;
-  const days = Math.round((Date.now() - d) / 86400000);
+  const days = Math.round((Date.now() - d)/86400000);
   if (days <= 0) return "vandaag";
   if (days === 1) return "gisteren";
-  if (days < 31) return days + " dagen geleden";
-  if (days < 365) return Math.round(days / 30) + " mnd geleden";
-  return Math.round(days / 365) + " jaar geleden";
-};
-const ageInfo = d => {
-  if (d.posted) return {text: "geplaatst " + fmtDate(d.posted), exact: d.posted, known: true};
-  if (d.first_seen) return {text: "gezien sinds " + fmtDate(d.first_seen), exact: d.first_seen, known: false};
+  if (days < 31)  return days + " dagen geleden";
+  if (days < 365) return Math.max(1, Math.round(days/30)) + " maanden geleden";
+  const y = Math.round(days/365);
+  return y + (y === 1 ? " jaar geleden" : " jaar geleden");
+}
+function ageOf(d){
+  if (d.posted)     return {text: "geplaatst " + dateAgo(d.posted), title: d.posted};
+  if (d.first_seen) return {text: "gevonden " + dateAgo(d.first_seen), title: "deze site zag dit perceel voor het eerst op " + d.first_seen};
   return null;
-};
-const fmtM2  = n => n == null ? "? m²" : Math.round(n).toLocaleString("nl-NL") + " m²";
-const SRC_LABEL = {};
-
-let BASELINE_RUN = false;
-let DATA = [], VIEW = [], markers = null, map = null, canvasLayer = null, byId = new Map(), activeId = null;
-
-function priceEur(d){ return d.price_eur != null ? d.price_eur : null; }
-
-// Dot colour = asking price, so the map reads as a price heat map at a glance.
-const BANDS = [
-  {max: 25000,   color: "#2dd4bf", label: "< € 25k"},
-  {max: 45000,   color: "#4ade80", label: "€ 25–45k"},
-  {max: 80000,   color: "#fbbf24", label: "€ 45–80k"},
-  {max: 150000,  color: "#fb923c", label: "€ 80–150k"},
-  {max: Infinity, color: "#ef4444", label: "> € 150k"},
-];
-const NO_PRICE = "#a78bfa";
-function priceColor(d){
-  const p = priceEur(d);
-  if (p == null) return NO_PRICE;
-  return BANDS.find(b => p < b.max).color;
 }
 
-function cardHtml(d, i){
+/* where a listing comes from, in plain words */
+function sources(d){
+  const all = [{source: d.source, agent: d.agent, url: d.url}, ...(d.also_listed_by || [])];
+  const seen = new Set(), out = [];
+  for (const s of all){
+    const name = s.source === "facebook" ? "Facebook" : (s.agent || s.source);
+    if (!name || seen.has(name)) continue;
+    seen.add(name);
+    out.push({name, url: s.url, fb: s.source === "facebook"});
+  }
+  return out;
+}
+function sourcePills(d){
+  const list = sources(d);
+  if (list.length > 1) return `<span class="pill both">${list.length} bronnen</span>`;
+  const s = list[0];
+  return `<span class="pill ${s.fb ? "fb" : "src"}">${s.fb ? "Facebook" : s.name}</span>`;
+}
+
+/* ---------------- rendering ---------------- */
+function cardHtml(d){
   const img = (d.thumbs && d.thumbs[0]) || (d.images && d.images[0]);
-  const age = ageInfo(d);
-  const tags = [];
-  if (d.is_new) tags.push('<span class="tag new">nieuw</span>');
-  if (d.also_listed_by && d.also_listed_by.length) tags.push(`<span class="tag dup">${d.also_listed_by.length+1} bronnen</span>`);
-  if (d.title_type) tags.push(`<span class="tag">${d.title_type}</span>`);
-  return `<div class="card${d.id===activeId?' active':''}" data-id="${d.id}">
-    ${img ? `<img loading="lazy" src="${img}" alt="">` : '<div class="ph">🗺️</div>'}
-    <div style="min-width:0">
-      <p class="t">${d.street || d.title || "Perceel"}</p>
-      <div class="meta"><span class="price">${fmtEur(priceEur(d))}</span><span>${fmtM2(d.size_m2)}</span>
-      ${d.eur_per_m2 ? `<span>€${d.eur_per_m2}/m²</span>` : ""}</div>
-      <div class="meta"><span>${[d.resort, d.district].filter(Boolean).join(", ") || "—"}</span>
-      ${d.km_from_centre != null ? `<span>${d.km_from_centre.toFixed(1)} km v. stad</span>` : ""}</div>
-      <div class="meta">${tags.join("")}<span class="tag">${SRC_LABEL[d.source]||d.source}</span>
-      ${age ? `<span class="tag${d.posted?" dated":""}" title="${age.exact}">${age.text}</span>` : ""}</div>
-    </div></div>`;
+  const age = ageOf(d);
+  const where = [d.resort, d.district].filter(Boolean).join(", ");
+  return `<article class="card${d.id===activeId?" active":""}" data-id="${d.id}">
+    ${img ? `<img loading="lazy" src="${img}" alt="">` : `<div class="ph">\u{1F4CD}</div>`}
+    <div class="body">
+      <h3 class="t">${d.street || d.title || "Perceel"}</h3>
+      <div class="line"><span class="price">${eur(d.price_eur) || "prijs op aanvraag"}</span>
+        ${d.size_m2 ? `<span>${m2(d.size_m2)}</span>` : ""}
+        ${d.eur_per_m2 ? `<span>€ ${Math.round(d.eur_per_m2)} per m²</span>` : ""}</div>
+      <div class="line">${where || "locatie onbekend"}${d.km_from_centre != null ? ` · ${d.km_from_centre.toFixed(1)} km van de stad` : ""}</div>
+      <div class="line">${sourcePills(d)}
+        ${d.title_type ? `<span class="pill">${d.title_type}</span>` : ""}
+        ${age ? `<span class="pill" title="${age.title}">${age.text}</span>` : ""}
+        ${d.is_new ? `<span class="pill both">nieuw</span>` : ""}</div>
+      <a class="ad" href="${d.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Bekijk advertentie ↗</a>
+    </div></article>`;
 }
 
 function popupHtml(d){
   const img = (d.thumbs && d.thumbs[0]) || (d.images && d.images[0]);
-  const phones = (d.phones||[]).slice(0,2).map(p =>
-    `<a class="call" href="tel:${p}">${p}</a><a class="call wa" target="_blank" rel="noopener" href="https://wa.me/${p.replace(/[^0-9]/g,"")}">WhatsApp</a>`).join("");
+  const age = ageOf(d);
+  const phones = (d.phones || []).slice(0,2).map(p =>
+    `<a class="call" href="tel:${p}">${p}</a><a class="call wa" target="_blank" rel="noopener" href="https://wa.me/${p.replace(/\D/g,"")}">WhatsApp</a>`).join("");
+  const links = sources(d).map(s =>
+    `<a class="ad" href="${s.url}" target="_blank" rel="noopener">Bekijk op ${s.name} ↗</a>`).join(" ");
   return `<div class="pop">
     ${img ? `<img src="${img}" alt="">` : ""}
     <h3>${d.street || d.title || "Perceel"}</h3>
-    <div class="meta"><span class="price">${fmtEur(priceEur(d))}</span> · ${fmtM2(d.size_m2)}${d.eur_per_m2?` · €${d.eur_per_m2}/m²`:""}</div>
-    <div class="meta">${[d.resort,d.district].filter(Boolean).join(", ")||"—"}${d.title_type?" · "+d.title_type:""}</div>
-    <div class="meta">${d.km_from_centre!=null?`${d.km_from_centre.toFixed(1)} km van centrum · ${d.km_from_home.toFixed(1)} km van Schuilplaats`:""}</div>
-    <div class="meta">${(() => { const a = ageInfo(d); return a ? a.text + (a.known ? "" : " (geen plaatsingsdatum op de site)") + " · " : ""; })()}${d.agent||SRC_LABEL[d.source]||d.source}${d.geocode_quality&&d.geocode_quality!=="street"?' · <em>locatie bij benadering — pin staat ergens in deze buurt</em>':""}</div>
+    <div class="line"><span class="price">${eur(d.price_eur) || "prijs op aanvraag"}</span>
+      ${d.size_m2 ? `<span>${m2(d.size_m2)}</span>` : ""}
+      ${d.eur_per_m2 ? `<span>€ ${Math.round(d.eur_per_m2)}/m²</span>` : ""}</div>
+    <div class="line">${[d.resort, d.district].filter(Boolean).join(", ") || ""}${d.title_type ? " · " + d.title_type : ""}</div>
+    ${d.km_from_centre != null ? `<div class="line">${d.km_from_centre.toFixed(1)} km van het centrum van Paramaribo</div>` : ""}
+    ${age ? `<div class="line" title="${age.title}">${age.text}</div>` : ""}
+    ${d.geocode_quality && d.geocode_quality !== "street"
+      ? `<div class="line">⚠️ De advertentie noemt geen exact adres &mdash; deze stip staat ergens in deze buurt.</div>` : ""}
     ${phones}
-    <div style="margin-top:6px"><a href="${d.url}" target="_blank" rel="noopener">Bekijk advertentie ↗</a></div>
-    ${(d.also_listed_by||[]).map(a=>`<div><a href="${a.url}" target="_blank" rel="noopener">ook bij ${a.agent||a.source} ↗</a></div>`).join("")}
+    <div style="margin-top:7px">${links}</div>
   </div>`;
-}
-
-function applyFilters(){
-  const q = $("#q").value.trim().toLowerCase();
-  const dist = $("#district").value, src = $("#source").value;
-  const maxP = +$("#maxPrice").value, minS = +$("#minSize").value, maxKm = +$("#maxKm").value;
-  const pCap = maxP >= 100 ? Infinity : Math.round(Math.pow(maxP/100, 2) * 400000);
-  const sMin = minS <= 0 ? 0 : Math.round(Math.pow(minS/100, 2) * 10000);
-  $("#maxPriceLbl").textContent = pCap === Infinity ? "alles" : "≤ " + fmtEur(pCap);
-  $("#minSizeLbl").textContent  = sMin === 0 ? "alles" : "≥ " + fmtM2(sMin);
-  $("#maxKmLbl").textContent    = maxKm >= 40 ? "alles" : "≤ " + maxKm + " km";
-  const onlyTarget = $("#cTarget").ariaPressed === "true";
-  const onlyCloser = $("#cCloser").ariaPressed === "true";
-  const onlyPhoto  = $("#cPhoto").ariaPressed === "true";
-  const onlyNew    = $("#cNew").ariaPressed === "true";
-  const onlyExact  = $("#cExact").ariaPressed === "true";
-
-  VIEW = DATA.filter(d => {
-    if (onlyTarget && !d.in_target_area) return false;
-    if (onlyCloser && !d.closer_to_city) return false;
-    if (onlyPhoto && !(d.images && d.images.length)) return false;
-    if (onlyNew && !d.is_new) return false;
-    if (onlyExact && d.geocode_quality !== "street") return false;
-    if (dist && d.district !== dist) return false;
-    if (src && d.source !== src) return false;
-    const p = priceEur(d);
-    if (pCap !== Infinity && (p == null || p > pCap)) return false;
-    if (sMin && (d.size_m2 == null || d.size_m2 < sMin)) return false;
-    if (maxKm < 40 && (d.km_from_centre == null || d.km_from_centre > maxKm)) return false;
-    if (q) {
-      const hay = [d.street,d.title,d.resort,d.district,d.agent,d.raw_location,d.geocode_match]
-        .filter(Boolean).join(" ").toLowerCase();
-      if (!hay.includes(q)) return false;
-    }
-    return true;
-  });
-
-  const s = $("#sort").value;
-  const num = v => v == null ? Infinity : v;
-  VIEW.sort((a,b)=>{
-    if (s==="centre") return num(a.km_from_centre)-num(b.km_from_centre);
-    if (s==="home")   return num(a.km_from_home)-num(b.km_from_home);
-    if (s==="price")  return num(priceEur(a))-num(priceEur(b));
-    if (s==="pm2")    return num(a.eur_per_m2)-num(b.eur_per_m2);
-    if (s==="size")   return (b.size_m2||0)-(a.size_m2||0);
-    if (s==="posted") return (b.posted||b.first_seen||"").localeCompare(a.posted||a.first_seen||"");
-    if (s==="new")    return (b.is_new?1:0)-(a.is_new?1:0) || num(a.km_from_centre)-num(b.km_from_centre);
-    return 0;
-  });
-  render();
 }
 
 function render(){
   const list = $("#list");
+  SHOWN = Math.min(PAGE, VIEW.length);
   list.innerHTML = VIEW.length
-    ? VIEW.slice(0,400).map(cardHtml).join("")
-    : '<div class="empty">Geen percelen die aan deze filters voldoen.</div>';
-  $("#sub").textContent = `${VIEW.length} van ${DATA.length} percelen`;
-  markers.clearLayers();
+    ? VIEW.slice(0, SHOWN).map(cardHtml).join("") + tailHtml()
+    : `<div class="empty">Geen percelen gevonden met deze filters.<br>Probeer de prijs of de grootte wat ruimer te zetten.</div>`;
+  list.scrollTop = 0;
+
+  dotLayer.clearLayers();
+  byId.clear();
   const pts = [];
-  VIEW.forEach(d => {
-    if (d.lat == null || d.lon == null) return;
+  for (const d of VIEW){
+    if (d.lat == null) continue;
     const approx = d.geocode_quality && d.geocode_quality !== "street";
-    const m = L.circleMarker([d.lat, d.lon], {
-      renderer: canvasLayer,
+    const mk = L.circleMarker([d.lat, d.lon], {
+      renderer: canvasRenderer,
       radius: d.is_new ? 8.5 : 7,
       weight: d.is_new ? 3 : 2.2,
-      color: d.is_new ? "#ffd166" : "#ffffff",   // white ring lifts the dot off the map
-      opacity: 1,
-      fillColor: priceColor(d),
-      fillOpacity: approx ? .55 : .95
+      color: d.is_new ? "#fbbf24" : "#ffffff",
+      opacity: 1, fillColor: colorOf(d), fillOpacity: approx ? .5 : .95,
     });
-    m.bindPopup(popupHtml(d), {maxWidth:280});
-    m.on("click", ()=>{ activeId = d.id; highlight(d.id); });
-    byId.set(d.id, m);
-    markers.addLayer(m);
+    mk.bindPopup(() => popupHtml(d), {maxWidth: 300, autoPanPadding: [20, 20]});
+    mk.on("click", () => { activeId = d.id; highlight(d.id); });
+    byId.set(d.id, mk);
+    dotLayer.addLayer(mk);
     pts.push([d.lat, d.lon]);
-  });
-  fitToView(pts);
+  }
+  fitTo(pts);
+}
+function tailHtml(){
+  return VIEW.length > SHOWN
+    ? `<button class="more" id="more">Nog ${VIEW.length - SHOWN} percelen laden</button>`
+    : `<div class="empty">Dat waren ze allemaal.</div>`;
+}
+function showMore(){
+  const list = $("#list");
+  const next = Math.min(SHOWN + PAGE, VIEW.length);
+  $("#more")?.remove();
+  list.insertAdjacentHTML("beforeend", VIEW.slice(SHOWN, next).map(cardHtml).join(""));
+  SHOWN = next;
+  list.insertAdjacentHTML("beforeend", tailHtml());
 }
 
-let didFirstFit = false;
-function fitToView(pts){
+let firstFit = false;
+function fitTo(pts){
   if (!pts.length) return;
-  // Leaflet caches the container size at init; if the layout wasn't settled
-  // yet that size is 0 and fitBounds silently lands on the whole world.
   requestAnimationFrame(() => {
     map.invalidateSize({animate:false});
-    map.fitBounds(L.latLngBounds(pts).pad(.12), {maxZoom: didFirstFit ? 15 : 13, animate:false});
-    didFirstFit = true;
+    map.fitBounds(L.latLngBounds(pts).pad(.1), {maxZoom: firstFit ? 15 : 12, animate:false});
+    firstFit = true;
   });
 }
-
 function highlight(id){
-  document.querySelectorAll(".card").forEach(c=>c.classList.toggle("active", c.dataset.id===String(id)));
-  const el = document.querySelector(`.card[data-id="${id}"]`);
-  if (el) el.scrollIntoView({block:"nearest"});
+  document.querySelectorAll(".card").forEach(c => c.classList.toggle("active", c.dataset.id === String(id)));
+  document.querySelector(`.card[data-id="${id}"]`)?.scrollIntoView({block:"nearest"});
 }
 
-async function boot(){
-  const res = await fetch("data/listings.json?" + Date.now());
-  const raw = await res.json();
-  DATA = (raw.listings||[]).map((d,i)=>({...d, id:i}));
-  DATA.forEach(d => { if (d.source) SRC_LABEL[d.source] = (d.agent||d.source); });
+/* ---------------- filtering ---------------- */
+function readRange(minEl, maxEl, arr, fmt, out, fillSel, opts = {}){
+  let lo = +minEl.value, hi = +maxEl.value;
+  if (lo > hi){ [lo, hi] = [hi, lo]; minEl.value = lo; maxEl.value = hi; }
+  const fill = document.querySelector(fillSel);
+  fill.style.left = lo + "%"; fill.style.width = (hi - lo) + "%";
+  const loV = lo <= 0 ? null : (opts.linear ? opts.max * lo/100 : fromPct(arr, lo));
+  const hiV = hi >= 100 ? null : (opts.linear ? opts.max * hi/100 : fromPct(arr, hi));
+  out.textContent = (loV == null && hiV == null) ? "alles"
+    : (loV == null ? "tot " + fmt(hiV) : (hiV == null ? "vanaf " + fmt(loV) : fmt(loV) + " – " + fmt(hiV)));
+  return [loV, hiV];
+}
 
-  map = L.map("map", {zoomControl:true}).setView([raw.home?.lat||5.85, raw.home?.lon||-55.25], 11);
+function applyFilters(){
+  const text = $("#q").value.trim().toLowerCase();
+  const [pLo, pHi] = readRange($("#priceMin"), $("#priceMax"), PRICES,
+        v => eur(roundTo(v, 500)), $("#priceVal"), "#priceRange .fill");
+  const [sLo, sHi] = readRange($("#sizeMin"), $("#sizeMax"), SIZES,
+        v => m2(roundTo(v, 10)), $("#sizeVal"), "#sizeRange .fill");
+  const [, kHi]    = readRange($("#kmMin"), $("#kmMax"), KMS,
+        v => Math.round(v) + " km", $("#kmVal"), "#kmRange .fill",
+        {linear:true, max: Math.ceil(Math.max(...KMS, 10))});
+  const photo = $("#cPhoto").ariaPressed === "true";
+  const exact = $("#cExact").ariaPressed === "true";
+  const fresh = $("#cNew").ariaPressed === "true";
+
+  VIEW = DATA.filter(d => {
+    if (picked.size && !picked.has(d.district)) return false;
+    if (photo && !(d.images && d.images.length)) return false;
+    if (exact && d.geocode_quality !== "street") return false;
+    if (fresh && !d.is_new) return false;
+    if (pLo != null && (d.price_eur == null || d.price_eur < pLo)) return false;
+    if (pHi != null && (d.price_eur == null || d.price_eur > pHi)) return false;
+    if (sLo != null && (d.size_m2 == null || d.size_m2 < sLo)) return false;
+    if (sHi != null && (d.size_m2 == null || d.size_m2 > sHi)) return false;
+    if (kHi != null && (d.km_from_centre == null || d.km_from_centre > kHi)) return false;
+    if (text && !d._hay.includes(text)) return false;
+    return true;
+  });
+
+  const s = $("#sort").value, big = 1e12;
+  const n = v => v == null ? big : v;
+  VIEW.sort((a,b) =>
+      s === "centre"    ? n(a.km_from_centre) - n(b.km_from_centre)
+    : s === "price"     ? n(a.price_eur) - n(b.price_eur)
+    : s === "priceDesc" ? (b.price_eur || 0) - (a.price_eur || 0)
+    : s === "pm2"       ? n(a.eur_per_m2) - n(b.eur_per_m2)
+    : s === "size"      ? (b.size_m2 || 0) - (a.size_m2 || 0)
+    : s === "posted"    ? (b.posted || b.first_seen || "").localeCompare(a.posted || a.first_seen || "")
+    : 0);
+
+  $("#count").innerHTML = `<b>${VIEW.length}</b> ${VIEW.length === 1 ? "perceel" : "percelen"}`
+    + (VIEW.length !== DATA.length ? ` van ${DATA.length}` : "") + ` &middot; bijgewerkt ${window.__generated || ""}`;
+  render();
+}
+
+/* ---------------- district tags ---------------- */
+function drawTags(){
+  $("#districtTags").innerHTML = [...picked].sort().map(d =>
+    `<button class="tag-x" data-d="${d}">${d} <span aria-hidden="true">×</span></button>`).join("");
+}
+
+/* ---------------- GLIS cadastral overlay ---------------- */
+const GLIS = "https://services2.arcgis.com/CK9GXvmosMB7QXv8/arcgis/rest/services/Percelen_Online/FeatureServer";
+const GLIS_LAYERS = {Brokopondo:0, Commewijne:1, Coronie:2, Marowijne:3, Nickerie:4, Para:5,
+                     Paramaribo:6, Saramacca:7, Sipaliwini:8, Wanica:9};
+let glisBusy = false;
+const glisSeen = new Set();
+
+async function loadGlis(){
+  if (!$("#cGlis") || $("#cGlis").ariaPressed !== "true") return;
+  if (map.getZoom() < 15){
+    glisLayer.clearLayers(); glisSeen.clear();
+    return;
+  }
+  if (glisBusy) return;
+  glisBusy = true;
+  try {
+    const b = map.getBounds();
+    const env = [b.getWest(), b.getSouth(), b.getEast(), b.getNorth()].join(",");
+    const layers = [...new Set(VIEW.map(d => GLIS_LAYERS[d.district]).filter(v => v != null))];
+    for (const layer of (layers.length ? layers : [6, 9])){
+      const url = `${GLIS}/${layer}/query?geometry=${env}&geometryType=esriGeometryEnvelope`
+        + `&inSR=4326&outSR=4326&spatialRel=esriSpatialRelIntersects`
+        + `&outFields=PerceelID,PerceelNR,PerceelOpp,EenheidOpp,Ressort,Distrikt,Uitmetings`
+        + `&returnGeometry=true&resultRecordCount=600&f=geojson`;
+      const res = await fetch(url).then(r => r.ok ? r.json() : null).catch(() => null);
+      for (const f of (res && res.features) || []){
+        const p = f.properties || {};
+        const key = p.PerceelID || JSON.stringify(f.geometry).slice(0, 60);
+        if (glisSeen.has(key)) continue;
+        glisSeen.add(key);
+        L.geoJSON(f, {style:{color:"#38bdf8", weight:1.2, fillOpacity:.06, fillColor:"#38bdf8"}})
+          .bindPopup(`<div class="pop"><h3>Kadaster (GLIS)</h3>
+            <div class="line">Perceel-ID <b>${p.PerceelID || "—"}</b></div>
+            <div class="line">Perceelnummer ${p.PerceelNR || "—"}</div>
+            <div class="line">Geregistreerde grootte: <b>${p.PerceelOpp ? Math.round(p.PerceelOpp).toLocaleString("nl-NL") + " " + (p.EenheidOpp || "m2") : "—"}</b></div>
+            <div class="line">${[p.Ressort, p.Distrikt].filter(Boolean).join(", ")}</div>
+            ${p.Uitmetings && p.Uitmetings.trim() ? `<div class="line">Uitmeting: ${p.Uitmetings}</div>` : ""}
+            <div class="glis-note">Officiële registratie van MI-GLIS. Niet elk perceel staat er al in.</div></div>`)
+          .addTo(glisLayer);
+      }
+    }
+  } finally { glisBusy = false; }
+}
+
+/* ---------------- boot ---------------- */
+async function boot(){
+  const raw = await (await fetch("data/listings.json?" + Date.now())).json();
+  window.__generated = raw.generated || "";
+  DATA = (raw.listings || []).map((d, i) => {
+    d.id = i;
+    d._hay = [d.street, d.title, d.resort, d.district, d.agent, d.raw_location, d.geocode_match]
+      .filter(Boolean).join(" ").toLowerCase();
+    return d;
+  });
+
+  const c = raw.counts || {};
+  BASELINE = !c.active || (c.new_this_run || 0) >= c.active * 0.9;
+  if (BASELINE){ DATA.forEach(d => d.is_new = false); $("#cNew").style.display = "none"; }
+
+  PRICES = DATA.map(d => d.price_eur).filter(v => v != null).sort((a,b) => a-b);
+  SIZES  = DATA.map(d => d.size_m2).filter(v => v != null).sort((a,b) => a-b);
+  KMS    = DATA.map(d => d.km_from_centre).filter(v => v != null).sort((a,b) => a-b);
+
+  map = L.map("map", {zoomControl:true, preferCanvas:true})
+        .setView([raw.home?.lat || 5.85, raw.home?.lon || -55.2], 11);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
-  // No clustering: 700 canvas circles render fine and the spiderfy animation
-  // made it impossible to see what was actually where.
-  canvasLayer = L.canvas({padding:.5});
-  markers = L.layerGroup().addTo(map);
+  canvasRenderer = L.canvas({padding:.5});
+  glisLayer = L.layerGroup().addTo(map);
+  dotLayer  = L.layerGroup().addTo(map);
 
   if (raw.home){
-    L.marker([raw.home.lat, raw.home.lon], {icon:L.divIcon({className:"", html:'<div class="home-dot"></div>', iconSize:[14,14]})})
-      .addTo(map).bindPopup("<b>Nu:</b> " + raw.home.label);
-    [5000,10000,15000].forEach(r =>
-      L.circle([raw.home.lat, raw.home.lon], {radius:r, color:"#f0a63c", weight:1, opacity:.35, fill:false, dashArray:"4 6"}).addTo(map));
+    L.marker([raw.home.lat, raw.home.lon],
+      {icon: L.divIcon({className:"", html:'<div class="home-dot"></div>', iconSize:[14,14]})})
+      .addTo(map).bindPopup("<b>Jouw locatie</b><br>" + (raw.home.label || ""));
   }
+
   const legend = L.control({position:"bottomleft"});
   legend.onAdd = () => {
     const el = L.DomUtil.create("div", "legend");
-    el.innerHTML = BANDS.map(b => `<span><i style="background:${b.color}"></i>${b.label}</span>`).join("")
-      + `<span><i style="background:${NO_PRICE}"></i>op aanvraag</span>`
-      + `<span><i style="background:#94a3b8;opacity:.55"></i>locatie bij benadering</span>`;
+    el.innerHTML = "<b>Vraagprijs</b>"
+      + BANDS.map(b => `<span><i style="background:${b.color}"></i>${b.label}</span>`).join("")
+      + `<span><i style="background:${NOPRICE}"></i>prijs op aanvraag</span>`
+      + `<span><i style="background:#94a3b8;opacity:.5"></i>locatie bij benadering</span>`;
+    L.DomEvent.disableClickPropagation(el);
     return el;
   };
   legend.addTo(map);
 
-  if (raw.city_centre){
-    L.circleMarker([raw.city_centre.lat, raw.city_centre.lon], {radius:6, color:"#e2685f", fillColor:"#e2685f", fillOpacity:1})
-      .addTo(map).bindPopup("<b>" + raw.city_centre.label + "</b>");
-  }
+  const districts = [...new Set(DATA.map(d => d.district).filter(Boolean))].sort();
+  $("#districtPick").insertAdjacentHTML("beforeend",
+    districts.map(d => `<option value="${d}">${d}</option>`).join(""));
 
-  const districts = [...new Set(DATA.map(d=>d.district).filter(Boolean))].sort();
-  $("#district").insertAdjacentHTML("beforeend", districts.map(d=>`<option>${d}</option>`).join(""));
-  const sources = [...new Set(DATA.map(d=>d.source))].sort();
-  $("#source").insertAdjacentHTML("beforeend", sources.map(s=>`<option value="${s}">${SRC_LABEL[s]||s}</option>`).join(""));
-
-  // A first run (or a reset store) marks every plot "new", which is noise
-  // rather than news. Only trust the flag once there is a baseline to compare to.
-  const c0 = raw.counts || {};
-  BASELINE_RUN = !c0.active || (c0.new_this_run || 0) >= c0.active * 0.9;
-  if (BASELINE_RUN) DATA.forEach(d => { d.is_new = false; });
-
-  const c = raw.counts||{};
-  $("#stats").innerHTML = [
-    `<span><b>${c.active||DATA.length}</b> gevonden</span>`,
-    `<span><b>${c.in_target_area||0}</b> Pbo/Wanica</span>`,
-    BASELINE_RUN ? "" : `<span><b>${c.new_this_run||0}</b> nieuw</span>`,
-    `<span><b>${c.duplicates_removed||0}</b> dubbel weg</span>`,
-    `<span>bijgewerkt ${raw.generated||"—"}</span>`
-  ].join("");
-
-  if (BASELINE_RUN) $("#cNew").style.display = "none";
-
-  ["q","district","source","sort","maxPrice","minSize","maxKm"].forEach(id =>
-    $("#"+id).addEventListener("input", applyFilters));
-  document.querySelectorAll(".chip").forEach(b =>
-    b.addEventListener("click", ()=>{ b.ariaPressed = b.ariaPressed==="true" ? "false":"true"; applyFilters(); }));
+  /* events */
+  $("#districtPick").addEventListener("change", e => {
+    if (e.target.value){ picked.add(e.target.value); e.target.value = ""; drawTags(); applyFilters(); }
+  });
+  $("#districtTags").addEventListener("click", e => {
+    const b = e.target.closest(".tag-x"); if (!b) return;
+    picked.delete(b.dataset.d); drawTags(); applyFilters();
+  });
+  ["q","sort","priceMin","priceMax","sizeMin","sizeMax","kmMax"]
+    .forEach(id => $("#"+id).addEventListener("input", applyFilters));
+  document.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () => {
+    b.ariaPressed = b.ariaPressed === "true" ? "false" : "true";
+    if (b.id === "cGlis"){ glisLayer.clearLayers(); glisSeen.clear(); loadGlis(); return; }
+    applyFilters();
+  }));
+  $("#reset").addEventListener("click", () => {
+    $("#q").value = ""; picked.clear(); drawTags();
+    $("#priceMin").value = 0; $("#priceMax").value = 100;
+    $("#sizeMin").value = 0;  $("#sizeMax").value = 100;
+    $("#kmMax").value = 100;
+    document.querySelectorAll(".chip").forEach(c => c.ariaPressed = "false");
+    glisLayer.clearLayers(); glisSeen.clear();
+    applyFilters();
+  });
   $("#list").addEventListener("click", e => {
+    if (e.target.id === "more"){ showMore(); return; }
     const card = e.target.closest(".card"); if (!card) return;
-    const d = DATA[+card.dataset.id]; activeId = d.id; highlight(d.id);
-    if (d.lat != null){ map.setView([d.lat,d.lon], 16); const m = byId.get(d.id); if (m) m.openPopup(); }
-    if (window.matchMedia("(max-width:820px)").matches) document.body.classList.add("mapview");
+    const d = DATA[+card.dataset.id];
+    activeId = d.id; highlight(d.id);
+    if (d.lat != null){
+      map.setView([d.lat, d.lon], Math.max(map.getZoom(), 16));
+      byId.get(d.id)?.openPopup();
+      if (matchMedia("(max-width:860px)").matches) document.body.classList.add("mapview");
+      $("#viewToggle").textContent = "Lijst";
+    }
   });
-  $("#toggle").addEventListener("click", ()=>{
+  $("#viewToggle").addEventListener("click", () => {
     document.body.classList.toggle("mapview");
-    $("#toggle").textContent = document.body.classList.contains("mapview") ? "Lijst" : "Kaart";
-    map.invalidateSize();
+    $("#viewToggle").textContent = document.body.classList.contains("mapview") ? "Lijst" : "Kaart";
+    map.invalidateSize({animate:false});
   });
-  window.addEventListener("resize", () => map.invalidateSize({animate:false}));
+  $("#filterToggle").addEventListener("click", () => {
+    document.body.classList.toggle("filters-closed");
+    $("#filterToggle").textContent = document.body.classList.contains("filters-closed")
+      ? "Filters tonen" : "Filters verbergen";
+  });
+  map.on("moveend zoomend", loadGlis);
+  addEventListener("resize", () => map.invalidateSize({animate:false}));
+
   applyFilters();
-  setTimeout(() => { map.invalidateSize({animate:false}); applyFilters(); }, 350);
+  setTimeout(() => { map.invalidateSize({animate:false}); applyFilters(); }, 300);
 }
-boot().catch(e => { $("#sub").textContent = "Kon data niet laden: " + e.message; });
+boot().catch(e => { $("#count").textContent = "Kon de gegevens niet laden: " + e.message; });
 </script>
 </body>
 </html>
