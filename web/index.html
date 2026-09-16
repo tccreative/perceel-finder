@@ -243,7 +243,19 @@ function render(){
     markers.addLayer(m);
     pts.push([d.lat, d.lon]);
   });
-  if (pts.length) map.fitBounds(L.latLngBounds(pts).pad(.12), {maxZoom:14, animate:false});
+  fitToView(pts);
+}
+
+let didFirstFit = false;
+function fitToView(pts){
+  if (!pts.length) return;
+  // Leaflet caches the container size at init; if the layout wasn't settled
+  // yet that size is 0 and fitBounds silently lands on the whole world.
+  requestAnimationFrame(() => {
+    map.invalidateSize({animate:false});
+    map.fitBounds(L.latLngBounds(pts).pad(.12), {maxZoom: didFirstFit ? 15 : 13, animate:false});
+    didFirstFit = true;
+  });
 }
 
 function highlight(id){
@@ -305,7 +317,9 @@ async function boot(){
     $("#toggle").textContent = document.body.classList.contains("mapview") ? "Lijst" : "Kaart";
     map.invalidateSize();
   });
+  window.addEventListener("resize", () => map.invalidateSize({animate:false}));
   applyFilters();
+  setTimeout(() => { map.invalidateSize({animate:false}); applyFilters(); }, 350);
 }
 boot().catch(e => { $("#sub").textContent = "Kon data niet laden: " + e.message; });
 </script>

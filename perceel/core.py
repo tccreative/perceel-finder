@@ -226,6 +226,25 @@ def haversine_km(lat1, lon1, lat2, lon2):
     return round(2 * 6371.0088 * asin(sqrt(a)), 3)
 
 
+_BAD_PREFIX = re.compile(r"^https?:(?=https?://)", re.I)
+
+
+def clean_image_urls(urls) -> list:
+    """Drop junk and repair the double-scheme URLs some sites hand out."""
+    out = []
+    for u in urls or []:
+        if not u or not isinstance(u, str):
+            continue
+        u = _BAD_PREFIX.sub("", u.strip())
+        if u.startswith("//"):
+            u = "https:" + u
+        if not u.startswith("http"):
+            continue
+        if u not in out:
+            out.append(u)
+    return out[:10]
+
+
 def new_listing(**kw) -> dict:
     base = {
         "source": None, "source_id": None, "url": None, "title": None,
@@ -236,4 +255,5 @@ def new_listing(**kw) -> dict:
         "geocode_quality": None, "raw_location": None,
     }
     base.update(kw)
+    base["images"] = clean_image_urls(base.get("images"))
     return base
