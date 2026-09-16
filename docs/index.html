@@ -156,6 +156,7 @@ const ageInfo = d => {
 const fmtM2  = n => n == null ? "? m²" : Math.round(n).toLocaleString("nl-NL") + " m²";
 const SRC_LABEL = {};
 
+let BASELINE_RUN = false;
 let DATA = [], VIEW = [], markers = null, map = null, canvasLayer = null, byId = new Map(), activeId = null;
 
 function priceEur(d){ return d.price_eur != null ? d.price_eur : null; }
@@ -350,14 +351,22 @@ async function boot(){
   const sources = [...new Set(DATA.map(d=>d.source))].sort();
   $("#source").insertAdjacentHTML("beforeend", sources.map(s=>`<option value="${s}">${SRC_LABEL[s]||s}</option>`).join(""));
 
+  // A first run (or a reset store) marks every plot "new", which is noise
+  // rather than news. Only trust the flag once there is a baseline to compare to.
+  const c0 = raw.counts || {};
+  BASELINE_RUN = !c0.active || (c0.new_this_run || 0) >= c0.active * 0.9;
+  if (BASELINE_RUN) DATA.forEach(d => { d.is_new = false; });
+
   const c = raw.counts||{};
   $("#stats").innerHTML = [
     `<span><b>${c.active||DATA.length}</b> gevonden</span>`,
     `<span><b>${c.in_target_area||0}</b> Pbo/Wanica</span>`,
-    `<span><b>${c.new_this_run||0}</b> nieuw</span>`,
+    BASELINE_RUN ? "" : `<span><b>${c.new_this_run||0}</b> nieuw</span>`,
     `<span><b>${c.duplicates_removed||0}</b> dubbel weg</span>`,
     `<span>bijgewerkt ${raw.generated||"—"}</span>`
   ].join("");
+
+  if (BASELINE_RUN) $("#cNew").style.display = "none";
 
   ["q","district","source","sort","maxPrice","minSize","maxKm"].forEach(id =>
     $("#"+id).addEventListener("input", applyFilters));
