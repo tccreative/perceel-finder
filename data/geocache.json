@@ -4471,5 +4471,74 @@
   "lon": -55.0539301,
   "display_name": "Richelieu, Alkmaar, Commewijne, Suriname",
   "type": "hamlet"
+ },
+ "Bamboelaan, Tjemaralaan, Wanica, Suriname": null,
+ "Bamboelaan, Wanica, Suriname": {
+  "lat": 5.73262,
+  "lon": -55.1419597,
+  "display_name": "Bamboelaan, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Nashvillestraat, Welgedacht C, Wanica, Suriname": null,
+ "Nashvillestraat, Wanica, Suriname": {
+  "lat": 5.7584475,
+  "lon": -55.2343364,
+  "display_name": "Nashvillestraat, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "Powisistraat, Paramaribo Noord, Paramaribo, Suriname": {
+  "lat": 5.859665,
+  "lon": -55.1197672,
+  "display_name": "Powisistraat, Morgenstond, Suriname, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Jaques Drielsmastraat, Tourtonne, Paramaribo, Suriname": null,
+ "Jaques Drielsmastraat, Paramaribo, Suriname": null,
+ "Jaques Drielsmastraat, Suriname": null,
+ "Orleanekreekweg, De Hulp, Commewijne, Suriname": null,
+ "De Hulp, Commewijne, Suriname": null,
+ "Dageraadweg, Bosch Reitzweg, Wanica, Suriname": null,
+ "Dageraadweg, Wanica, Suriname": {
+  "lat": 5.7617997,
+  "lon": -55.172197,
+  "display_name": "Dageraadweg, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Oeroegstraat, Tout Lui Faut, Wanica, Suriname": null,
+ "Oeroegstraat, Wanica, Suriname": {
+  "lat": 5.7445842,
+  "lon": -55.1653152,
+  "display_name": "Oeroegstraat, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "Marowijnestraat, Centrum, Paramaribo, Suriname": null,
+ "Marowijnestraat, Paramaribo, Suriname": {
+  "lat": 5.8093833,
+  "lon": -55.1901065,
+  "display_name": "Marowijnestraat, Beekhuizen, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "Braamshoopweg, Braamshoop, Wanica, Suriname": {
+  "lat": 5.7267348,
+  "lon": -55.2583983,
+  "display_name": "Verlengde Braamshoopweg, Grand Village Braamshoop, Lelydorp, Wanica, Suriname",
+  "type": "road"
+ },
+ "Green View, Green View, Wanica, Suriname": null,
+ "Green View, Wanica, Suriname": null,
+ "Green View, Suriname": null,
+ "Okrodam, Okrodam, Wanica, Suriname": null,
+ "Okrodam, Wanica, Suriname": {
+  "lat": 5.8669388,
+  "lon": -55.2706269,
+  "display_name": "Okrodam, Kwatta, Wanica, Suriname",
+  "type": "road"
+ },
+ "Verlengde Bergenshoopweg, Bergenshoop, Wanica, Suriname": null,
+ "Verlengde Bergenshoopweg, Wanica, Suriname": {
+  "lat": 5.7123419,
+  "lon": -55.187044,
+  "display_name": "Verlengde Bergenshoopweg, Lelydorp, Wanica, Suriname",
+  "type": "road"
  }
 }
