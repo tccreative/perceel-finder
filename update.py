@@ -22,6 +22,21 @@ ROOT = Path(__file__).resolve().parent
 WEB_DATA = ROOT / "web" / "data" / "listings.json"
 
 
+# Agents publish advice articles in the same feed as their listings.
+# "Checklist Before Buying" is not a plot of land.
+_NOT_A_LISTING = ("/informatiebron/", "/blog/", "/nieuws/", "/news/",
+                  "/artikel/", "/article/", "/tips/", "/category/", "/author/")
+
+
+def is_listing(item: dict) -> bool:
+    url = (item.get("url") or "").lower()
+    if any(seg in url for seg in _NOT_A_LISTING):
+        return False
+    # No price, no size, no location: there is nothing to sell here.
+    return bool(item.get("price") or item.get("size_m2") or item.get("district")
+                or item.get("resort"))
+
+
 def in_target_area(item: dict) -> bool:
     wanted = [w.lower() for w in CONFIG["wanted_districts"]]
     excluded = [e.lower() for e in CONFIG["excluded_places"]]
@@ -54,6 +69,10 @@ def main() -> int:
     if fb:
         print(f"  -> Facebook (captured in browser): {len(fb)} listings")
         items.extend(fb)
+    junk = [i for i in items if not is_listing(i)]
+    if junk:
+        items = [i for i in items if is_listing(i)]
+        print(f"     dropped {len(junk)} pages that are not adverts")
     print(f"     raw total: {len(items)}")
 
     stamped = dates.enrich(http, items)

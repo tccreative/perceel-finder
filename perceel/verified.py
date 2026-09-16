@@ -106,6 +106,33 @@ def merge(rows: list[dict]) -> int:
     return added
 
 
+# A word that looks like a Surinamese street in an advert headline. If the
+# advert never names one, no amount of looking at a map will place the plot,
+# so those go to the bottom of the queue and usually end as "none".
+_STREETY = ("straat", "weg", "laan", "pad", "dreef", "kanaal", "project",
+            "plein", "steeg", "gracht", "polder", "serie", "km ", "kmr")
+
+
+def looks_like_street(v: str | None) -> bool:
+    t = (v or "").lower()
+    return any(w in t for w in _STREETY)
+
+
+def tier_of(it: dict) -> int:
+    """1 = a human look will most likely fix it, 4 = only worth a spot check."""
+    q = it.get("geocode_quality")
+    named = looks_like_street(it.get("street") or it.get("title"))
+    if q == "none":
+        return 1
+    if it.get("geocode_fuzzy"):
+        return 2          # placed by recognising a misspelt name: confirm it
+    if q == "area" and named:
+        return 2          # the advert names a street we could not match
+    if q == "area":
+        return 3          # the advert names no street at all
+    return 4              # placed automatically; confirm it
+
+
 def build_queue(items: list[dict]) -> list[dict]:
     """Everything still worth looking at by hand, best candidates first.
 
@@ -123,6 +150,7 @@ def build_queue(items: list[dict]) -> list[dict]:
         seen.add(k)
         out.append({
             "key": k,
+            "tier": tier_of(it),
             "street": it.get("street") or it.get("title") or "",
             "resort": it.get("resort") or "",
             "district": it.get("district") or "",
@@ -140,18 +168,20 @@ def build_queue(items: list[dict]) -> list[dict]:
                             (it.get("resort") or "").replace(" ", "+"),
                             (it.get("district") or "").replace(" ", "+"), "Suriname"])),
         })
-    # Plots we can actually buy come first: in the search area, priced, sized.
+    # Fixable first, then the plots we can actually buy: in the search area,
+    # priced, and the ones with nothing at all on the map.
     out.sort(key=lambda r: (
+        r["tier"],
         0 if r["district"] in ("Paramaribo", "Wanica") else 1,
         0 if r["price"] else 1,
-        0 if r["guess_quality"] == "none" else 1,
     ))
     return out
 
 
 def write_queue(items: list[dict]) -> int:
     q = build_queue(items)
+    tiers = {t: sum(1 for r in q if r["tier"] == t) for t in (1, 2, 3, 4)}
     QUEUE.write_text(json.dumps({"generated": date.today().isoformat(),
-                                 "todo": len(q), "items": q},
+                                 "todo": len(q), "tiers": tiers, "items": q},
                                 ensure_ascii=False, indent=1), encoding="utf-8")
     return len(q)

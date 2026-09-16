@@ -8670,5 +8670,1302 @@
  "strpln|debunked! 4 myths about renting that you should stop believing immediately!|": null,
  "strpln|supplies appraisal|": null,
  "strpln|roadmap for the appraisal process|": null,
- "strpln|terzol realty as your appraiser|": null
+ "strpln|terzol realty as your appraiser|": null,
+ "strpln|leiding 11a|leding 11 a / wanica": null,
+ "strpln|krishna liliaweg|garnizoenspad / wanica": null,
+ "bbox|wanica": [
+  5.65524289587835,
+  -55.3576431230087,
+  5.939612019682,
+  -55.0671013536793
+ ],
+ "bbox|centrum": null,
+ "bbox|commewijne": [
+  5.48591919304665,
+  -55.1680235308389,
+  6.00107260197847,
+  -54.6217876382662
+ ],
+ "bbox|paramaribo": [
+  5.76650339582809,
+  -55.244797195535,
+  5.92745425519413,
+  -55.088466087663
+ ],
+ "bbox|marowijne": [
+  5.23419164018212,
+  -54.7493014837726,
+  5.97232103684717,
+  -53.949352121359
+ ],
+ "bbox|saramacca": [
+  5.39321204619417,
+  -55.9742225733663,
+  5.99581976200447,
+  -55.2975763061352
+ ],
+ "Alkmaar, Suriname": {
+  "lat": 5.8448599,
+  "lon": -55.0219294,
+  "display_name": "Alkmaar, Commewijne, Suriname",
+  "type": "village"
+ },
+ "strpln|bomapolder|wanica / koewarasan": null,
+ "bbox|para": [
+  4.9844972591393,
+  -56.0278363515012,
+  5.92745425519413,
+  -54.6248634288309
+ ],
+ "bbox|garnizoenspad": null,
+ "bbox|brokopondo": null,
+ "bbox|nickerie": [
+  5.22008611359411,
+  -57.3417557920654,
+  6.05032483617094,
+  -56.4563497195353
+ ],
+ "Hamburg, Saramacca, Suriname": {
+  "lat": 5.7630479,
+  "lon": -55.360981,
+  "display_name": "Hamburg, Kampong Baroe, Saramacca, Suriname",
+  "type": "hamlet"
+ },
+ "Hamburg, Suriname": {
+  "lat": 5.7630479,
+  "lon": -55.360981,
+  "display_name": "Hamburg, Kampong Baroe, Saramacca, Suriname",
+  "type": "hamlet"
+ },
+ "Wageningen, Suriname": {
+  "lat": 5.7710604,
+  "lon": -56.6876895,
+  "display_name": "Wageningen, Nickerie, Suriname",
+  "type": "village"
+ },
+ "res|nickerie|nickerie": {
+  "lat": 5.924153,
+  "lon": -56.974381,
+  "radius_m": 3331,
+  "name": "Nieuw Nickerie, Nickerie"
+ },
+ "Sinabo, Commewijne, Commewijne, Suriname": null,
+ "Sinabo, Commewijne, Suriname": null,
+ "Sinabo, Suriname": {
+  "lat": 5.7905678,
+  "lon": -55.1908518,
+  "display_name": "Sinaboweg, Latour, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "res|paramaribo zuid en omgeving|paramaribo": null,
+ "Saramacca, Saramacca, Saramacca, Suriname": {
+  "lat": 5.666667,
+  "lon": -55.583333,
+  "display_name": "Distrikt Saramacca, Saramacca, Suriname",
+  "type": "county"
+ },
+ "strpln|misgunstweg|": {
+  "lat": 5.77525510261155,
+  "lon": -55.4759033689767,
+  "match": "MISGUNSTWEG, GRONINGEN"
+ },
+ "res|groningen|wanica": null,
+ "strpln|kasoedjieweg|blauwgrond": {
+  "lat": 5.87296415666488,
+  "lon": -55.125812976762,
+  "match": "KASOEDJIEWEG, BLAUWGROND"
+ },
+ "bbox|blauwgrond": null,
+ "strpln|basjafowroestraat|latour": null,
+ "strpln|basjafowroestraat|": {
+  "lat": 5.86453124119816,
+  "lon": -55.1218793280063,
+  "match": "BASJAFOWROESTRAAT, BLAUWGROND"
+ },
+ "strpln|prodjosoekartoweg|saramacca polder": null,
+ "strpln|prodjosoekartoweg|": {
+  "lat": 5.69045196514724,
+  "lon": -55.2241050088071,
+  "match": "S.PRODJOSOEKARTOWEG, LELYDORP"
+ },
+ "strpln|monplaisirweg|de nieuwe grond": null,
+ "strpln|monplaisirweg|": null,
+ "Monplaisirweg, De Nieuwe Grond, Wanica, Suriname": null,
+ "Monplaisirweg, Wanica, Suriname": null,
+ "Monplaisirweg, Suriname": null,
+ "strpln|coppenameweg|calcutta": null,
+ "strpln|coppenameweg|": {
+  "lat": 5.87101481748167,
+  "lon": -55.0453018596257,
+  "match": "COPPENAMEWEG, ALKMAAR"
+ },
+ "Coppenameweg, Calcutta, Saramacca, Suriname": {
+  "lat": 5.7818875,
+  "lon": -55.8891105,
+  "display_name": "Coppenameweg, Boskamp, Calcutta, Saramacca, Suriname",
+  "type": "road"
+ },
+ "strpln|atipaweg|de nieuwe grond": {
+  "lat": 5.75429947986471,
+  "lon": -55.2039286196033,
+  "match": "DORIS ATIPAWEG, DE NIEUWE GROND"
+ },
+ "strpln|thurkowweg|meerzorg": {
+  "lat": 5.8063408482848,
+  "lon": -55.1161810346536,
+  "match": "COMM.THURKOWWEG, MEERZORG"
+ },
+ "strpln|wanicaweg|munder": null,
+ "strpln|cocosolieweg|": {
+  "lat": 5.82499131665814,
+  "lon": -55.0936636522669,
+  "match": "COCOSOLIEWEG, NIEUW-AMSTERDAM"
+ },
+ "strpln|zwartenhovenbrugstraat|centrum": null,
+ "strpln|zwartenhovenbrugstraat|": null,
+ "Zwartenhovenbrugstraat, Centrum, Paramaribo, Suriname": {
+  "lat": 5.8295039,
+  "lon": -55.1603129,
+  "display_name": "Zwartenhovenbrugstraat, Paramaribo, Centrum, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "strpln|garnizoenspad|kwatta": {
+  "lat": 5.84962285455064,
+  "lon": -55.2829571190939,
+  "match": "GARNIZOENSPAD, KWATTA"
+ },
+ "strpln|razabsekhweg|de nieuwe grond": null,
+ "strpln|razabsekhweg|": null,
+ "Razabsekhweg, De Nieuwe Grond, Wanica, Suriname": null,
+ "Razabsekhweg, Wanica, Suriname": null,
+ "Razabsekhweg, Suriname": null,
+ "strpln|driekinderenweg|koewarasan": null,
+ "strpln|santopolder|ketjapweg!": null,
+ "strpln|santopolder|": null,
+ "Santopolder, Ketjapweg!, Wanica, Suriname": null,
+ "Santopolder, Wanica, Suriname": {
+  "lat": 5.7861739,
+  "lon": -55.2763473,
+  "display_name": "Santopolderweg, Koewarasan, Wanica, Suriname",
+  "type": "road"
+ },
+ "strpln|tawajariepolder|de nieuwe grond": null,
+ "strpln|tawajariepolder|": {
+  "lat": 5.76213275905428,
+  "lon": -55.3214132356642,
+  "match": "TAWAJARIEPOLDERWEG, JARIKABA"
+ },
+ "strpln|sophia'slustweg|": {
+  "lat": 5.84041209286626,
+  "lon": -55.2387846334113,
+  "match": "SOPHIA'SLUSTWEG, KWATTA"
+ },
+ "strpln|weytinghweg|wanica / leiding": null,
+ "strpln|weytinghweg|": null,
+ "Weytinghweg, Wanica / Leiding, Wanica, Suriname": null,
+ "Weytinghweg, Wanica, Suriname": {
+  "lat": 5.8100782,
+  "lon": -55.2292351,
+  "display_name": "Weytinghweg, Saramaccapolder, Wanica, Suriname",
+  "type": "village"
+ },
+ "Weytinghweg, Suriname": {
+  "lat": 5.8100782,
+  "lon": -55.2292351,
+  "display_name": "Weytinghweg, Saramaccapolder, Wanica, Suriname",
+  "type": "village"
+ },
+ "strpln|adriaanstraat|sophia's lust / paramaribo": null,
+ "strpln|adriaanstraat|": null,
+ "Adriaanstraat, Sophia's Lust / Paramaribo, Paramaribo, Suriname": null,
+ "Adriaanstraat, Paramaribo, Suriname": null,
+ "Adriaanstraat, Suriname": null,
+ "strpln|doebeweg|garnizoenspad / wanica": null,
+ "strpln|doebeweg|": {
+  "lat": 5.76553592191473,
+  "lon": -55.2005771095787,
+  "match": "PANDIT HARIPERSAD OEDIT DOEBEWEG, DE NIEUWE GROND"
+ },
+ "strpln|hellingstraat|paramaribo / tourtonne": null,
+ "strpln|hellingstraat|": {
+  "lat": 5.87017291992019,
+  "lon": -55.1393983810816,
+  "match": "JAMES HELLINGSTRAAT, BLAUWGROND"
+ },
+ "strpln|spalburgstraat|sophia's lust / wanica": null,
+ "strpln|spalburgstraat|": null,
+ "Spalburgstraat, Sophia's Lust / Wanica, Wanica, Suriname": null,
+ "Spalburgstraat, Wanica, Suriname": null,
+ "Spalburgstraat, Suriname": null,
+ "strpln|whythingweg|wanica / commissaris whytingweg": null,
+ "strpln|whythingweg|": null,
+ "Whythingweg, Wanica / Commissaris Whytingweg, Wanica, Suriname": null,
+ "Whythingweg, Wanica, Suriname": null,
+ "Whythingweg, Suriname": null,
+ "strpln|halsstraat|paramaribo / tourtonne": null,
+ "strpln|halsstraat|": {
+  "lat": 5.85572441377927,
+  "lon": -55.1473960842591,
+  "match": "FRANS HALSSTRAAT, BLAUWGROND"
+ },
+ "strpln|burnetstraat|paramaribo / kwatta": null,
+ "strpln|burnetstraat|": {
+  "lat": 5.83916106549014,
+  "lon": -55.208518238463,
+  "match": "IZAAK BURNETSTRAAT, WELGELEGEN"
+ },
+ "strpln|fransmankanariestraat|paramaribo / morgenstond": null,
+ "strpln|fransmankanariestraat|": null,
+ "Fransmankanariestraat, Paramaribo / Morgenstond, Paramaribo, Suriname": null,
+ "Fransmankanariestraat, Paramaribo, Suriname": null,
+ "Fransmankanariestraat, Suriname": null,
+ "strpln|blijdenshoopweg|wanica": null,
+ "strpln|blijdenshoopweg|": {
+  "lat": 5.75858550351403,
+  "lon": -55.1938288783614,
+  "match": "KLEIN BLIJDENSHOOPWEG, DE NIEUWE GROND"
+ },
+ "strpln|hermitageweg|paramaribo / uitvlugt": null,
+ "strpln|hermitageweg|": {
+  "lat": 5.82305405994892,
+  "lon": -55.1935284130674,
+  "match": "L'HERMITAGEWEG, FLORA"
+ },
+ "strpln|liliaweg|garnizoenspad / wanica": null,
+ "strpln|liliaweg|": null,
+ "Liliaweg, Garnizoenspad / Wanica, Wanica, Suriname": null,
+ "Liliaweg, Wanica, Suriname": null,
+ "Liliaweg, Suriname": null,
+ "strpln|vriesstraat|paramaribo / tourtonne": null,
+ "strpln|vriesstraat|": {
+  "lat": 5.833096356121,
+  "lon": -55.1374593016605,
+  "match": "HENRI J.DE VRIESSTRAAT, RAINVILLE"
+ },
+ "strpln|idsingastraat|paramaribo / centrum": null,
+ "strpln|idsingastraat|": {
+  "lat": 5.83498406052451,
+  "lon": -55.1717498966432,
+  "match": "VAN IDSINGASTRAAT, CENTRUM"
+ },
+ "strpln|prinsstraat|paramaribo / suri village": null,
+ "strpln|prinsstraat|": {
+  "lat": 5.84453727381587,
+  "lon": -55.1944175861843,
+  "match": "CORNELIS PRINSSTRAAT, WEG NAAR ZEE"
+ },
+ "strpln|polakstraat|paramaribo / tourtonne": null,
+ "strpln|polakstraat|": {
+  "lat": 5.82878372810296,
+  "lon": -55.1822566762622,
+  "match": "POLAKSTRAAT, CENTRUM"
+ },
+ "strpln|middenpad|paramaribo / kwatta": null,
+ "strpln|middenpad|": null,
+ "Middenpad, Paramaribo / Kwatta, Paramaribo, Suriname": null,
+ "Middenpad, Paramaribo, Suriname": null,
+ "Middenpad, Suriname": null,
+ "strpln|kanaalweg|wanica / tout lui faut": null,
+ "strpln|kanaalweg|": {
+  "lat": 5.75403731788301,
+  "lon": -55.2457354987807,
+  "match": "MAGENTAKANAALWEG, KOEWARASAN"
+ },
+ "strpln|churchillweg|wanica / domburg": null,
+ "strpln|churchillweg|": {
+  "lat": 5.76539870819094,
+  "lon": -55.1533245760698,
+  "match": "SIR WINSTON CHURCHILLWEG, HOUTTUIN"
+ },
+ "strpln|lustweg|paramaribo / kwatta": null,
+ "strpln|lustweg|": {
+  "lat": 5.78971116425145,
+  "lon": -55.209224673371,
+  "match": "BERENDSLUSTWEG, PONTBUITEN"
+ },
+ "strpln|spalburglaan|paramaribo": null,
+ "strpln|spalburglaan|": null,
+ "spalburglaan, Paramaribo, Paramaribo, Suriname": null,
+ "spalburglaan, Paramaribo, Suriname": null,
+ "spalburglaan, Suriname": null,
+ "strpln|thurkowweg|commewijne / jagtlust": null,
+ "strpln|thurkowweg|": {
+  "lat": 5.82482584340451,
+  "lon": -55.1005589661864,
+  "match": "COMM.THURKOWWEG, NIEUW-AMSTERDAM"
+ },
+ "strpln|churchillweg|wanica / boxel": null,
+ "strpln|thurkowweg|commewijne / meerzorg": null,
+ "strpln|christinaweg|wanica": null,
+ "strpln|christinaweg|": {
+  "lat": 5.78351054589316,
+  "lon": -55.1981536384397,
+  "match": "CHRISTINAWEG, PONTBUITEN"
+ },
+ "strpln|geeneweg|wanica / garnizoenspad": null,
+ "strpln|geeneweg|": {
+  "lat": 5.81966949555401,
+  "lon": -55.2970737442159,
+  "match": "RICHARD VAN GEENEWEG, SARAMACCA POLDER"
+ },
+ "strpln|paraweg|wanica / boxel": null,
+ "strpln|paraweg|": {
+  "lat": 5.69830854388981,
+  "lon": -55.1043481825793,
+  "match": "BOXEL PARAWEG, DOMBURG"
+ },
+ "strpln|adjudantweg|commewijne / militair project": null,
+ "strpln|adjudantweg|": {
+  "lat": 5.86672026296358,
+  "lon": -55.0838719481211,
+  "match": "ADJUDANTWEG, NIEUW-AMSTERDAM"
+ },
+ "strpln|meyerstraat|paramaribo / tourtonne": null,
+ "strpln|meyerstraat|": {
+  "lat": 5.85258357165924,
+  "lon": -55.1294389980877,
+  "match": "MEYERSTRAAT, BLAUWGROND"
+ },
+ "strpln|hindoristraat|paramaribo / tourtonne": null,
+ "strpln|hindoristraat|": {
+  "lat": 5.86886095130211,
+  "lon": -55.1428347177227,
+  "match": "GEORGE HINDORISTRAAT, BLAUWGROND"
+ },
+ "strpln|natashastraat|wanica / garnizoenspad": null,
+ "strpln|natashastraat|": {
+  "lat": 5.85704495322992,
+  "lon": -55.2959292286432,
+  "match": "NATASHASTRAAT-OOST, KWATTA"
+ },
+ "strpln|churchillweg|wanica / dijkveld": null,
+ "strpln|weergevondenweg|wanica / leiding": null,
+ "strpln|weergevondenweg|": {
+  "lat": 5.79032654520347,
+  "lon": -55.1962818741147,
+  "match": "NIEUW WEERGEVONDENWEG, LATOUR"
+ },
+ "strpln|hindoristraat|paramaribo / ma retraite": null,
+ "strpln|kaartlezenweg|voorburg": null,
+ "strpln|kaartlezenweg|": {
+  "lat": 5.87242851973969,
+  "lon": -55.0742638966639,
+  "match": "KAARTLEZENWEG, NIEUW-AMSTERDAM"
+ },
+ "strpln|kanaalweg|rechts": null,
+ "strpln|kanaalweg|tout lui faut": null,
+ "strpln|briedjlalweg|tout-lui-faut": null,
+ "strpln|briedjlalweg|": {
+  "lat": 5.75119956434547,
+  "lon": -55.1595782932391,
+  "match": "HIRA BRIEDJLALWEG, HOUTTUIN"
+ },
+ "strpln|tjanderwatiestraat|tout-lui-faut": null,
+ "strpln|tjanderwatiestraat|": {
+  "lat": 5.74282243130016,
+  "lon": -55.1687687088025,
+  "match": "IRMA TJANDERWATIESTRAAT, HOUTTUIN"
+ },
+ "strpln|perezlaan|de nieuwe grond": null,
+ "strpln|perezlaan|": null,
+ "Perezlaan, De Nieuwe Grond, Wanica, Suriname": null,
+ "Perezlaan, Wanica, Suriname": null,
+ "Perezlaan, Suriname": null,
+ "strpln|aliweg|jagtlust": null,
+ "strpln|aliweg|": {
+  "lat": 5.85572192135805,
+  "lon": -55.2074054737889,
+  "match": "BIBI J.CHIRAGALIWEG, WEG NAAR ZEE"
+ },
+ "Aliweg, Jagtlust, Commewijne, Suriname": null,
+ "Aliweg, Commewijne, Suriname": {
+  "lat": 5.807616,
+  "lon": -55.1018153,
+  "display_name": "Jozef Karamat-Aliweg, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "strpln|churchillweg|boxel": null,
+ "strpln|polakstraat|tourtonne": null,
+ "strpln|balgobindweg|leiding": null,
+ "strpln|balgobindweg|": {
+  "lat": 5.81501371063201,
+  "lon": -55.2308756881709,
+  "match": "P. BALGOBINDWEG, SARAMACCA POLDER"
+ },
+ "strpln|combéweg|centrum": null,
+ "strpln|combéweg|": null,
+ "Combéweg, Centrum, Paramaribo, Suriname": null,
+ "Combéweg, Paramaribo, Suriname": {
+  "lat": 5.8267764,
+  "lon": -55.1496009,
+  "display_name": "Kleine Combéweg, Rainville, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "strpln|malmbergweg|ringweg": null,
+ "strpln|malmbergweg|": {
+  "lat": 5.85920962882867,
+  "lon": -55.1618437104494,
+  "match": "MATHILDA H. MALMBERGWEG, RAINVILLE"
+ },
+ "strpln|churchillweg|livorno": {
+  "lat": 5.78841230274313,
+  "lon": -55.1639138543283,
+  "match": "SIR WINSTON CHURCHILLWEG, LIVORNO"
+ },
+ "strpln|klaroenweg|garnizoenspad": null,
+ "strpln|klaroenweg|": {
+  "lat": 5.84348860798839,
+  "lon": -55.2961793091266,
+  "match": "FIJNE KLAROENWEG, KWATTA"
+ },
+ "strpln|dragtenweg|clevia": null,
+ "strpln|dragtenweg|": {
+  "lat": 5.83287534487304,
+  "lon": -55.1357394028081,
+  "match": "ANTON DRAGTENWEG, RAINVILLE"
+ },
+ "strpln|chandmungraweg|ringweg": null,
+ "strpln|chandmungraweg|": null,
+ "Chandmungraweg, Ringweg, Paramaribo, Suriname": null,
+ "Chandmungraweg, Paramaribo, Suriname": null,
+ "Chandmungraweg, Suriname": null,
+ "strpln|chandreweg|lelydorp": {
+  "lat": 5.70181794056426,
+  "lon": -55.2192981038566,
+  "match": "RAJA HARRY CHANDREWEG, LELYDORP"
+ },
+ "strpln|kallenweg|beekhuizen": null,
+ "strpln|kallenweg|": {
+  "lat": 5.78243549576656,
+  "lon": -55.1893876044893,
+  "match": "VAN KALLENWEG, PONTBUITEN"
+ },
+ "strpln|churchillweg|oost": {
+  "lat": 5.63567363094085,
+  "lon": -55.0759809418612,
+  "match": "SIR WINSTON CHURCHILLWEG, OOST"
+ },
+ "strpln|geeneweg|garnizoenspad": null,
+ "strpln|hattemweg|lelydorp": {
+  "lat": 5.67859109820047,
+  "lon": -55.2282431358147,
+  "match": "VAN HATTEMWEG, LELYDORP"
+ },
+ "strpln|manuratweg|meerzorg": {
+  "lat": 5.80815590915102,
+  "lon": -55.1542659468481,
+  "match": "PANDIT MANURATWEG, MEERZORG"
+ },
+ "strpln|promweg|noord": null,
+ "strpln|promweg|": null,
+ "Promweg, Noord, Para, Suriname": null,
+ "Promweg, Para, Suriname": null,
+ "Promweg, Suriname": null,
+ "strpln|churchillweg|ornamibo": null,
+ "strpln|prachtstraat|kwatta": null,
+ "strpln|prachtstraat|": {
+  "lat": 5.84532353882039,
+  "lon": -55.2034981694823,
+  "match": "EDUARD PRACHTSTRAAT, WEG NAAR ZEE"
+ },
+ "strpln|adhinweg|ornamibo": null,
+ "strpln|adhinweg|": {
+  "lat": 5.72847398997234,
+  "lon": -55.1237639922701,
+  "match": "MAHADJAN RAM ADHINWEG, DOMBURG"
+ },
+ "strpln|plaisirweg|de nieuwe grond": {
+  "lat": 5.74335257262384,
+  "lon": -55.1921000222991,
+  "match": "MON PLAISIRWEG, DE NIEUWE GROND"
+ },
+ "strpln|steinbergstraat|beekhuizen": {
+  "lat": 5.80931566011876,
+  "lon": -55.175156141844,
+  "match": "HERMAN STEINBERGSTRAAT, BEEKHUIZEN"
+ },
+ "strpln|nassylaan|centrum": {
+  "lat": 5.83256286011992,
+  "lon": -55.1642336569105,
+  "match": "DR.J.F.NASSYLAAN, CENTRUM"
+ },
+ "strpln|craneweg|lelydorp": {
+  "lat": 5.69718281972778,
+  "lon": -55.2293817427938,
+  "match": "DE CRANEWEG, LELYDORP"
+ },
+ "strpln|rijweg|oost": null,
+ "strpln|rijweg|": {
+  "lat": 5.80332504910784,
+  "lon": -55.1937558929948,
+  "match": "BATTERIJWEG, BEEKHUIZEN"
+ },
+ "strpln|khakiweg|voorburg": null,
+ "strpln|khakiweg|": {
+  "lat": 5.87623362286687,
+  "lon": -55.0850026905413,
+  "match": "KHAKIWEG, NIEUW-AMSTERDAM"
+ },
+ "strpln|dragtenweg|elisabethshof": null,
+ "strpln|kiraiweg|groningen": {
+  "lat": 5.80490106450129,
+  "lon": -55.4883834613477,
+  "match": "BANGKIRAIWEG, GRONINGEN"
+ },
+ "strpln|uduweg|de nieuwe grond": {
+  "lat": 5.72383076871094,
+  "lon": -55.2037613852992,
+  "match": "KATOEN UDUWEG, DE NIEUWE GROND"
+ },
+ "strpln|poolstraat|ma retraite": null,
+ "strpln|poolstraat|": {
+  "lat": 5.86164743626841,
+  "lon": -55.128873410109,
+  "match": "MAUKE POOLSTRAAT, BLAUWGROND"
+ },
+ "strpln|kennedyweg|zuid": {
+  "lat": 5.52180560141538,
+  "lon": -55.1805724368956,
+  "match": "J.F.KENNEDYWEG, ZUID"
+ },
+ "strpln|spalburgweg|kwatta": {
+  "lat": 5.83831023617283,
+  "lon": -55.2475652985324,
+  "match": "HENKIE SPALBURGWEG, KWATTA"
+ },
+ "strpln|semaniastraat|garnizoenspad": null,
+ "strpln|semaniastraat|": {
+  "lat": 5.85572404065207,
+  "lon": -55.2959861166048,
+  "match": "SEMANIASTRAAT-OOST, KWATTA"
+ },
+ "strpln|roblesweg|voorburg": null,
+ "strpln|roblesweg|": {
+  "lat": 5.84911317092395,
+  "lon": -55.1274066022792,
+  "match": "COMMISSARIS ROBLESWEG, BLAUWGROND"
+ },
+ "strpln|bindastraat|garnizoenspad": null,
+ "strpln|bindastraat|": {
+  "lat": 5.8203982848188,
+  "lon": -55.1940724144211,
+  "match": "BINDASTRAAT, FLORA"
+ },
+ "strpln|ramdjanstraat|tourtonne": null,
+ "strpln|ramdjanstraat|": {
+  "lat": 5.86713083907991,
+  "lon": -55.1411720736355,
+  "match": "ISLAM RAMDJANSTRAAT, BLAUWGROND"
+ },
+ "strpln|halsstraat|tourtonne": null,
+ "strpln|soekhoeweg|clarapolder": null,
+ "strpln|soekhoeweg|": {
+  "lat": 5.75901222187319,
+  "lon": -55.2191003087529,
+  "match": "SOEKHOEWEG, DE NIEUWE GROND"
+ },
+ "Soekhoeweg, Clarapolder, Nickerie, Suriname": null,
+ "Soekhoeweg, Nickerie, Suriname": null,
+ "Soekhoeweg, Suriname": {
+  "lat": 5.7590397,
+  "lon": -55.2191047,
+  "display_name": "Soekhoeweg, De Nieuwe Grond, Wanica, Suriname",
+  "type": "road"
+ },
+ "strpln|jodhaweg|meerzorg": {
+  "lat": 5.80957008658887,
+  "lon": -55.1189248564424,
+  "match": "USTAAD HARRYBHOEKHAN JODHAWEG, MEERZORG"
+ },
+ "strpln|idsingaweg|waldeck": null,
+ "strpln|idsingaweg|": {
+  "lat": 5.95747051877813,
+  "lon": -57.0146424461776,
+  "match": "VAN IDSINGAWEG, WESTELIJKE POLDERS"
+ },
+ "strpln|rijweg|uitvlugt": null,
+ "strpln|kennedyweg|noord": null,
+ "strpln|kennedyweg|": {
+  "lat": 5.52180560141538,
+  "lon": -55.1805724368956,
+  "match": "J.F.KENNEDYWEG, ZUID"
+ },
+ "strpln|abdoelkariemstraat|kwatta": null,
+ "strpln|abdoelkariemstraat|": null,
+ "Abdoelkariemstraat, Kwatta, Wanica, Suriname": null,
+ "Abdoelkariemstraat, Wanica, Suriname": null,
+ "Abdoelkariemstraat, Suriname": null,
+ "strpln|churchillweg|domburg": {
+  "lat": 5.71655443772474,
+  "lon": -55.1020694545156,
+  "match": "SIR WINSTON CHURCHILLWEG, DOMBURG"
+ },
+ "strpln|nagarweg|de nieuwe grond": {
+  "lat": 5.75840722367158,
+  "lon": -55.2434596537895,
+  "match": "BIHARNAGARWEG, DE NIEUWE GROND"
+ },
+ "strpln|bechanstraat|alkmaar": null,
+ "strpln|bechanstraat|": null,
+ "Bechanstraat, Alkmaar, Commewijne, Suriname": {
+  "lat": 5.7890796,
+  "lon": -55.0320899,
+  "display_name": "Hadj Ishaak Bechanstraat, Alkmaar, Commewijne, Suriname",
+  "type": "road"
+ },
+ "strpln|anamoestraat|tourtonne": null,
+ "strpln|anamoestraat|": {
+  "lat": 5.85063934370846,
+  "lon": -55.1450493634981,
+  "match": "ANAMOESTRAAT, BLAUWGROND"
+ },
+ "strpln|christinaweg|koewarasan": {
+  "lat": 5.7381887013244,
+  "lon": -55.271634697831,
+  "match": "HELENA CHRISTINAWEG, KOEWARASAN"
+ },
+ "strpln|tewarieweg|livorno": {
+  "lat": 5.7770059011811,
+  "lon": -55.1731574130355,
+  "match": "PANDIT PALTAN TEWARIEWEG, LIVORNO"
+ },
+ "strpln|julenweg|garnizoenspad": null,
+ "strpln|julenweg|": {
+  "lat": 5.84119698778509,
+  "lon": -55.2941838816003,
+  "match": "CARLO JULENWEG, SARAMACCA POLDER"
+ },
+ "strpln|autarstraat|garnizoenspad": null,
+ "strpln|autarstraat|": {
+  "lat": 5.84249475143419,
+  "lon": -55.1951800649114,
+  "match": "SOEKHRADJIE AUTARSTRAAT, WEG NAAR ZEE"
+ },
+ "strpln|paltiestraat|de nieuwe grond": {
+  "lat": 5.74622602332131,
+  "lon": -55.1873179173259,
+  "match": "SOEKHRAM PALTIESTRAAT, DE NIEUWE GROND"
+ },
+ "strpln|roshnistraat|garnizoenspad": null,
+ "strpln|roshnistraat|": {
+  "lat": 5.85834362929675,
+  "lon": -55.2958728864223,
+  "match": "ROSHNISTRAAT-OOST, KWATTA"
+ },
+ "strpln|industrieweg|beekhuizen": {
+  "lat": 5.79926984048832,
+  "lon": -55.1720559885193,
+  "match": "INDUSTRIEWEG NOORD, BEEKHUIZEN"
+ },
+ "strpln|meyerstraat|tourtonne": null,
+ "strpln|nagerweg|tout-lui-faut": null,
+ "strpln|nagerweg|": null,
+ "Nagerweg, Tout-Lui-Faut, Wanica, Suriname": null,
+ "Nagerweg, Wanica, Suriname": null,
+ "Nagerweg, Suriname": null,
+ "strpln|weytinghweg|leiding": null,
+ "Weytinghweg, Leiding, Wanica, Suriname": null,
+ "strpln|tilakdharieweg|alkmaar": {
+  "lat": 5.83588704181011,
+  "lon": -55.0212293309862,
+  "match": "PANDIT TILAKDHARIEWEG, ALKMAAR"
+ },
+ "strpln|ephemiaweg|tamanredjo": null,
+ "strpln|ephemiaweg|": null,
+ "Ephemiaweg, Tamanredjo, Commewijne, Suriname": null,
+ "Ephemiaweg, Commewijne, Suriname": {
+  "lat": 5.7809841,
+  "lon": -55.0442969,
+  "display_name": "Paula Ephemiaweg, Meerzorg, Commewijne, Suriname",
+  "type": "road"
+ },
+ "strpln|ibisstraat|morgenstond": null,
+ "strpln|ibisstraat|": {
+  "lat": 5.86752217827963,
+  "lon": -55.1179858497235,
+  "match": "RODE IBISSTRAAT, BLAUWGROND"
+ },
+ "strpln|varmaweg|kwatta": null,
+ "strpln|varmaweg|": {
+  "lat": 5.90352016010592,
+  "lon": -55.2426473618342,
+  "match": "R.D.OEDAYRAJSINGH VARMAWEG, WEG NAAR ZEE"
+ },
+ "strpln|ramanweg|houttuin": null,
+ "strpln|ramanweg|": null,
+ "Ramanweg, Houttuin, Wanica, Suriname": null,
+ "Ramanweg, Wanica, Suriname": null,
+ "Ramanweg, Suriname": null,
+ "strpln|geerkestraat|tourtonne": null,
+ "strpln|geerkestraat|": {
+  "lat": 5.86577521473985,
+  "lon": -55.1345714739037,
+  "match": "VAN GEERKESTRAAT, BLAUWGROND"
+ },
+ "strpln|thurkowweg|jagtlust": null,
+ "strpln|knelstraat|tourtonne": null,
+ "strpln|knelstraat|": {
+  "lat": 5.86960336876715,
+  "lon": -55.1384004704895,
+  "match": "CHARLES KNELSTRAAT, BLAUWGROND"
+ },
+ "strpln|voigtstraat|leonsberg": null,
+ "strpln|voigtstraat|": {
+  "lat": 5.88043733265654,
+  "lon": -55.1138817949569,
+  "match": "DR. VOIGTSTRAAT, BLAUWGROND"
+ },
+ "strpln|pandayweg|wayambo": {
+  "lat": 5.86110138769237,
+  "lon": -55.6230910635387,
+  "match": "R.GANGARAMPANDAYWEG, WAYAMBOWEG"
+ },
+ "strpln|kamperveenstraat|tourtonne": null,
+ "strpln|kamperveenstraat|": {
+  "lat": 5.86821815214658,
+  "lon": -55.13882510128,
+  "match": "ANDRE KAMPERVEENSTRAAT, BLAUWGROND"
+ },
+ "strpln|hogerhuysstraat|beekhuizen": null,
+ "strpln|hogerhuysstraat|": null,
+ "Hogerhuysstraat, Beekhuizen, Paramaribo, Suriname": {
+  "lat": 5.8022326,
+  "lon": -55.1753638,
+  "display_name": "Van 't Hogerhuysstraat, Beekhuizen, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "strpln|vermeerstraat|tourtonne": null,
+ "strpln|vermeerstraat|": {
+  "lat": 5.85471851710874,
+  "lon": -55.1075375740165,
+  "match": "FRANS LOSECAATVERMEERSTRAAT, BLAUWGROND"
+ },
+ "strpln|chehinstraat|tourtonne": null,
+ "strpln|chehinstraat|": {
+  "lat": 5.8676913417084,
+  "lon": -55.1421360592669,
+  "match": "JOZEF CHEHINSTRAAT, BLAUWGROND"
+ },
+ "strpln|pandaystraat|garnizoenspad": null,
+ "strpln|pandaystraat|": {
+  "lat": 5.84626089444345,
+  "lon": -55.2789872947252,
+  "match": "HENK GANGARAM PANDAYSTRAAT, KWATTA"
+ },
+ "strpln|blijdenshoopweg|de nieuwe grond": {
+  "lat": 5.75858550351403,
+  "lon": -55.1938288783614,
+  "match": "KLEIN BLIJDENSHOOPWEG, DE NIEUWE GROND"
+ },
+ "strpln|christinaweg|de nieuwe grond": {
+  "lat": 5.73432904964231,
+  "lon": -55.2380820935588,
+  "match": "HELENA CHRISTINAWEG, DE NIEUWE GROND"
+ },
+ "strpln|dragtenweg|morgenstond": null,
+ "strpln|ramdienweg|leiding": null,
+ "strpln|ramdienweg|": {
+  "lat": 5.79451891416209,
+  "lon": -55.2638566750148,
+  "match": "RADJ RAMDIENWEG, KOEWARASAN"
+ },
+ "strpln|hindoristraat|tourtonne": null,
+ "strpln|greenstraat|blauwgrond": {
+  "lat": 5.84862379280012,
+  "lon": -55.1286088143952,
+  "match": "JOSEPHINE S GREENSTRAAT, BLAUWGROND"
+ },
+ "strpln|rijweg|wayambo": null,
+ "Rijweg, Wayambo, Saramacca, Suriname": {
+  "lat": 5.83561,
+  "lon": -55.3048904,
+  "display_name": "Vijfde Rijweg, Wayamboweg, Saramacca, Suriname",
+  "type": "road"
+ },
+ "strpln|kaersenhoutstraat|tourtonne": null,
+ "strpln|kaersenhoutstraat|": {
+  "lat": 5.87045995292874,
+  "lon": -55.1416824886823,
+  "match": "EDUARD KAERSENHOUTSTRAAT, BLAUWGROND"
+ },
+ "strpln|barriosstraat|tourtonne": null,
+ "strpln|barriosstraat|": {
+  "lat": 5.86893260762774,
+  "lon": -55.1427375331455,
+  "match": "MICHAEL DE BARRIOSSTRAAT, BLAUWGROND"
+ },
+ "strpln|lachmonstraat|tammenga": {
+  "lat": 5.81234946754465,
+  "lon": -55.2072234452756,
+  "match": "MR. JAGERNATH LACHMONSTRAAT, TAMMENGA"
+ },
+ "strpln|bomapolder|boma": null,
+ "strpln|stellaweg|jagtlust": null,
+ "strpln|stellaweg|": null,
+ "Stellaweg, Jagtlust, Commewijne, Suriname": null,
+ "Stellaweg, Commewijne, Suriname": null,
+ "Stellaweg, Suriname": null,
+ "strpln|katoenfowroestraat|morgenstond": null,
+ "strpln|katoenfowroestraat|": null,
+ "Katoenfowroestraat, Morgenstond, Paramaribo, Suriname": {
+  "lat": 5.8640621,
+  "lon": -55.1183927,
+  "display_name": "Katoenfowroestraat, Morgenstond, Suriname, Noord, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "strpln|sestraat|grand village braamshoop": null,
+ "strpln|sestraat|": {
+  "lat": 5.83300523994718,
+  "lon": -55.1505154017196,
+  "match": "REGENTESSESTRAAT, RAINVILLE"
+ },
+ "strpln|arvineshstraat|koewarasan": null,
+ "strpln|arvineshstraat|": null,
+ "Arvineshstraat, Koewarasan, Wanica, Suriname": null,
+ "Arvineshstraat, Wanica, Suriname": null,
+ "Arvineshstraat, Suriname": null,
+ "strpln|wayamboweg|zesde rijweg": null,
+ "strpln|zamiroenweg|lust en rust": null,
+ "strpln|zamiroenweg|": {
+  "lat": 5.83118260947423,
+  "lon": -55.0859058455811,
+  "match": "ZAMIROENWEG, NIEUW-AMSTERDAM"
+ },
+ "strpln|malangweg|houttuin": {
+  "lat": 5.70557634481494,
+  "lon": -55.1757760220171,
+  "match": "MALANGWEG, HOUTTUIN"
+ },
+ "strpln|gongrijpstraat|paramaribo centrum": null,
+ "strpln|gongrijpstraat|": null,
+ "Gongrijpstraat, Paramaribo Centrum, Paramaribo, Suriname": null,
+ "Gongrijpstraat, Paramaribo, Suriname": null,
+ "Gongrijpstraat, Suriname": null,
+ "strpln|lansvarensweg|waterland": null,
+ "strpln|lansvarensweg|": {
+  "lat": 5.67082018790694,
+  "lon": -55.0690613449691,
+  "match": "LANSVARENSWEG, OOST"
+ },
+ "strpln|sopropoweg|saramacca": null,
+ "strpln|sopropoweg|": {
+  "lat": 5.8240556833361,
+  "lon": -55.5627656242723,
+  "match": "SOPROPOWEG, TIJGERKREEK"
+ },
+ "strpln|dragtenweg|leonsberg": null,
+ "strpln|atigoneweg|garnizoenspad": null,
+ "strpln|atigoneweg|": null,
+ "Atigoneweg, Garnizoenspad, Wanica, Suriname": null,
+ "Atigoneweg, Wanica, Suriname": null,
+ "Atigoneweg, Suriname": null,
+ "strpln|tistraat|grand village braamshoop": null,
+ "strpln|tistraat|": {
+  "lat": 5.85335767932527,
+  "lon": -55.1561988489207,
+  "match": "BLAWBAKA ROWTISTRAAT, RAINVILLE"
+ },
+ "strpln|churchillweg|waterland": null,
+ "strpln|monkoustraat|morgenstond": null,
+ "strpln|weythinghweg|leiding": null,
+ "strpln|weythinghweg|": null,
+ "Weythinghweg, Leiding, Paramaribo, Suriname": null,
+ "Weythinghweg, Paramaribo, Suriname": null,
+ "Weythinghweg, Suriname": null,
+ "strpln|palmboomstraat|nieuw nickerie": null,
+ "strpln|palmboomstraat|": {
+  "lat": 5.9314881810685,
+  "lon": -56.9786943625782,
+  "match": "PALMBOOMSTRAAT, Nieuw-Nickerie"
+ },
+ "strpln|beverlyhillsstraat|kwatta": null,
+ "strpln|beverlyhillsstraat|": null,
+ "Beverlyhillsstraat, Kwatta, Paramaribo, Suriname": null,
+ "Beverlyhillsstraat, Paramaribo, Suriname": null,
+ "Beverlyhillsstraat, Suriname": null,
+ "strpln|matapilaan|wageningen": {
+  "lat": 5.77862811151039,
+  "lon": -56.6834428850722,
+  "match": "MATAPILAAN, WAGENINGEN"
+ },
+ "strpln|libanonweg|para – noord": null,
+ "strpln|uduweg|vredenburg serie a": null,
+ "strpln|uduweg|": {
+  "lat": 5.72383076871094,
+  "lon": -55.2037613852992,
+  "match": "KATOEN UDUWEG, DE NIEUWE GROND"
+ },
+ "strpln|karamataliweg|jaglust": null,
+ "strpln|karamataliweg|": {
+  "lat": 5.81168496380561,
+  "lon": -55.104078993885,
+  "match": "JOHAN INAJUT KARAMATALIWEG, NIEUW-AMSTERDAM"
+ },
+ "strpln|jensenweg|nieuw amsterdam": null,
+ "strpln|jensenweg|": {
+  "lat": 5.78857219785294,
+  "lon": -55.1913741837998,
+  "match": "JENSENWEG, PONTBUITEN"
+ },
+ "Jensenweg, Nieuw Amsterdam, Commewijne, Suriname": {
+  "lat": 5.8790513,
+  "lon": -55.0435979,
+  "display_name": "Zuster Jensenweg, Mariënburg, Nieuw Amsterdam, Commewijne, Suriname",
+  "type": "road"
+ },
+ "strpln|madharweg|zeedijk": null,
+ "strpln|madharweg|": {
+  "lat": 5.95215152098225,
+  "lon": -57.0532130858412,
+  "match": "ABDUL GANIE MADHARWEG, WESTELIJKE POLDERS"
+ },
+ "strpln|dessaweg|para-noord": null,
+ "strpln|dessaweg|": {
+  "lat": 5.66768466943856,
+  "lon": -55.2437337695732,
+  "match": "DIAN DESSAWEG, NOORD"
+ },
+ "strpln|generaalweg|voorburg": null,
+ "strpln|generaalweg|": {
+  "lat": 5.87387896840558,
+  "lon": -55.0831174790896,
+  "match": "BRIGADE GENERAALWEG- ZUID, NIEUW-AMSTERDAM"
+ },
+ "strpln|pronkweg|nieuw amsterdam": null,
+ "strpln|lachmanweg|latour": {
+  "lat": 5.79780071966827,
+  "lon": -55.1813777532108,
+  "match": "LACHMANWEG, LATOUR"
+ },
+ "strpln|soemitaweg|tamanredjo": null,
+ "strpln|soemitaweg|": {
+  "lat": 5.79741441544778,
+  "lon": -55.1135387488443,
+  "match": "HADJI I. SOEMITAWEG, MEERZORG"
+ },
+ "strpln|campagnestraat|abra broki": null,
+ "strpln|campagnestraat|": {
+  "lat": 5.81393174622506,
+  "lon": -55.1748268015205,
+  "match": "WILLEM CAMPAGNESTRAAT, BEEKHUIZEN"
+ },
+ "strpln|uilweg|lelydorp": {
+  "lat": 5.73081661653726,
+  "lon": -55.2781062929982,
+  "match": "AKELEI-UILWEG, LELYDORP"
+ },
+ "strpln|roblesweg|leliendaal": null,
+ "strpln|bevelhebberweg|voorburg": null,
+ "strpln|bevelhebberweg|": {
+  "lat": 5.87333338190416,
+  "lon": -55.087234196367,
+  "match": "BEVELHEBBERWEG NOORD, NIEUW-AMSTERDAM"
+ },
+ "strpln|ephemiaweg|tamansari": null,
+ "Ephemiaweg, Tamansari, Commewijne, Suriname": null,
+ "strpln|kochweg|groningen": {
+  "lat": 5.79428676151721,
+  "lon": -55.4904078173801,
+  "match": "DR.E.KOCHWEG, GRONINGEN"
+ },
+ "strpln|palisadeweg|palisadeweg": null,
+ "Palisadeweg, Palisadeweg, Wanica, Suriname": null,
+ "strpln|lingerweg|vierkinderen": null,
+ "strpln|lingerweg|": {
+  "lat": 5.80203009926839,
+  "lon": -55.1798657689862,
+  "match": "SLINGERWEG, BEEKHUIZEN"
+ },
+ "strpln|ramonweg|ephraimzegen": null,
+ "strpln|ramonweg|": {
+  "lat": 5.79674480302784,
+  "lon": -55.194764445106,
+  "match": "RAMONWEG, LATOUR"
+ },
+ "strpln|saramaccastraat|centrum": {
+  "lat": 5.82174439278865,
+  "lon": -55.1631266205728,
+  "match": "SARAMACCASTRAAT, CENTRUM"
+ },
+ "strpln|foutkanaalweg|wanica": null,
+ "strpln|foutkanaalweg|": null,
+ "Foutkanaalweg, Wanica, Wanica, Suriname": null,
+ "Foutkanaalweg, Wanica, Suriname": null,
+ "Foutkanaalweg, Suriname": null,
+ "strpln|sophiastraat|saramacca": null,
+ "strpln|sophiastraat|": {
+  "lat": 5.84347057092716,
+  "lon": -55.5892985128468,
+  "match": "CATHARINA SOPHIASTRAAT, TIJGERKREEK"
+ },
+ "strpln|moesweg|wanica": null,
+ "strpln|moesweg|": {
+  "lat": 5.75518618808067,
+  "lon": -55.1620297867878,
+  "match": "LACHMAN MOESWEG, HOUTTUIN"
+ },
+ "strpln|rotschildstraat|wanica": null,
+ "strpln|rotschildstraat|": null,
+ "Rotschildstraat, Wanica, Wanica, Suriname": null,
+ "Rotschildstraat, Wanica, Suriname": null,
+ "Rotschildstraat, Suriname": null,
+ "strpln|losecaat-vermeerstraat|paramaribo noord en omgeving": null,
+ "strpln|losecaat-vermeerstraat|": null,
+ "Losecaat-Vermeerstraat, Paramaribo Noord en omgeving, Paramaribo, Suriname": null,
+ "Losecaat-Vermeerstraat, Paramaribo, Suriname": {
+  "lat": 5.8561646,
+  "lon": -55.1066597,
+  "display_name": "Frans Losecaat Vermeerstraat, Morgenstond, Suriname, Blauwgrond, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "strpln|dragtenweg|paramaribo noord en omgeving": null,
+ "strpln|rijweg|saramacca": null,
+ "rijweg, Saramacca, Saramacca, Suriname": {
+  "lat": 5.83561,
+  "lon": -55.3048904,
+  "display_name": "Vijfde Rijweg, Wayamboweg, Saramacca, Suriname",
+  "type": "road"
+ },
+ "strpln|aracaristraat|paramaribo noord en omgeving": null,
+ "strpln|aracaristraat|": {
+  "lat": 5.87136530549227,
+  "lon": -55.123243056222,
+  "match": "ARACARISTRAAT, BLAUWGROND"
+ },
+ "strpln|krawkrawstraat|paramaribo noord en omgeving": null,
+ "strpln|krawkrawstraat|": {
+  "lat": 5.85080073367516,
+  "lon": -55.1551495965704,
+  "match": "KRAWKRAWSTRAAT, RAINVILLE"
+ },
+ "strpln|geertruidaweg|wanica": null,
+ "strpln|geertruidaweg|": {
+  "lat": 5.78293643777713,
+  "lon": -55.2023489209135,
+  "match": "GEERTRUIDAWEG, PONTBUITEN"
+ },
+ "strpln|eumeviaweg|commewijne": null,
+ "strpln|eumeviaweg|": null,
+ "Eumeviaweg, Commewijne, Commewijne, Suriname": null,
+ "Eumeviaweg, Commewijne, Suriname": null,
+ "Eumeviaweg, Suriname": null,
+ "strpln|nankoeweg|saramacca": null,
+ "strpln|nankoeweg|": {
+  "lat": 5.816663321493,
+  "lon": -55.3331998809616,
+  "match": "ISRIE NANKOEWEG, JARIKABA"
+ },
+ "strpln|tamanredjopolder|commewijne": null,
+ "strpln|tamanredjopolder|": null,
+ "Tamanredjopolder, Commewijne, Commewijne, Suriname": null,
+ "Tamanredjopolder, Commewijne, Suriname": null,
+ "Tamanredjopolder, Suriname": null,
+ "strpln|adhienweg|paramaribo zuid en omgeving": null,
+ "strpln|adhienweg|": {
+  "lat": 5.90737909873553,
+  "lon": -57.0220223782884,
+  "match": "RAMADHIENWEG, WESTELIJKE POLDERS"
+ },
+ "Adhienweg, Paramaribo Zuid en omgeving, Paramaribo, Suriname": null,
+ "Adhienweg, Paramaribo, Suriname": {
+  "lat": 5.7971308,
+  "lon": -55.1823776,
+  "display_name": "Adhienweg, Latour, Paramaribo, Suriname",
+  "type": "road"
+ },
+ "strpln|bomapolder|wanica": null,
+ "strpln|arubaweg|para": null,
+ "strpln|arubaweg|": {
+  "lat": 5.66505989630672,
+  "lon": -55.2162284143886,
+  "match": "ARUBAWEG, NOORD"
+ },
+ "strpln|paixweg|commewijne": null,
+ "strpln|paixweg|": {
+  "lat": 5.78331831820404,
+  "lon": -55.0348334521545,
+  "match": "LAPAIXWEG, MEERZORG"
+ },
+ "strpln|smithfieldweg|saramacca": null,
+ "strpln|smithfieldweg|": {
+  "lat": 5.84611040615105,
+  "lon": -55.5371476085116,
+  "match": "SMITHFIELDWEG, GRONINGEN"
+ },
+ "strpln|palmolieweg|commewijne": null,
+ "strpln|saramaccaweg|saramacca": null,
+ "Saramaccaweg, Saramacca, Saramacca, Suriname": {
+  "lat": 5.748004,
+  "lon": -55.4019334,
+  "display_name": "Saramaccaweg, Creola, Kampong Baroe, Saramacca, Suriname",
+  "type": "road"
+ },
+ "strpln|kievietstraat|paramaribo noord en omgeving": null,
+ "strpln|ornastraat|paramaribo noord en omgeving": null,
+ "strpln|ornastraat|": {
+  "lat": 5.86193754463521,
+  "lon": -55.1307391257499,
+  "match": "ORNASTRAAT, BLAUWGROND"
+ },
+ "strpln|ramadhinweg|para": null,
+ "strpln|ramadhinweg|": null,
+ "Ramadhinweg, Para, Para, Suriname": null,
+ "Ramadhinweg, Para, Suriname": null,
+ "Ramadhinweg, Suriname": null,
+ "strpln|tawajariepolder|wanica": null,
+ "strpln|kingweg|para": null,
+ "strpln|kingweg|": {
+  "lat": 5.79065515377227,
+  "lon": -55.1780673899118,
+  "match": "DS.MARTIN LUTHER KINGWEG, LIVORNO"
+ },
+ "strpln|dayanandweg|saramacca": null,
+ "strpln|dayanandweg|": {
+  "lat": 5.74109026043529,
+  "lon": -55.15772117503,
+  "match": "SWAMI DAYANANDWEG, HOUTTUIN"
+ },
+ "Dayanandweg, Saramacca, Saramacca, Suriname": null,
+ "Dayanandweg, Saramacca, Suriname": null,
+ "Dayanandweg, Suriname": {
+  "lat": 5.7403157,
+  "lon": -55.1578961,
+  "display_name": "Swami Dayanandweg, Houttuin, Wanica, Suriname",
+  "type": "road"
+ },
+ "strpln|ramradjstraat|para": null,
+ "strpln|ramradjstraat|": null,
+ "Ramradjstraat, Para, Para, Suriname": null,
+ "Ramradjstraat, Para, Suriname": null,
+ "Ramradjstraat, Suriname": null,
+ "strpln|communicatieweg|commewijne": null,
+ "strpln|communicatieweg|": {
+  "lat": 5.76810099373967,
+  "lon": -55.1239028437583,
+  "match": "COMMUNICATIEWEG, MEERZORG"
+ },
+ "strpln|boxel-paraweg|para": null,
+ "Boxel-Paraweg, Para, Para, Suriname": null,
+ "Boxel-Paraweg, Para, Suriname": null,
+ "Boxel-Paraweg, Suriname": {
+  "lat": 5.7006335,
+  "lon": -55.1025623,
+  "display_name": "Boxel Paraweg, Domburg, Wanica, Suriname",
+  "type": "road"
+ },
+ "strpln|zwartbondstraat|lelydorp": null,
+ "strpln|zwartbondstraat|": null,
+ "Zwartbondstraat, Lelydorp, Wanica, Suriname": null,
+ "Zwartbondstraat, Wanica, Suriname": null,
+ "Zwartbondstraat, Suriname": null,
+ "strpln|kinstraat|braamshoop": null,
+ "strpln|kinstraat|": {
+  "lat": 5.85242589032794,
+  "lon": -55.1561610719659,
+  "match": "BLAKA KINSTRAAT, RAINVILLE"
+ },
+ "strpln|kingweg|livorno": {
+  "lat": 5.79065515377227,
+  "lon": -55.1780673899118,
+  "match": "DS.MARTIN LUTHER KINGWEG, LIVORNO"
+ },
+ "strpln|goudenerwtenweg|saramacca polder": null,
+ "strpln|goudenerwtenweg|": null,
+ "Goudenerwtenweg, Saramacca Polder, Wanica, Suriname": null,
+ "Goudenerwtenweg, Wanica, Suriname": null,
+ "Goudenerwtenweg, Suriname": null,
+ "strpln|bijlhoutweg|63 para": null,
+ "strpln|bijlhoutweg|": {
+  "lat": 5.64252163696911,
+  "lon": -55.2447539555694,
+  "match": "BIJLHOUTWEG, NOORD"
+ },
+ "strpln|drielsmastraat|tourtonne": null,
+ "strpln|drielsmastraat|": {
+  "lat": 5.87058541235787,
+  "lon": -55.1411538780381,
+  "match": "JACQUES DRIELSMASTRAAT, BLAUWGROND"
+ },
+ "strpln|pengelstraat|centrum en omgeving": null,
+ "strpln|pengelstraat|": {
+  "lat": 5.8188472931857,
+  "lon": -55.1747383061641,
+  "match": "JOHAN ADOLF PENGELSTRAAT, CENTRUM"
+ },
+ "strpln|derbystraat|centrum en omgeving": null,
+ "strpln|derbystraat|": {
+  "lat": 5.81561416872204,
+  "lon": -55.1728230693659,
+  "match": "VERL. FREDERIK DERBYSTRAAT, CENTRUM"
+ },
+ "strpln|schmeltzweg|rainville": {
+  "lat": 5.86134785206336,
+  "lon": -55.157924590925,
+  "match": "SCHMELTZWEG, RAINVILLE"
+ },
+ "strpln|jensenweg|meerzorg": null,
+ "strpln|kinderenweg|": {
+  "lat": 5.77847332068397,
+  "lon": -55.2193957828496,
+  "match": "VIER KINDERENWEG, DE NIEUWE GROND"
+ },
+ "strpln|hk.manavstraat|boma": null,
+ "strpln|hk.manavstraat|": null,
+ "Hk.Manavstraat, Boma, Wanica, Suriname": null,
+ "Hk.Manavstraat, Wanica, Suriname": null,
+ "Hk.Manavstraat, Suriname": null,
+ "strpln|middenweg|domburg": {
+  "lat": 5.69481612317311,
+  "lon": -55.0864814080954,
+  "match": "DOMBURG MIDDENWEG, DOMBURG"
+ },
+ "strpln|commissarisweythingweg|": null,
+ "Commissarisweythingweg, Paramaribo, Suriname": null,
+ "Commissarisweythingweg, Suriname": null,
+ "strpln|bergenshoopweg|bergenshoop": null,
+ "strpln|bergenshoopweg|": {
+  "lat": 5.71178383495956,
+  "lon": -55.1827248969288,
+  "match": "VERL. BERGENSHOOPWEG, LELYDORP"
+ },
+ "strpln|keizerstraat|centrum en omgeving": null,
+ "strpln|keizerstraat|": {
+  "lat": 5.8274192726614,
+  "lon": -55.1581195779002,
+  "match": "KEIZERSTRAAT, CENTRUM"
+ },
+ "strpln|craneweg|lelydorp en omgeving": null,
+ "strpln|craneweg|": {
+  "lat": 5.69718281972778,
+  "lon": -55.2293817427938,
+  "match": "DE CRANEWEG, LELYDORP"
+ },
+ "strpln|bezembinderstraat|oost": null,
+ "strpln|bezembinderstraat|": null,
+ "Bezembinderstraat, Oost, Commewijne, Suriname": null,
+ "Bezembinderstraat, Commewijne, Suriname": null,
+ "Bezembinderstraat, Suriname": null,
+ "strpln|eureka|wanica / eureka": null,
+ "strpln|spalburgstraat|wanica / sophia's lust": null,
+ "Spalburgstraat, Wanica / Sophia's Lust, Wanica, Suriname": null,
+ "res|wanica / sophia's lust|wanica": null,
+ "strpln|vredenburgweg|tout lui fautkanaal": null,
+ "strpln|vredenburgweg|": {
+  "lat": 5.72536965261821,
+  "lon": -55.2041400507078,
+  "match": "VREDENBURGWEG, DE NIEUWE GROND"
+ },
+ "strpln|wanicaweg|kasabaholo": null,
+ "strpln|balgobindweg|paramaribo": null,
+ "strpln|ruby-sarahweg|welgedacht c": null,
+ "strpln|ruby-sarahweg|": null,
+ "Ruby-Sarahweg, Suriname": null,
+ "res|welgedacht c|": null,
+ "strpln|braamshoopweg|fase 2": null,
+ "strpln|noordpoolweg|rahemal": null,
+ "strpln|noordpoolweg|": {
+  "lat": 5.77691622116466,
+  "lon": -55.1921077469051,
+  "match": "NOORDPOOLWEG, DE NIEUWE GROND"
+ }
 }

@@ -25,7 +25,7 @@ import time
 import unicodedata
 from math import pi, sqrt
 
-from . import verified
+from . import streets, verified
 from .core import CONFIG, DATA, Http, clean, haversine_km
 
 CACHE_PATH = DATA / "geocache.json"
@@ -61,8 +61,52 @@ _NOISE = re.compile(
     r"nabij|gelegen\s+aan|aan\s+de|ruim(e)?|mooi(e)?|\d+\s*ha)\b", re.I)
 
 
+# Surinamese streets almost always end in one of these. Pulling the token that
+# ends in one out of a headline beats stripping noise word by word: it turns
+# "Eigendomspercelen Wanicaweg (omgeving Kasabaholo)" into "Wanicaweg" without
+# needing to know what "eigendomspercelen" means.
+_SUFFIX = (r"straat|weg|laan|pad|dreef|gracht|plein|steeg|kanaal|polder|serie|"
+           r"kade|singel|boulevard")
+_STREET_TOKEN = re.compile(r"\b([A-Za-z][\w'.-]+?(?:" + _SUFFIX + r"))\b", re.I)
+# Words that end in a street suffix but name no street.
+_NOT_A_STREET = {
+    "onderweg", "toegangsweg", "zijweg", "hoofdweg", "snelweg", "ontsluitingsweg",
+    "doorgaandeweg", "verharde weg", "zandweg", "hoofdstraat", "zijstraat",
+    "hoekstraat", "dwarsstraat", "openbareweg", "asfaltweg", "bouwkade",
+    "achterweg", "landweg", "toegangspad", "voetpad", "wandelpad", "fietspad",
+}
+
+
+def extract_street(raw: str | None):
+    """Pick the street out of a headline. Returns (street, leftover) or None.
+
+    The leftover is whatever followed the street - often the resort, which is
+    worth passing on as a hint when the advert did not fill that field in.
+    """
+    s = clean(raw)
+    if not s:
+        return None
+    s = unicodedata.normalize("NFKC", s).replace("\u2019", "'").replace("\u2018", "'")
+    best = None
+    for m in _STREET_TOKEN.finditer(s):
+        cand = m.group(1).strip(" -.")
+        if cand.lower() in _NOT_A_STREET or len(cand) < 6:
+            continue
+        if best is None or len(cand) > len(best[0]):
+            best = (cand, s[m.end():])
+    if not best:
+        return None
+    leftover = re.sub(r"^[\s,;:.\-\u2013\u2014()]+", "", best[1])
+    leftover = re.split(r"[,()|]", leftover)[0].strip()
+    leftover = re.sub(r"^(omgeving|nabij|te|nabij\s+de|bij)\s+", "", leftover, flags=re.I)
+    return best[0], leftover
+
+
 def normalise_street(raw: str | None) -> str:
     """Turn an advert headline into something a street index can match."""
+    found = extract_street(raw)
+    if found:
+        return found[0]
     s = clean(raw)
     if not s:
         return ""
@@ -161,6 +205,54 @@ def _ressort(http: Http, ressort: str | None, district: str | None):
     return out
 
 
+# ------------------------------------------------------- district envelope
+def _district_bbox(http: Http, district: str | None):
+    """Bounding box of a whole district, from its ressort polygons.
+
+    Used as a sanity check: a street plan hit for "Kerkstraat" is worthless if
+    the Kerkstraat it found is 80 km away in another district. Cheap, cached,
+    and it catches exactly the class of mistake that put pins in the jungle.
+    """
+    if not district:
+        return None
+    key = f"bbox|{district.lower()}"
+    cache = _load()
+    if key in cache:
+        return cache[key]
+    res = http.json(f"{RESSORTEN}/query", params={
+        "where": f"UPPER(DISTR_NM) LIKE UPPER('%{_sql(district)}%')",
+        "outFields": "DISTR_NM", "returnGeometry": "true", "outSR": "4326",
+        "f": "geojson", "resultRecordCount": 100})
+    pts = []
+    for f in (res or {}).get("features") or []:
+        def walk(c):
+            if c and isinstance(c[0], (int, float)):
+                pts.append(c)
+            else:
+                for part in c:
+                    walk(part)
+        walk((f.get("geometry") or {}).get("coordinates") or [])
+    out = None
+    if pts:
+        lats = [p[1] for p in pts]
+        lons = [p[0] for p in pts]
+        out = [min(lats), min(lons), max(lats), max(lons)]
+    cache[key] = out
+    return out
+
+
+def in_district(http: Http, lat, lon, district: str | None, pad: float = 0.02) -> bool:
+    """True when we have no reason to doubt the position.
+
+    No district in the advert, or no polygon for it, means we cannot judge -
+    and 'cannot judge' is not the same as 'wrong', so the hit is kept.
+    """
+    box = _district_bbox(http, district)
+    if not box or lat is None:
+        return True
+    return (box[0] - pad <= lat <= box[2] + pad) and (box[1] - pad <= lon <= box[3] + pad)
+
+
 # -------------------------------------------------------------- nominatim
 def _nominatim(http: Http, query: str):
     global _last_nominatim
@@ -199,17 +291,41 @@ def geocode(http: Http, item: dict) -> None:
     # A hand-checked address beats every automatic guess and is never redone.
     if verified.apply(item):
         return
-    street = normalise_street(item.get("street") or item.get("title"))
+    headline = item.get("street") or item.get("title")
+    street = normalise_street(headline)
     resort = clean(item.get("resort") or "") or None
     district = clean(item.get("district") or "") or None
+    if not resort:
+        # "Ruby-Sarahweg Welgedacht C" tells us the resort even though the
+        # advert left that field empty.
+        found = extract_street(headline)
+        if found and 3 < len(found[1]) < 30:
+            resort = found[1]
 
     if len(street) >= 4:
+        # The local copy of the street plan first: it is the same authority as
+        # the live service but it can also recognise a misspelt name.
+        hit = streets.find(street, district, resort)
+        if hit:
+            row, how = hit
+            if in_district(http, row["lat"], row["lon"], district):
+                label = ", ".join(filter(None, [row["name"], row.get("ressort")]))
+                item.update(lat=row["lat"], lon=row["lon"], geocode_quality="street",
+                            geocode_source="Stratenplan (MI-GLIS)"
+                                           + (" - naam herkend" if how == "fuzzy" else ""),
+                            geocode_match=label, geocode_fuzzy=(how == "fuzzy"),
+                            geocode_checked_district=bool(district))
+                return
+
         for res in (resort, None):
             hit = _strpln(http, street, res)
-            if hit:
+            # A street of the same name exists in half the districts of
+            # Suriname. Keep the hit only if it landed where the advert says.
+            if hit and in_district(http, hit["lat"], hit["lon"], district):
                 item.update(lat=hit["lat"], lon=hit["lon"],
                             geocode_quality="street", geocode_source="Stratenplan (MI-GLIS)",
-                            geocode_match=hit["match"])
+                            geocode_match=hit["match"],
+                            geocode_checked_district=bool(district))
                 return
 
         for q in filter(None, [
@@ -217,10 +333,12 @@ def geocode(http: Http, item: dict) -> None:
                 f"{street}, {district}, Suriname" if district else None,
                 f"{street}, Suriname"]):
             hit = _nominatim(http, q)
-            if _road_in_district(hit, district):
+            if _road_in_district(hit, district) and \
+               in_district(http, hit["lat"], hit["lon"], district):
                 item.update(lat=hit["lat"], lon=hit["lon"],
                             geocode_quality="street", geocode_source="OpenStreetMap",
-                            geocode_match=hit.get("display_name"))
+                            geocode_match=hit.get("display_name"),
+                            geocode_checked_district=bool(district))
                 return
 
     # Nothing precise enough. Record the neighbourhood as an area - the map
