@@ -14,7 +14,7 @@ import sys
 import time
 from pathlib import Path
 
-from perceel import dedup, geocode, store
+from perceel import dates, dedup, geocode, store
 from perceel.core import CONFIG, DATA, Http, clean
 from perceel.sources import facebook, run_all
 
@@ -55,6 +55,9 @@ def main() -> int:
         print(f"  -> Facebook (captured in browser): {len(fb)} listings")
         items.extend(fb)
     print(f"     raw total: {len(items)}")
+
+    stamped = dates.enrich(http, items)
+    print(f"     publish dates found for {stamped} listings")
 
     print("2/5  removing duplicates")
     unique, dropped = dedup.deduplicate(items)

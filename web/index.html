@@ -6,8 +6,6 @@
 <title>Percelen Suriname</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗺️</text></svg>">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.min.css">
 <style>
 :root{
   --bg:#0f1417; --panel:#161d21; --panel2:#1d262b; --line:#2b373e;
@@ -64,6 +62,7 @@ input[type=range]{width:100%;accent-color:var(--accent)}
 .tag{font-size:10.5px;padding:1px 6px;border-radius:99px;border:1px solid var(--line);color:var(--muted)}
 .tag.new{border-color:var(--accent2);color:var(--accent2)}
 .tag.dup{border-color:var(--muted)}
+.tag.dated{border-color:var(--accent);color:var(--accent)}
 #map{height:100dvh}
 .leaflet-container{background:var(--bg);font:inherit}
 .pop{width:250px}
@@ -73,13 +72,20 @@ input[type=range]{width:100%;accent-color:var(--accent)}
 .pop a{color:var(--accent)}
 .pop .call{display:inline-block;margin:4px 6px 0 0;padding:4px 9px;border-radius:7px;background:var(--accent);color:#04120d;text-decoration:none;font-weight:600;font-size:12px}
 .pop .wa{background:#25d366}
+.legend{
+  background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:7px 9px;
+  font-size:11px;color:var(--muted);display:grid;gap:3px;box-shadow:0 2px 10px rgba(0,0,0,.25)
+}
+.legend span{display:flex;align-items:center;gap:6px;white-space:nowrap}
+.legend i{width:11px;height:11px;border-radius:50%;border:1.5px solid #fff;display:inline-block}
 .home-dot{background:var(--accent2);border:2px solid #fff;border-radius:50%;width:14px;height:14px;box-shadow:0 0 0 3px rgba(240,166,60,.35)}
-#toggle{position:absolute;z-index:1000;top:10px;right:10px;display:none}
+#toggle{position:absolute;z-index:1300;top:10px;right:10px;display:none}
 .empty{padding:30px 16px;text-align:center;color:var(--muted);font-size:13px}
 @media (max-width:820px){
   #app{grid-template-columns:1fr;grid-template-rows:1fr}
   #map{position:absolute;inset:0;height:100dvh}
-  #side{position:absolute;inset:0;z-index:900;background:var(--panel)}
+  #side{position:absolute;inset:0;z-index:1200;background:var(--panel)}
+  body:not(.mapview) .leaflet-control-container{display:none}
   body.mapview #side{display:none}
   #toggle{display:block;padding:8px 14px;border-radius:99px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font-weight:600}
 }
@@ -103,6 +109,7 @@ input[type=range]{width:100%;accent-color:var(--accent)}
           <option value="price">Prijs laag &rarr; hoog</option>
           <option value="pm2">Prijs per m&sup2;</option>
           <option value="size">Grootste perceel</option>
+          <option value="posted">Nieuwst geplaatst</option>
           <option value="new">Nieuw gevonden</option>
         </select>
       </div>
@@ -127,19 +134,50 @@ input[type=range]{width:100%;accent-color:var(--accent)}
 <button id="toggle">Kaart</button>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
 <script>
 const $ = s => document.querySelector(s);
 const fmtEur = n => n == null ? "prijs op aanvraag" : "€ " + Math.round(n).toLocaleString("nl-NL");
+const fmtDate = s => {
+  if (!s) return null;
+  const d = new Date(s + (s.length === 10 ? "T12:00:00" : ""));
+  if (isNaN(d)) return null;
+  const days = Math.round((Date.now() - d) / 86400000);
+  if (days <= 0) return "vandaag";
+  if (days === 1) return "gisteren";
+  if (days < 31) return days + " dagen geleden";
+  if (days < 365) return Math.round(days / 30) + " mnd geleden";
+  return Math.round(days / 365) + " jaar geleden";
+};
+const ageInfo = d => {
+  if (d.posted) return {text: "geplaatst " + fmtDate(d.posted), exact: d.posted, known: true};
+  if (d.first_seen) return {text: "gezien sinds " + fmtDate(d.first_seen), exact: d.first_seen, known: false};
+  return null;
+};
 const fmtM2  = n => n == null ? "? m²" : Math.round(n).toLocaleString("nl-NL") + " m²";
 const SRC_LABEL = {};
 
-let DATA = [], VIEW = [], markers = null, map = null, byId = new Map(), activeId = null;
+let DATA = [], VIEW = [], markers = null, map = null, canvasLayer = null, byId = new Map(), activeId = null;
 
 function priceEur(d){ return d.price_eur != null ? d.price_eur : null; }
 
+// Dot colour = asking price, so the map reads as a price heat map at a glance.
+const BANDS = [
+  {max: 25000,   color: "#2dd4bf", label: "< € 25k"},
+  {max: 45000,   color: "#4ade80", label: "€ 25–45k"},
+  {max: 80000,   color: "#fbbf24", label: "€ 45–80k"},
+  {max: 150000,  color: "#fb923c", label: "€ 80–150k"},
+  {max: Infinity, color: "#ef4444", label: "> € 150k"},
+];
+const NO_PRICE = "#a78bfa";
+function priceColor(d){
+  const p = priceEur(d);
+  if (p == null) return NO_PRICE;
+  return BANDS.find(b => p < b.max).color;
+}
+
 function cardHtml(d, i){
   const img = (d.thumbs && d.thumbs[0]) || (d.images && d.images[0]);
+  const age = ageInfo(d);
   const tags = [];
   if (d.is_new) tags.push('<span class="tag new">nieuw</span>');
   if (d.also_listed_by && d.also_listed_by.length) tags.push(`<span class="tag dup">${d.also_listed_by.length+1} bronnen</span>`);
@@ -152,7 +190,8 @@ function cardHtml(d, i){
       ${d.eur_per_m2 ? `<span>€${d.eur_per_m2}/m²</span>` : ""}</div>
       <div class="meta"><span>${[d.resort, d.district].filter(Boolean).join(", ") || "—"}</span>
       ${d.km_from_centre != null ? `<span>${d.km_from_centre.toFixed(1)} km v. stad</span>` : ""}</div>
-      <div class="meta">${tags.join("")}<span class="tag">${SRC_LABEL[d.source]||d.source}</span></div>
+      <div class="meta">${tags.join("")}<span class="tag">${SRC_LABEL[d.source]||d.source}</span>
+      ${age ? `<span class="tag${d.posted?" dated":""}" title="${age.exact}">${age.text}</span>` : ""}</div>
     </div></div>`;
 }
 
@@ -166,7 +205,7 @@ function popupHtml(d){
     <div class="meta"><span class="price">${fmtEur(priceEur(d))}</span> · ${fmtM2(d.size_m2)}${d.eur_per_m2?` · €${d.eur_per_m2}/m²`:""}</div>
     <div class="meta">${[d.resort,d.district].filter(Boolean).join(", ")||"—"}${d.title_type?" · "+d.title_type:""}</div>
     <div class="meta">${d.km_from_centre!=null?`${d.km_from_centre.toFixed(1)} km van centrum · ${d.km_from_home.toFixed(1)} km van Schuilplaats`:""}</div>
-    <div class="meta">${d.agent||SRC_LABEL[d.source]||d.source}${d.geocode_quality&&d.geocode_quality!=="street"?' · <em>locatie bij benadering — pin staat ergens in deze buurt</em>':""}</div>
+    <div class="meta">${(() => { const a = ageInfo(d); return a ? a.text + (a.known ? "" : " (geen plaatsingsdatum op de site)") + " · " : ""; })()}${d.agent||SRC_LABEL[d.source]||d.source}${d.geocode_quality&&d.geocode_quality!=="street"?' · <em>locatie bij benadering — pin staat ergens in deze buurt</em>':""}</div>
     ${phones}
     <div style="margin-top:6px"><a href="${d.url}" target="_blank" rel="noopener">Bekijk advertentie ↗</a></div>
     ${(d.also_listed_by||[]).map(a=>`<div><a href="${a.url}" target="_blank" rel="noopener">ook bij ${a.agent||a.source} ↗</a></div>`).join("")}
@@ -216,6 +255,7 @@ function applyFilters(){
     if (s==="price")  return num(priceEur(a))-num(priceEur(b));
     if (s==="pm2")    return num(a.eur_per_m2)-num(b.eur_per_m2);
     if (s==="size")   return (b.size_m2||0)-(a.size_m2||0);
+    if (s==="posted") return (b.posted||b.first_seen||"").localeCompare(a.posted||a.first_seen||"");
     if (s==="new")    return (b.is_new?1:0)-(a.is_new?1:0) || num(a.km_from_centre)-num(b.km_from_centre);
     return 0;
   });
@@ -234,8 +274,13 @@ function render(){
     if (d.lat == null || d.lon == null) return;
     const approx = d.geocode_quality && d.geocode_quality !== "street";
     const m = L.circleMarker([d.lat, d.lon], {
-      radius: 7, weight: 2, color: approx ? "#93a4ad" : "#3fb98c",
-      fillColor: d.is_new ? "#f0a63c" : (approx ? "#5b6b74" : "#3fb98c"), fillOpacity: .85
+      renderer: canvasLayer,
+      radius: d.is_new ? 8.5 : 7,
+      weight: d.is_new ? 3 : 2.2,
+      color: d.is_new ? "#ffd166" : "#ffffff",   // white ring lifts the dot off the map
+      opacity: 1,
+      fillColor: priceColor(d),
+      fillOpacity: approx ? .55 : .95
     });
     m.bindPopup(popupHtml(d), {maxWidth:280});
     m.on("click", ()=>{ activeId = d.id; highlight(d.id); });
@@ -274,8 +319,10 @@ async function boot(){
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
-  markers = L.markerClusterGroup({maxClusterRadius:45, disableClusteringAtZoom:15});
-  map.addLayer(markers);
+  // No clustering: 700 canvas circles render fine and the spiderfy animation
+  // made it impossible to see what was actually where.
+  canvasLayer = L.canvas({padding:.5});
+  markers = L.layerGroup().addTo(map);
 
   if (raw.home){
     L.marker([raw.home.lat, raw.home.lon], {icon:L.divIcon({className:"", html:'<div class="home-dot"></div>', iconSize:[14,14]})})
@@ -283,6 +330,16 @@ async function boot(){
     [5000,10000,15000].forEach(r =>
       L.circle([raw.home.lat, raw.home.lon], {radius:r, color:"#f0a63c", weight:1, opacity:.35, fill:false, dashArray:"4 6"}).addTo(map));
   }
+  const legend = L.control({position:"bottomleft"});
+  legend.onAdd = () => {
+    const el = L.DomUtil.create("div", "legend");
+    el.innerHTML = BANDS.map(b => `<span><i style="background:${b.color}"></i>${b.label}</span>`).join("")
+      + `<span><i style="background:${NO_PRICE}"></i>op aanvraag</span>`
+      + `<span><i style="background:#94a3b8;opacity:.55"></i>locatie bij benadering</span>`;
+    return el;
+  };
+  legend.addTo(map);
+
   if (raw.city_centre){
     L.circleMarker([raw.city_centre.lat, raw.city_centre.lon], {radius:6, color:"#e2685f", fillColor:"#e2685f", fillOpacity:1})
       .addTo(map).bindPopup("<b>" + raw.city_centre.label + "</b>");

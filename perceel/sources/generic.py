@@ -9,8 +9,8 @@ from __future__ import annotations
 import re
 from collections import Counter
 
-from ..core import (Http, absolute, clean, guess_district, new_listing,
-                    parse_phones, parse_price, parse_size_m2)
+from ..core import (Http, absolute, clean, find_price, guess_district,
+                    new_listing, parse_phones, parse_size_m2)
 
 SIZE_HINT = re.compile(r"\d[\d.,]*\s*(m\s*[²2]|m2|ha\b)", re.I)
 PRICE_HINT = re.compile(r"(€|\$|srd|usd|eur)\s*\d|(\d[\d.,]{3,})\s*(euro|usd|srd)", re.I)
@@ -90,7 +90,7 @@ def scrape_site(http: Http, key: str, name: str, base: str, start_urls: list[str
                     img = None
                 if img:
                     img = absolute(base, img)
-            amount, cur, per_m2 = parse_price(text)
+            amount, cur, per_m2 = find_price(text)
             out.append(new_listing(
                 source=key, source_id=f"{key}:{href.rstrip('/').split('/')[-1][:80]}",
                 url=href, title=title[:120], street=title[:120],

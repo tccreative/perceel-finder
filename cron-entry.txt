@@ -1,0 +1,2 @@
+# perceel-finder: refresh the plot map and push to GitHub Pages
+17 7 * * 1,4 root /opt/perceel-finder/publish.sh >> /var/log/perceel-finder.log 2>&1

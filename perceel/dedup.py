@@ -59,7 +59,7 @@ def merge(primary: dict, other: dict) -> dict:
     if other.get("url") and all(e.get("url") != other.get("url") for e in also):
         also.append(entry)
     for field in ("size_m2", "price", "currency", "district", "resort", "street",
-                  "title_type", "description", "lat", "lon", "geocode_quality"):
+                  "title_type", "description", "lat", "lon", "geocode_quality", "posted"):
         if not primary.get(field) and other.get(field):
             primary[field] = other[field]
     imgs = list(primary.get("images") or [])

@@ -1,7 +1,7 @@
 """Registry of all scrapers."""
-from . import generic, oso, remax, remy, surgoed, surigrond, terzol
+from . import generic, oso, remax, remy, surgoed, surigrond, terzol, vgas
 
-MODULES = [remy, surgoed, remax, oso, terzol, surigrond]
+MODULES = [remy, surgoed, remax, oso, terzol, vgas, surigrond]
 
 
 def run_all(http, only=None, deep=True, log=print):

@@ -1,6 +1,7 @@
 """Shared helpers: HTTP session, rate limiting, text/price/size parsing."""
 from __future__ import annotations
 
+import html
 import json
 import os
 import re
@@ -85,6 +86,7 @@ def clean(text: str | None) -> str:
         return ""
     text = unicodedata.normalize("NFKC", str(text))
     text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(text)
     text = text.replace("\xa0", " ")
     return re.sub(r"\s+", " ", text).strip()
 
@@ -235,14 +237,60 @@ def clean_image_urls(urls) -> list:
     for u in urls or []:
         if not u or not isinstance(u, str):
             continue
-        u = _BAD_PREFIX.sub("", u.strip())
+        u = u.strip()
+        u = _BAD_PREFIX.sub("", u)          # "https:https://x" -> "https://x"
         if u.startswith("//"):
             u = "https:" + u
-        if not u.startswith("http"):
+        if not u.startswith("http") or u.startswith("data:"):
             continue
         if u not in out:
             out.append(u)
     return out[:10]
+
+
+_PRICE_NEAR = re.compile(
+    r"(?:(€|eur|usd|srd|us\$|sr\$|\$)\s*([\d][\d.,\s]{2,})"
+    r"|([\d][\d.,\s]{2,})\s*(€|eur|usd|srd|euro|dollar))", re.I)
+_PRICE_LABEL = re.compile(
+    r"(?:vraag|koop|verkoop)?prijs\w*\s*[:\-]?\s*([^\n;|]{0,45})", re.I)
+
+
+def find_price(text: str | None):
+    """Pull the asking price out of a free-text advert.
+
+    `parse_price` takes the first number it sees, which in a long advert is
+    usually the plot size or a house number. Here we look for a figure that
+    actually sits next to a currency symbol or a "vraagprijs" label, and
+    ignore anything under 1.000 - no plot in Suriname costs 18 euro.
+    """
+    t = clean(text)
+    if not t:
+        return None, None, False
+    m = _PRICE_LABEL.search(t)
+    if m:
+        amount, cur, per_m2 = parse_price(m.group(1))
+        if _sane_price(amount, m.group(1)):
+            return amount, cur, per_m2
+    best = None
+    for m in _PRICE_NEAR.finditer(t):
+        amount, cur, per_m2 = parse_price(m.group(0))
+        if _sane_price(amount, m.group(0)) and (best is None or amount > best[0]):
+            best = (amount, cur, per_m2)
+    return best or (None, None, False)
+
+
+def _sane_price(amount, blob: str) -> bool:
+    """Guard against phone numbers and plot IDs masquerading as prices.
+
+    Surinamese phone numbers are seven digits written without separators
+    ("8550564"), which reads as a perfectly good price if you squint. A real
+    asking price either carries a thousands separator or stays under a million.
+    """
+    if not amount or amount < 1000 or amount > 3_000_000:
+        return False
+    if amount >= 1_000_000 and not any(c in blob for c in ".,"):
+        return False
+    return True
 
 
 def new_listing(**kw) -> dict:
@@ -251,7 +299,7 @@ def new_listing(**kw) -> dict:
         "street": None, "resort": None, "district": None, "address": None,
         "price": None, "currency": None, "price_eur": None, "price_per_m2": None,
         "size_m2": None, "title_type": None, "description": None,
-        "images": [], "phones": [], "agent": None, "lat": None, "lon": None,
+        "images": [], "phones": [], "agent": None, "posted": None, "lat": None, "lon": None,
         "geocode_quality": None, "raw_location": None,
     }
     base.update(kw)

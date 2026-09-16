@@ -1,6 +1,6 @@
 """SuriGrond - single long page with all plots."""
 import re
-from ..core import Http, absolute, clean, guess_district, new_listing, parse_phones, parse_price, parse_size_m2
+from ..core import Http, absolute, clean, guess_district, new_listing, parse_phones, find_price, parse_size_m2
 
 NAME = "SuriGrond"
 KEY = "surigrond"
@@ -30,7 +30,7 @@ def scrape(http: Http, deep: bool = False):
             img = None
         h = c.select_one("h1, h2, h3, h4")
         title = clean(h.get_text()) if h else text[:70]
-        amount, cur, per_m2 = parse_price(text)
+        amount, cur, per_m2 = find_price(text)
         out.append(new_listing(
             source=KEY, source_id=f"{KEY}:{href.rstrip('/').split('/')[-1]}", url=href,
             title=title, street=title, district=guess_district(text), raw_location=text[:160],
