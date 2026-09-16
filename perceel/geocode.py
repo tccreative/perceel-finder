@@ -25,7 +25,7 @@ import time
 import unicodedata
 from math import pi, sqrt
 
-from . import streets, verified
+from . import streetmatch, verified
 from .core import CONFIG, DATA, Http, clean, haversine_km
 
 CACHE_PATH = DATA / "geocache.json"
@@ -302,21 +302,24 @@ def geocode(http: Http, item: dict) -> None:
         if found and 3 < len(found[1]) < 30:
             resort = found[1]
 
-    if len(street) >= 4:
-        # The local copy of the street plan first: it is the same authority as
-        # the live service but it can also recognise a misspelt name.
-        hit = streets.find(street, district, resort)
-        if hit:
-            row, how = hit
-            if in_district(http, row["lat"], row["lon"], district):
-                label = ", ".join(filter(None, [row["name"], row.get("ressort")]))
-                item.update(lat=row["lat"], lon=row["lon"], geocode_quality="street",
-                            geocode_source="Stratenplan (MI-GLIS)"
-                                           + (" - naam herkend" if how == "fuzzy" else ""),
-                            geocode_match=label, geocode_fuzzy=(how == "fuzzy"),
-                            geocode_checked_district=bool(district))
-                return
+    # The local copy of the street plan first: it is the same authority as
+    # the live service but it can also recognise a misspelt name, and it reads
+    # the whole headline rather than one token of it.
+    hit = streetmatch.find_in_text(headline, district, resort) \
+        or streetmatch.find_in_text(street, district, resort)
+    if hit:
+        row, how, matched = hit
+        if in_district(http, row["lat"], row["lon"], district):
+            label = ", ".join(filter(None, [row["name"], row.get("ressort")]))
+            item.update(lat=row["lat"], lon=row["lon"], geocode_quality="street",
+                        geocode_source="Stratenplan (MI-GLIS)"
+                                       + (" - naam herkend" if how == "fuzzy" else ""),
+                        geocode_match=label, geocode_fuzzy=(how == "fuzzy"),
+                        geocode_read_as=matched,
+                        geocode_checked_district=bool(district))
+            return
 
+    if len(street) >= 4:
         for res in (resort, None):
             hit = _strpln(http, street, res)
             # A street of the same name exists in half the districts of
