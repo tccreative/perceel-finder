@@ -9970,5 +9970,11 @@
  },
  "strpln|adriaanstraat|paramaribo / sophia's lust": null,
  "Adriaanstraat, Paramaribo / Sophia's Lust, Paramaribo, Suriname": null,
- "res|paramaribo / sophia's lust|paramaribo": null
+ "res|paramaribo / sophia's lust|paramaribo": null,
+ "strpln|trombonestraat|3de rijweg": null,
+ "strpln|trombonestraat|": {
+  "lat": 5.8366843088124,
+  "lon": -55.2219240441644,
+  "match": "TROMBONESTRAAT, WELGELEGEN"
+ }
 }
