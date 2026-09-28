@@ -9976,5 +9976,13 @@
   "lat": 5.8366843088124,
   "lon": -55.2219240441644,
   "match": "TROMBONESTRAAT, WELGELEGEN"
+ },
+ "strpln|privéweg|wanica": null,
+ "strpln|privéweg|": null,
+ "Privéweg, Wanica, Wanica, Suriname": {
+  "lat": 5.7167979,
+  "lon": -55.178793,
+  "display_name": "Privéweg, Lelydorp, Houttuin, Wanica, Suriname",
+  "type": "road"
  }
 }
