@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-01",
- "todo": 820,
+ "generated": "2026-10-05",
+ "todo": 822,
  "tiers": {
   "1": 8,
   "2": 90,
-  "3": 78,
-  "4": 644
+  "3": 79,
+  "4": 645
  },
  "items": [
   {
@@ -39,6 +39,22 @@
    "guess_lon": null,
    "guess_match": null,
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Interne+Financiering+Bouwkavel+Suriname"
+  },
+  {
+   "key": "eigendoms par'bo noord||",
+   "tier": 1,
+   "street": "Eigendoms Kavels Par’bo Noord",
+   "resort": "",
+   "district": "",
+   "size_m2": 450.0,
+   "price": null,
+   "url": "https://karimainvest.com/properties/eigendoms-kavels-parbo-noord/",
+   "agent": "Karima Invest N.V.",
+   "guess_quality": "none",
+   "guess_lat": null,
+   "guess_lon": null,
+   "guess_match": null,
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Eigendoms+Kavels+Par’bo+Noord+Suriname"
   },
   {
    "key": "te nieuwe grond||",
@@ -119,22 +135,6 @@
    "guess_lon": null,
    "guess_match": null,
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Eigendoms+Kavels+Welgedacht+A+Suriname"
-  },
-  {
-   "key": "eigendoms par'bo noord||",
-   "tier": 1,
-   "street": "Eigendoms Kavels Par’bo Noord",
-   "resort": "",
-   "district": "",
-   "size_m2": 450.0,
-   "price": null,
-   "url": "https://karimainvest.com/properties/eigendoms-kavels-parbo-noord/",
-   "agent": "Karima Invest N.V.",
-   "guess_quality": "none",
-   "guess_lat": null,
-   "guess_lon": null,
-   "guess_match": null,
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Eigendoms+Kavels+Par’bo+Noord+Suriname"
   },
   {
    "key": "ephraimzegenweg|koewarasan|wanica",
@@ -2537,6 +2537,22 @@
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Hildesheim+Wayambo+Saramacca+Suriname"
   },
   {
+   "key": "saramacca linkeroever|saramacca|saramacca",
+   "tier": 3,
+   "street": "Saramacca Linkeroever",
+   "resort": "Saramacca",
+   "district": "Saramacca",
+   "size_m2": 8.0,
+   "price": 48500.0,
+   "url": "https://www.surgoed.com/vastgoedaanbod/kopen/percelen/saramacca-linkeroever/",
+   "agent": "Surgoed Makelaardij NV",
+   "guess_quality": "area",
+   "guess_lat": 5.674656,
+   "guess_lon": -55.40498,
+   "guess_match": "Kampong Baroe, Saramacca",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Saramacca+Linkeroever+Saramacca+Saramacca+Suriname"
+  },
+  {
    "key": "mariendaal noord|tamanredjo|commewijne",
    "tier": 3,
    "street": "Mariendaal Noord",
@@ -3417,22 +3433,6 @@
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Highway+Wanica+/+Domburg+Wanica+Suriname"
   },
   {
-   "key": "prakikistraat|paramaribo / morgenstond|paramaribo",
-   "tier": 4,
-   "street": "Prakikistraat",
-   "resort": "Paramaribo / Morgenstond",
-   "district": "Paramaribo",
-   "size_m2": 751.4,
-   "price": 53500.0,
-   "url": "https://osonangadjari.com/properties/prakikistraat/",
-   "agent": "Oso Nanga Djari",
-   "guess_quality": "street",
-   "guess_lat": 5.86183,
-   "guess_lon": -55.109499,
-   "guess_match": "PRAKIKISTRAAT, BLAUWGROND",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Prakikistraat+Paramaribo+/+Morgenstond+Paramaribo+Suriname"
-  },
-  {
    "key": "hermitageweg|paramaribo / uitvlugt|paramaribo",
    "tier": 4,
    "street": "L’ Hermitageweg",
@@ -3865,10 +3865,10 @@
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Parasramweg+Wanica+/+De+Nieuwe+Grond+Wanica+Suriname"
   },
   {
-   "key": "bomapolder|koewarasan / wanica|wanica",
+   "key": "bomapolder|wanica / koewarasan|wanica",
    "tier": 4,
    "street": "Bomapolder",
-   "resort": "Koewarasan / Wanica",
+   "resort": "Wanica / Koewarasan",
    "district": "Wanica",
    "size_m2": 1464.4,
    "price": 59500.0,
@@ -3878,7 +3878,7 @@
    "guess_lat": 5.75952139947432,
    "guess_lon": -55.2552142672726,
    "guess_match": "BOMAPOLDER SERIE 11, KOEWARASAN",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Bomapolder+Koewarasan+/+Wanica+Wanica+Suriname"
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Bomapolder+Wanica+/+Koewarasan+Wanica+Suriname"
   },
   {
    "key": "tout lui faut|wanica / houttuin|wanica",
@@ -4313,6 +4313,22 @@
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Tout+Lui+Faut+kanaalweg+Tout+Lui+Faut+Wanica+Suriname"
   },
   {
+   "key": "gadofowroestraat|morgenstond|paramaribo",
+   "tier": 4,
+   "street": "Gadofowroestraat",
+   "resort": "Morgenstond",
+   "district": "Paramaribo",
+   "size_m2": 1019.0,
+   "price": 95000.0,
+   "url": "https://www.remyvastgoed.com/125804",
+   "agent": "Remy Vastgoed",
+   "guess_quality": "street",
+   "guess_lat": 5.858515,
+   "guess_lon": -55.111484,
+   "guess_match": "GADOFOWROESTRAAT, BLAUWGROND",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Gadofowroestraat+Morgenstond+Paramaribo+Suriname"
+  },
+  {
    "key": "lakpatiestraat|beekhuizen|paramaribo",
    "tier": 4,
    "street": "Lakpatiestraat",
@@ -4471,22 +4487,6 @@
    "guess_lon": -55.213583,
    "guess_match": "SIRAWANWEG, DE NIEUWE GROND",
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Sierawanweg+De+Nieuwe+Grond+Wanica+Suriname"
-  },
-  {
-   "key": "gadofowroestraat|morgenstond|paramaribo",
-   "tier": 4,
-   "street": "Gadofowroestraat",
-   "resort": "Morgenstond",
-   "district": "Paramaribo",
-   "size_m2": 1019.0,
-   "price": 95000.0,
-   "url": "https://www.remyvastgoed.com/125804",
-   "agent": "Remy Vastgoed",
-   "guess_quality": "street",
-   "guess_lat": 5.858515,
-   "guess_lon": -55.111484,
-   "guess_match": "GADOFOWROESTRAAT, BLAUWGROND",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Gadofowroestraat+Morgenstond+Paramaribo+Suriname"
   },
   {
    "key": "leiding|leiding|wanica",
@@ -4807,6 +4807,22 @@
    "guess_lon": -55.214804,
    "guess_match": "WANAKOESTRAAT, WEG NAAR ZEE",
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Wanakoestraat+Kwatta+Paramaribo+Suriname"
+  },
+  {
+   "key": "prakikistraat|morgenstond|paramaribo",
+   "tier": 4,
+   "street": "Prakikistraat",
+   "resort": "Morgenstond",
+   "district": "Paramaribo",
+   "size_m2": 751.0,
+   "price": 53000.0,
+   "url": "https://www.remyvastgoed.com/123634",
+   "agent": "Remy Vastgoed",
+   "guess_quality": "street",
+   "guess_lat": 5.86183,
+   "guess_lon": -55.109499,
+   "guess_match": "PRAKIKISTRAAT, BLAUWGROND",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Prakikistraat+Morgenstond+Paramaribo+Suriname"
   },
   {
    "key": "suri village iv|morgenstond|paramaribo",
@@ -5591,22 +5607,6 @@
    "guess_lon": -55.174207,
    "guess_match": "Van 't Hogerhuysstraat, Beekhuizen, Paramaribo, Suriname",
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Van+’t+Hogerhuysstr.+Beekhuizen+Paramaribo+Suriname"
-  },
-  {
-   "key": "prakikistraat|morgenstond|paramaribo",
-   "tier": 4,
-   "street": "Prakikistraat",
-   "resort": "Morgenstond",
-   "district": "Paramaribo",
-   "size_m2": 1409.0,
-   "price": 140000.0,
-   "url": "https://www.remyvastgoed.com/119860",
-   "agent": "Remy Vastgoed",
-   "guess_quality": "street",
-   "guess_lat": 5.86183,
-   "guess_lon": -55.109499,
-   "guess_match": "PRAKIKISTRAAT, BLAUWGROND",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Prakikistraat+Morgenstond+Paramaribo+Suriname"
   },
   {
    "key": "hassankhanweg|de nieuwe grond|wanica",
@@ -8809,6 +8809,38 @@
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Krakoenstraat+Morgenstond+Paramaribo+Suriname"
   },
   {
+   "key": "ramnagarweg|houttuin|wanica",
+   "tier": 4,
+   "street": "Ramnagarweg percelen 28 + 30",
+   "resort": "Houttuin",
+   "district": "Wanica",
+   "size_m2": 3439.0,
+   "price": 40000.0,
+   "url": "https://www.surgoed.com/vastgoedaanbod/kopen/percelen/ramnagarweg-percelen-28-30/",
+   "agent": "Surgoed Makelaardij NV",
+   "guess_quality": "street",
+   "guess_lat": 5.759611,
+   "guess_lon": -55.139676,
+   "guess_match": "RAMNAGARWEG, HOUTTUIN",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Ramnagarweg+percelen+28+++30+Houttuin+Wanica+Suriname"
+  },
+  {
+   "key": "franklinstraat|paramaribo noord|paramaribo",
+   "tier": 4,
+   "street": "Hoek Dieselstraat – Benjamin Franklinstraat 431",
+   "resort": "Paramaribo Noord",
+   "district": "Paramaribo",
+   "size_m2": 934.0,
+   "price": 235000.0,
+   "url": "https://www.surgoed.com/vastgoedaanbod/kopen/percelen/hoek-dieselstraat-benjamin-franklinstraat-431/",
+   "agent": "Surgoed Makelaardij NV",
+   "guess_quality": "street",
+   "guess_lat": 5.846338,
+   "guess_lon": -55.132548,
+   "guess_match": "BENJAMIN FRANKLINSTRAAT, BLAUWGROND",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Hoek+Dieselstraat+–+Benjamin+Franklinstraat+431+Paramaribo+Noord+Paramaribo+Suriname"
+  },
+  {
    "key": "phoelsingstraat|blauwgrond|paramaribo",
    "tier": 4,
    "street": "DR. R. CH. Phoelsingstraat perc 133",
@@ -8871,22 +8903,6 @@
    "guess_lon": -55.299757,
    "guess_match": "ARMAANSTRAAT, KOEWARASAN",
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Armaanstraat+218+Leiding+Wanica+Suriname"
-  },
-  {
-   "key": "ramnagarweg|houttuin|wanica",
-   "tier": 4,
-   "street": "Ramnagarweg perceel 10",
-   "resort": "Houttuin",
-   "district": "Wanica",
-   "size_m2": 1671.0,
-   "price": 40000.0,
-   "url": "https://www.surgoed.com/vastgoedaanbod/kopen/percelen/ramnagarweg-percelen-10-15-28-30-en-62/",
-   "agent": "Surgoed Makelaardij NV",
-   "guess_quality": "street",
-   "guess_lat": 5.759611,
-   "guess_lon": -55.139676,
-   "guess_match": "RAMNAGARWEG, HOUTTUIN",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Ramnagarweg+perceel+10+Houttuin+Wanica+Suriname"
   },
   {
    "key": "troonweg|noordpolderdam|wanica",
@@ -9007,7 +9023,7 @@
    "resort": "Uitvlugt",
    "district": "Paramaribo",
    "size_m2": 418.0,
-   "price": 110000.0,
+   "price": 106000.0,
    "url": "https://www.surgoed.com/vastgoedaanbod/kopen/percelen/pardolaan-15/",
    "agent": "Surgoed Makelaardij NV",
    "guess_quality": "street",
@@ -9547,18 +9563,18 @@
   {
    "key": "losecaat-vermeerstraat|paramaribo noord en omgeving|paramaribo",
    "tier": 4,
-   "street": "Mr. F.H.C. Frans Losecaat-Vermeerstraat percel #985",
+   "street": "Mr. F.H.C. Frans Losecaat-Vermeerstraat perceel #985",
    "resort": "Paramaribo Noord en omgeving",
    "district": "Paramaribo",
    "size_m2": 2013.0,
    "price": 195000.0,
-   "url": "https://www.remax.sr/nl/percelen/percelen/lo926/mr-fhc-frans-losecaat-vermeerstraat-percel-985.html",
+   "url": "https://www.remax.sr/nl/percelen/percelen/lo926/mr-fhc-frans-losecaat-vermeerstraat-perceel-985.html",
    "agent": "RE/MAX Suriname",
    "guess_quality": "street",
    "guess_lat": 5.854719,
    "guess_lon": -55.107538,
    "guess_match": "FRANS LOSECAATVERMEERSTRAAT, BLAUWGROND",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Mr.+F.H.C.+Frans+Losecaat-Vermeerstraat+percel+#985+Paramaribo+Noord+en+omgeving+Paramaribo+Suriname"
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Mr.+F.H.C.+Frans+Losecaat-Vermeerstraat+perceel+#985+Paramaribo+Noord+en+omgeving+Paramaribo+Suriname"
   },
   {
    "key": "thermometerstraat|paramaribo noord en omgeving|paramaribo",
@@ -10089,22 +10105,6 @@
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Eigendom+Perceel+te+Koop+–+Martin+Luther+Kingweg,+Suriname+Livorno+Wanica+Suriname"
   },
   {
-   "key": "balgobindweg||paramaribo",
-   "tier": 4,
-   "street": "Kavel Balgobindweg Paramaribo",
-   "resort": "",
-   "district": "Paramaribo",
-   "size_m2": 1029.0,
-   "price": null,
-   "url": "https://karimainvest.com/properties/bouwrijpe-kavel-te-kasabaholo-balgobindweg/",
-   "agent": "Karima Invest N.V.",
-   "guess_quality": "street",
-   "guess_lat": 5.81501371063201,
-   "guess_lon": -55.2308756881709,
-   "guess_match": "P. BALGOBINDWEG, SARAMACCA POLDER",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Kavel+Balgobindweg+Paramaribo+Paramaribo+Suriname"
-  },
-  {
    "key": "paramaribo- aquarius straat||paramaribo",
    "tier": 4,
    "street": "Paramaribo- Aquarius Straat",
@@ -10119,6 +10119,22 @@
    "guess_lon": -55.197612,
    "guess_match": "AQUARIUSSTRAAT, WEG NAAR ZEE",
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Paramaribo-+Aquarius+Straat+Paramaribo+Suriname"
+  },
+  {
+   "key": "balgobindweg||paramaribo",
+   "tier": 4,
+   "street": "Kavel Balgobindweg Paramaribo",
+   "resort": "",
+   "district": "Paramaribo",
+   "size_m2": 1029.0,
+   "price": null,
+   "url": "https://karimainvest.com/properties/bouwrijpe-kavel-te-kasabaholo-balgobindweg/",
+   "agent": "Karima Invest N.V.",
+   "guess_quality": "street",
+   "guess_lat": 5.81501371063201,
+   "guess_lon": -55.2308756881709,
+   "guess_match": "P. BALGOBINDWEG, SARAMACCA POLDER",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Kavel+Balgobindweg+Paramaribo+Paramaribo+Suriname"
   },
   {
    "key": "schmeltzweg|rainville|paramaribo",
@@ -10569,22 +10585,6 @@
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Eigendomspercelen+Wanicaweg+(Omgeving+Kasabaholo)+Suriname"
   },
   {
-   "key": "vredenburgweg||",
-   "tier": 4,
-   "street": "Perceel te koop, Vredenburgweg, Tout Lui Fautkanaal",
-   "resort": "",
-   "district": "",
-   "size_m2": 1052.0,
-   "price": 35000.0,
-   "url": "https://karimainvest.com/properties/perceel-te-koop-vredenburgweg-tout-lui-fautkanaal/",
-   "agent": "Karima Invest N.V.",
-   "guess_quality": "street",
-   "guess_lat": 5.72537,
-   "guess_lon": -55.20414,
-   "guess_match": "VREDENBURGWEG, DE NIEUWE GROND",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Perceel+te+koop,+Vredenburgweg,+Tout+Lui+Fautkanaal+Suriname"
-  },
-  {
    "key": "magentakanaalweg||",
    "tier": 4,
    "street": "Investeringobject Merveilleweg (zijstraat van de Magentakanaalweg)",
@@ -10599,6 +10599,22 @@
    "guess_lon": -55.245735,
    "guess_match": "MAGENTAKANAALWEG, KOEWARASAN",
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Investeringobject+Merveilleweg+(zijstraat+van+de+Magentakanaalweg)+Suriname"
+  },
+  {
+   "key": "vredenburgweg||",
+   "tier": 4,
+   "street": "Perceel te koop, Vredenburgweg, Tout Lui Fautkanaal",
+   "resort": "",
+   "district": "",
+   "size_m2": 1052.0,
+   "price": 35000.0,
+   "url": "https://karimainvest.com/properties/perceel-te-koop-vredenburgweg-tout-lui-fautkanaal/",
+   "agent": "Karima Invest N.V.",
+   "guess_quality": "street",
+   "guess_lat": 5.72537,
+   "guess_lon": -55.20414,
+   "guess_match": "VREDENBURGWEG, DE NIEUWE GROND",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Perceel+te+koop,+Vredenburgweg,+Tout+Lui+Fautkanaal+Suriname"
   },
   {
    "key": "kanaalweg||",
@@ -12041,6 +12057,22 @@
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Mandoerweg+Tamanredjo+Commewijne+Suriname"
   },
   {
+   "key": "copieweg|para-noord|para",
+   "tier": 4,
+   "street": "Nieuw Copieweg pc 39",
+   "resort": "Para-Noord",
+   "district": "Para",
+   "size_m2": 2.6,
+   "price": 65000.0,
+   "url": "https://www.surgoed.com/vastgoedaanbod/kopen/percelen/nieuw-copieweg-pc-39/",
+   "agent": "Surgoed Makelaardij NV",
+   "guess_quality": "street",
+   "guess_lat": 5.66572380144216,
+   "guess_lon": -55.2197921022443,
+   "guess_match": "COPIEWEG (OUD), NOORD",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Nieuw+Copieweg+pc+39+Para-Noord+Para+Suriname"
+  },
+  {
    "key": "goudpalmlaan|palm village|commewijne",
    "tier": 4,
    "street": "Goudpalmlaan 26",
@@ -13033,6 +13065,22 @@
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Kavels+Braamshoopweg+Fase+2+Suriname"
   },
   {
+   "key": "vredenburg||",
+   "tier": 4,
+   "street": "Kavels Vredenburg",
+   "resort": "",
+   "district": "",
+   "size_m2": 860.0,
+   "price": null,
+   "url": "https://karimainvest.com/properties/kavels-vredenburg/",
+   "agent": "Karima Invest N.V.",
+   "guess_quality": "street",
+   "guess_lat": 5.72092990765864,
+   "guess_lon": -55.156888052894,
+   "guess_match": "VREDENBURG SERIE A, HOUTTUIN",
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Kavels+Vredenburg+Suriname"
+  },
+  {
    "key": "noordpoolweg||",
    "tier": 4,
    "street": "Omgeving Noordpoolweg, Rahemal",
@@ -13063,22 +13111,6 @@
    "guess_lon": -55.162488,
    "guess_match": "MANGOLAAN, RAINVILLE",
    "maps_url": "https://www.google.com/maps/search/?api=1&query=Hoek+perceel+aan+de+Mangolaan+Suriname"
-  },
-  {
-   "key": "vredenburg||",
-   "tier": 4,
-   "street": "Kavels Vredenburg",
-   "resort": "",
-   "district": "",
-   "size_m2": 860.0,
-   "price": null,
-   "url": "https://karimainvest.com/properties/kavels-vredenburg/",
-   "agent": "Karima Invest N.V.",
-   "guess_quality": "street",
-   "guess_lat": 5.72092990765864,
-   "guess_lon": -55.156888052894,
-   "guess_match": "VREDENBURG SERIE A, HOUTTUIN",
-   "maps_url": "https://www.google.com/maps/search/?api=1&query=Kavels+Vredenburg+Suriname"
   },
   {
    "key": "adrichem|waterland|para",

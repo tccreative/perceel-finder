@@ -9984,5 +9984,16 @@
   "lon": -55.178793,
   "display_name": "Privéweg, Lelydorp, Houttuin, Wanica, Suriname",
   "type": "road"
+ },
+ "strpln|saramacca linkeroever|saramacca": null,
+ "strpln|saramacca linkeroever|": null,
+ "Saramacca Linkeroever, Saramacca, Saramacca, Suriname": null,
+ "Saramacca Linkeroever, Saramacca, Suriname": null,
+ "Saramacca Linkeroever, Suriname": null,
+ "strpln|copieweg|para-noord": null,
+ "strpln|copieweg|": {
+  "lat": 5.66572380144216,
+  "lon": -55.2197921022443,
+  "match": "COPIEWEG (OUD), NOORD"
  }
 }
