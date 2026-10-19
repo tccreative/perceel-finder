@@ -10007,5 +10007,13 @@
  "strpln|hilovisestraat|": null,
  "Hilovisestraat, Commewijne, Commewijne, Suriname": null,
  "Hilovisestraat, Commewijne, Suriname": null,
- "Hilovisestraat, Suriname": null
+ "Hilovisestraat, Suriname": null,
+ "strpln|abdoelkariemweg|kwatta": {
+  "lat": 5.83269656928321,
+  "lon": -55.2474248909709,
+  "match": "STUART ABDOELKARIEMWEG, KWATTA"
+ },
+ "strpln|omgeving tout li faut|": null,
+ "omgeving Tout Li Faut, Wanica, Suriname": null,
+ "omgeving Tout Li Faut, Suriname": null
 }
