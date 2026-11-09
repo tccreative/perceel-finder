@@ -10031,5 +10031,12 @@
  "res|domburg en omgeving|": null,
  "strpln|palm village|palm village": null,
  "Palm Village, Palm Village, Commewijne, Suriname": null,
- "res|palm village|commewijne": null
+ "res|palm village|commewijne": null,
+ "strpln|lakestraat|greenview lake fase 3": null,
+ "strpln|lakestraat|": {
+  "lat": 5.86878198771326,
+  "lon": -55.1502548066618,
+  "match": "GREENVIEW LAKESTRAAT, RAINVILLE"
+ },
+ "strpln|soemitaweg|commewijne": null
 }
